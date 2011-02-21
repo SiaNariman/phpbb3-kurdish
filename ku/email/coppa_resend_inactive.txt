@@ -1,0 +1,43 @@
+Subject: بەخێربێیت بۆ "{SITENAME}"
+
+{WELCOME_MSG}
+
+بەشداربوون لە COPPA، هەژمارەکەت ناچالاکە ئێستا.
+
+تکایە ئەم پەیامە چاپ بکە و باوانت یان بەخێوکەرت واژۆ و مێژووی لێ بدات. پاشان فاکسی بکە بۆ:
+
+{FAX_INFO}
+
+یان پەیام بۆ:
+
+{MAIL_INFO}
+
+------------------------------ CUT HERE ------------------------------
+ڕێگەدانی بەبەشداربوونم لە "{SITENAME}" - {U_BOARD}
+
+ناو: {USERNAME}
+پۆستی ئەلیکترۆنی: {EMAIL_ADDRESS}
+
+I HAVE REVIEWED THE INFORMATION PROVIDED BY MY CHILD AND HEREBY GRANT PERMISSION TO "{SITENAME}" TO STORE THIS INFORMATION.
+I UNDERSTAND THIS INFORMATION CAN BE CHANGED AT ANY TIME BY ENTERING A PASSWORD.
+I UNDERSTAND THAT I MAY REQUEST FOR THIS INFORMATION TO BE REMOVED FROM "{SITENAME}" AT ANY TIME.
+
+
+باوان یان بەخێوکەر
+(print your name here): _____________________
+
+(sign here): __________________
+
+Date: _______________
+
+------------------------------ CUT HERE ------------------------------
+
+
+هەرکاتێک بەڕێوەبەر فۆڕمەکەی پێ گەیشت بە فاکس یان مەیل، هەژمارەکەت چالاک دەکرێت.
+
+تێپەڕەوشەکەت بە باشی پارێزراوە لە بنکەدراوەکەماندا و ناتوانرێت بگێڕدرێتەوە. ئەگەر هاتوو بیرچووەوە، ئەتوانیت تێپەڕەوشەیەکی نوێ داوا بکەیت بە بەکارهێنانی ئەو ئیمەیلەی خۆت پێ تۆمار کردووە.
+
+
+سوپاس بۆ خۆتۆمارکردنت.
+
+{EMAIL_SIG}
