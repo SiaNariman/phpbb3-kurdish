@@ -220,7 +220,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_TOPIC_BASED'				=> 'Topic-based feed settings',
 	'ACP_FEED_SETTINGS_OTHER'			=> 'Other feeds and settings',
 
-	'ACP_FEED_ENABLE'					=> 'Enable feeds',
+	'ACP_FEED_ENABLE'					=> 'feed چالاک بکە',
 	'ACP_FEED_ENABLE_EXPLAIN'			=> 'Turns on or off ATOM feeds for the entire board.<br />Disabling this switches off all feeds, no matter how the options below are set.',
 	'ACP_FEED_LIMIT'					=> 'Number of items',
 	'ACP_FEED_LIMIT_EXPLAIN'			=> 'The maximum number of feed items to display.',
@@ -249,7 +249,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_EXCLUDE_ID'				=> 'Exclude these forums',
 	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'Content from these will be <strong>not included in feeds</strong>. Select no forum to pull data from all forums.<br />Select/Deselect multiple forums by holding <samp>CTRL</samp> and clicking.',
 'ACP_VC_SETTINGS_EXPLAIN'				=> 'Here you can select and configure plugins, which are designed to block automated form submissions by spambots. These plugins typically work by challenging the user with a <em>CAPTCHA</em>, a test which is designed to be difficult for computers to solve.',
-	'AVAILABLE_CAPTCHAS'					=> 'Available plugins',
+	'AVAILABLE_CAPTCHAS'					=> 'پێوەکراوە ئامادەکان',
 	'CAPTCHA_UNAVAILABLE'					=> 'The plugin cannot be selected as its requirements are not met.',
 	'CAPTCHA_GD'							=> 'GD image',
 	'CAPTCHA_GD_3D'							=> 'GD 3D image',
@@ -275,10 +275,10 @@ $lang = array_merge($lang, array(
 
 	'CAPTCHA_SELECT'						=> 'Installed plugins',
 	'CAPTCHA_SELECT_EXPLAIN'				=> 'The dropdown holds the plugins recognised by the board. Grey entries are not available right now and might need configuration prior to use.',
-	'CAPTCHA_CONFIGURE'						=> 'Configure plugins',
-	'CAPTCHA_CONFIGURE_EXPLAIN'				=> 'Change the settings for the selected plugin.',
-	'CONFIGURE'								=> 'Configure',
-	'CAPTCHA_NO_OPTIONS'					=> 'This plugin has no configuration options.',
+	'CAPTCHA_CONFIGURE'						=> 'پێوەکراوەکان ساز بدە',
+	'CAPTCHA_CONFIGURE_EXPLAIN'				=> 'ڕێکخستنەکانی پێوەکراوی دیاریکراو ساز بدە',
+	'CONFIGURE'								=> 'ساز بدە',
+	'CAPTCHA_NO_OPTIONS'					=> 'ئەم پێوەکراوە هیچ هەڵبژاردنێکی نییە بۆ سازدان.',
 
 	'VISUAL_CONFIRM_POST'					=> 'Enable spambot countermeasures for guest postings',
 	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'Requires guest users to pass the anti-spambot task to help prevent automated postings.',
