@@ -48,16 +48,16 @@ $lang = array_merge($lang, array(
 	'NEW_POSTS_LOCKED'		=> 'New posts [ Locked ]',	// Not used anymore
 	'NO_NEW_POSTS_HOT'		=> 'No new posts [ Popular ]',	// Not used anymore
 	'NO_NEW_POSTS_LOCKED'	=> 'No new posts [ Locked ]',	// Not used anymore
-	'NO_READ_ACCESS'		=> 'You do not have the required permissions to read topics within this forum.',
-	'NO_UNREAD_POSTS_HOT'		=> 'No unread posts [ Popular ]',
-	'NO_UNREAD_POSTS_LOCKED'	=> 'No unread posts [ Locked ]',
+	'NO_READ_ACCESS'		=> 'تۆ دەسەڵاتت نییە بۆ بابەت بخوێنیتەوە لەناو ئەو مەکۆیە',
+	'NO_UNREAD_POSTS_HOT'		=> 'هیچ پەیامی نەخوێندراو نییە [ پڕخوێنەرترین ]',
+	'NO_UNREAD_POSTS_LOCKED'	=> 'هیچ پەیامێکی نەخوێندراو نییە [ داخراو ]',
 
-	'POST_FORUM_LOCKED'		=> 'Forum is locked',
+	'POST_FORUM_LOCKED'		=> 'مەکۆ داخراوە',
 
-	'TOPICS_MARKED'			=> 'The topics for this forum have now been marked read.',
+	'TOPICS_MARKED'			=> 'بابەتەکان بۆ ئەو مەکۆیە بە خوێندراوە نیشانکران',
 
-	'UNREAD_POSTS_HOT'		=> 'Unread posts [ Popular ]',
-	'UNREAD_POSTS_LOCKED'	=> 'Unread posts [ Locked ]',
+	'UNREAD_POSTS_HOT'		=> 'پەیامی نەخوێندراو [ پڕخوێنەرترین ]',
+	'UNREAD_POSTS_LOCKED'	=> '[ داخراو ] پەیامە نەخوێندراوەکان',
 	'VIEW_FORUM'	=> 'بینینی مەکۆ',
 	'VIEW_FORUM_TOPIC'	=> '1 بابەت',
 	'VIEW_FORUM_TOPICS'	=> '%d بابەت',
