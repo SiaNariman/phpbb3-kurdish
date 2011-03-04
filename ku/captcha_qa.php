@@ -37,8 +37,8 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'CAPTCHA_QA'				=> 'Q&amp;A',
-	'CONFIRM_QUESTION_EXPLAIN'	=> 'This question is a means of preventing automated form submissions by spambots.',
-	'CONFIRM_QUESTION_WRONG'	=> 'You have provided an invalid answer to the question.',
+	'CONFIRM_QUESTION_EXPLAIN'	=> 'ئەو پرسیارە پرسیارە مانایەکە بۆ دورخستنەوەی فرۆمە خۆکارەکان لەلایەن بوتەکانی سپامەوە',
+	'CONFIRM_QUESTION_WRONG'	=> 'تۆ وەڵامێکی هەڵەت بەخشی بۆ ئەو پرسیارە',
 
 	'QUESTION_ANSWERS'			=> 'وڵامەکان',
 	'ANSWERS_EXPLAIN'			=> 'تکایە وەڵامێکی گونجاو بۆ پرسیارەکە بنووسە، ۆ هەر دێڕێک وەڵامێک',
@@ -47,18 +47,18 @@ $lang = array_merge($lang, array(
 	'ANSWER'					=> 'وەڵام',
 	'EDIT_QUESTION'				=> 'دەستکاری پرسیار بکە',
 	'QUESTIONS'					=> 'پرسیار',
-	'QUESTIONS_EXPLAIN'			=> 'For every form submission where you have enabled the Q&amp;A plugin, users will be asked one of the questions specified here. To use this plugin at least one question must be set in the default language. These questions should be easy for your target audience to answer but beyond the ability of a bot capable of running a Google™ search. Using a large and regularly changed set of questions will yield the best results. Enable the strict setting if your question relies on mixed case, punctuation or whitespace.',
-	'QUESTION_DELETED'			=> 'Question deleted',
-	'QUESTION_LANG'				=> 'Language',
-	'QUESTION_LANG_EXPLAIN'		=> 'The language this question and its answers are written in.',
-	'QUESTION_STRICT'			=> 'Strict check',
-	'QUESTION_STRICT_EXPLAIN'	=> 'Enable to enforce mixed case, punctuation and whitespace.',
+	'QUESTIONS_EXPLAIN'			=> 'چالاککرابێ بەکارهێنەران پرسیاریان لێ دەکرێت کە لێرە دادەنرێت ،دەبێ بە لایەنی کەم پرسیارێک دابنێی و پێویستە وەڵامی پرسیارەکە ئاسان و شیاو بێت Q&amp;A کە پێوەکراوی',
+	'QUESTION_DELETED'			=> 'پرسیار سڕایەوە',
+	'QUESTION_LANG'				=> 'زمان',
+	'QUESTION_LANG_EXPLAIN'		=> 'ئەو زمانەی پرسیارەکە و وەڵامەکەی تێدا نووسراون',
+	'QUESTION_STRICT'			=> 'توندی بپشکنە',
+	'QUESTION_STRICT_EXPLAIN'	=> 'چالاککردن بۆ ناچارکردنی بەرگی تێکەڵکراو ،خاڵڕێژی و سپیایی',
 
-	'QUESTION_TEXT'				=> 'Question',
-	'QUESTION_TEXT_EXPLAIN'		=> 'The question presented to the user.',
+	'QUESTION_TEXT'				=> 'پرسیار',
+	'QUESTION_TEXT_EXPLAIN'		=> 'پرسیارەکە پێشکەشکرا بۆ بەکارهێنەرەکە',
 
 	'QA_ERROR_MSG'				=> 'تکایە هەموو خانەکان پڕ بکەوە و لانی کەم وەڵامێک بنووسە',
-    'QA_LAST_QUESTION'			=> 'You cannot delete all questions while the plugin is active.',
+    'QA_LAST_QUESTION'			=> 'ناتوانی هەموو پرسیارەکان بسڕیتەوە لەکاتێکدا پێوەکراوەکە چالاکە',
 ));
 
 ?>
