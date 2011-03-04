@@ -37,14 +37,14 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'RECAPTCHA_LANG'				=> 'en',
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'In order to use reCaptcha, you must create an account on <a href="http://recaptcha.net">reCaptcha.net</a>.',
+	'RECAPTCHA_NOT_AVAILABLE'		=> '<a href="http://recaptcha.net">reCaptcha.net</a> بەکاربهێنرێت ،پێویستە هەژمارێک دروستبکەیت لە reCaptcha وا داوادەکرێ.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
 	'RECAPTCHA_INCORRECT'			=> 'ئەو نوسانەی دڵنیابوون کەنوسیوتن، بەداخەوە نادروستە! جاریکی تر هەوڵ بدەرەوە',
 
-	'RECAPTCHA_PUBLIC'				=> 'Public reCaptcha key',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'Your public reCaptcha key. Keys can be obtained on <a href="http://recaptcha.net">reCaptcha.net</a>.',
-	'RECAPTCHA_PRIVATE'				=> 'Private reCaptcha key',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Your private reCaptcha key. Keys can be obtained on <a href="http://recaptcha.net">reCaptcha.net</a>.',
+	'RECAPTCHA_PUBLIC'				=> 'reCaptcha کلیلی گشتی',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> '<a href="http://recaptcha.net">reCaptcha.net</a> کلیلەکان دەتوانرێت دەستبکەون لە، reCaptcha کلیلی گشتیت',
+	'RECAPTCHA_PRIVATE'				=> 'reCaptcha کلیلی تایبەتی',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> '<a href="http://recaptcha.net">reCaptcha.net</a> کلیلەکان دەتوانرێن دەستبکەون لە، reCaptcha کلیلی تایبەتیت',
 
 	'RECAPTCHA_EXPLAIN'				=> 'بۆ بەربەستکردنی ئامێرەکانی سپام، تکایە نوسەکان وەکو خۆی لەنێو خانەکەدا بنوسەوە. <br /> لەکاتی ناڕوونیدا، کرتە لەدووگمەی نوێکردنەوەی نوسەکان بکە یان بەدەنگ گوێی لێبگرە! ',
 ));
