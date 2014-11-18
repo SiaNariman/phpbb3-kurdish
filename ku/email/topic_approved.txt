@@ -7,5 +7,4 @@ Subject: بابەت پەسەندکرا - "{TOPIC_TITLE}"
 بۆ بینینی بابەتەکە سەردانی ئەم بەستەرە بکە:
 {U_VIEW_TOPIC}
 
-
 {EMAIL_SIG}

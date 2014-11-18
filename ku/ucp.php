@@ -1,13 +1,13 @@
 <?php
 /**
 *
-* ucp.php [Sorani Kurdish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: $
-* @copyright (c) 2008 phpBB Group
-* @author 2008-12-25 - Chawg.org Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -36,6 +36,7 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
+// Privacy policy and T&C
 $lang = array_merge($lang, array(
 	'TERMS_OF_USE_CONTENT'	=> 'بە خۆتۆمارکردنت لە “%1$s” ڕەزامەندی دەردەبڕیت بەرانبەر ئەم مەرجانەی خوارەوە. گەر ڕەزامەندیت لەسەریان نییە تکایە هەنگاو بنێ دواوە و خۆت تۆمار مەکە. %1$s مافی ئەوەی هەیە لە هەر کاتێکدا بیەوێت مەرجەکانی خۆتۆمارکردن نوێ بکاتەوە و بەکارهێنەرانی خۆ تۆمارکردووش پێویستە هەموو کات ڕەزامەند بن بەرانبەر مەرجەکان.
 <br /><br />
@@ -109,6 +110,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_REMOVE_FOLDER'	=> 'ناتوانرێت ئەم بوخچەیە لاببرێت.',
 	'CHANGE_DEFAULT_GROUP'	=> 'گرووپی بنەڕەتیی بگۆڕە',
 	'CHANGE_PASSWORD'	=> 'تێپەڕەوشە بگۆڕە',
+	'CLICK_GOTO_FOLDER'			=> '%1$sبڕۆ بۆ بوخچەی “%3$s” ــەکەت %2$s',
 	'CLICK_RETURN_FOLDER'	=> '%1$sبگەڕێوە بۆ بوخچەی “%3$s” ـەکەت%2$s',
 	'CONFIRMATION'	=> 'دڵنیابوون لە خۆتۆمارکردن',
 	'CONFIRM_CHANGES'	=> 'دڵنیابوون لە گۆڕانکارییەکان',
@@ -126,6 +128,7 @@ $lang = array_merge($lang, array(
 	'CURRENT_IMAGE'	=> 'وێنەی هەنووکەیی',
 	'CURRENT_PASSWORD'	=> 'تێپەڕەوشەی هەنووکە',
 	'CURRENT_PASSWORD_EXPLAIN'	=> 'پێویستە دڵنیا بیت لە تێپەڕەوشەی هەنووکەییت ئەگەر ئەتەوێت بیگۆڕیت، ناونیشانی ئیمەیل یان ناوی بەکارهێنەر بگۆڕە.',
+	'CUR_PASSWORD_EMPTY'		=> 'تۆ تێپەڕەوشەی ئێستات نەنووسیوە.',
 	'CUR_PASSWORD_ERROR'	=> 'تێپەڕەوشەی هەنووکە کە لێتداوە نەگونجاوە.',
 	'CUSTOM_DATEFORMAT'	=> 'دەستکرد...',
 	'DEFAULT_ACTION'	=> 'چالاکی بنەڕەت',
@@ -180,6 +183,7 @@ $lang = array_merge($lang, array(
 	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> 'خانەی “%s” نووسەی نەگونجاوی تیادایە، تەنها پیتی ئەلفا و ژمارە ڕێ پێدراوە.',
 	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> 'خانەی “%s” نووسەی نەگونجاوی تیادایە، تەنها پیتی ئەلفا و ژمارە، بۆشایی یان -+_[] ڕێ پێدراوە.',
 	'FIELD_INVALID_DATE'	=> 'خانەی “%s” دراوەی نەگونجاوی تیادایە.',
+	'FIELD_INVALID_VALUE'	=> 'ئەو خانەی “%s” نرخێکی ناردووستی هەیە.',
 	'FOE_MESSAGE'	=> 'پەیام لە فەرامۆشکراوەوە',
 	'FOES_EXPLAIN'	=> 'فەرامۆشکراوان ئەو بەکارهێنەرانەن کە بە شێوەیەکی بنەڕەت فەرامۆش دەکرێن. پەیامەکانی ئەم بەکارهێنەرانە بە تەواوەتی دیار نابن. پەیامە کەسییەکانی فەرامۆشکراوان قەدەغە دەکرێن. تکایە سەرنجی ئەوە بدە کە ناتوانیت چاودێران و بەڕێوەبەران فەرامۆش بکەیت.',
 	'FOES_UPDATED'	=> 'لیستی فەرامۆشکراوانت بە سەرکەوتوویی نوێکرانەوە.',
@@ -244,9 +248,11 @@ $lang = array_merge($lang, array(
 	'MOVE_PM_ERROR'	=> 'هەڵەیەک ڕوویدا لە کاتی گواستنەوەی پەیام بۆ بوخچەی نوێ، تەنها %1d لە %2d پەیام گواسترانەوە.',
 	'MOVE_TO_FOLDER'	=> 'گواستنەوە بۆ بوخچە',
 	'MOVE_UP'	=> 'جوڵان بۆ سەرەوە',
+	'NEW_EMAIL_CONFIRM_EMPTY'		=> 'تۆ دووبارە ئیمەیڵەکەت نەنووسیوەتەوە.',
 	'NEW_EMAIL_ERROR'	=> 'ئەو ناونیشانی ئیمەیلانەی نووسیوتن وەک یەک نین.',
 	'NEW_FOLDER_NAME'	=> 'ناوی بوخچەی نوێ',
 	'NEW_PASSWORD'	=> 'تێپەڕەوشەی نوێ',
+	'NEW_PASSWORD_CONFIRM_EMPTY'	=> 'تۆ دووبارە تێپەڕەوشەکەت نەنووسیوەتەوە.',
 	'NEW_PASSWORD_ERROR'	=> 'ئەو تێپەڕەوشانەی نووسیوتن وەک یەک نین.',
 	'NOTIFY_METHOD'	=> 'ڕێبازی ئاگادارکردنەوە',
 	'NOTIFY_METHOD_BOTH'	=> 'هەردوو',
@@ -476,7 +482,59 @@ $lang = array_merge($lang, array(
 		'MARK_AS_IMPORTANT'	=> 'پەیام نیشانە بکە',
 		'DELETE_MESSAGE'	=> 'پەیام بسڕەوە',
 	),
+	'FIELD_TOO_LONG'					=> array(
+		1	=> 'The field “%2$s” is too long, a maximum of %1$d character is allowed.',
+		2	=> 'The field “%2$s” is too long, a maximum of %1$d characters is allowed.',
+	),
+	'FIELD_TOO_SMALL'					=> 'The value of “%2$s” is too small, a minimum value of %1$d is required.',
+	'FIELD_TOO_LARGE'					=> 'The value of “%2$s” is too large, a maximum value of %1$d is allowed.',
+	'FIELD_INVALID_CHARS_INVALID'		=> 'The field “%s” has invalid characters.',
+	'FIELD_INVALID_CHARS_NUMBERS_ONLY'	=> 'The field “%s” has invalid characters, only numbers are allowed.',
+	'FIELD_INVALID_CHARS_ALPHA_DOTS'	=> 'The field “%s” has invalid characters, only alphanumeric or . characters are allowed.',
+	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> 'The field “%s” has invalid characters, only alphanumeric characters are allowed.',
+	'FIELD_INVALID_CHARS_ALPHA_PUNCTUATION'	=> 'The field “%s” has invalid characters, only alphanumeric or _,-. characters are allowed and the first character must be alphabetic.',
+	'FIELD_INVALID_CHARS_ALPHA_SPACERS'	=> 'The field “%s” has invalid characters, only alphanumeric, space or -+_[] characters are allowed.',
+	'FIELD_INVALID_CHARS_ALPHA_UNDERSCORE'	=> 'The field “%s” has invalid characters, only alphanumeric or _ characters are allowed.',
+	'FIELD_INVALID_CHARS_LETTER_NUM_DOTS'	=> 'The field “%s” has invalid characters, only letter, number or . characters are allowed.',
+	'FIELD_INVALID_CHARS_LETTER_NUM_ONLY'	=> 'The field “%s” has invalid characters, only letter and number characters are allowed.',
+	'FIELD_INVALID_CHARS_LETTER_NUM_PUNCTUATION'	=> 'The field “%s” has invalid characters, only letter, number or _,-. characters are allowed and the first character must be alphabetic.',
+	'FIELD_INVALID_CHARS_LETTER_NUM_SPACERS'		=> 'The field “%s” has invalid characters, only letter, number, space or -+_[] characters are allowed.',
+	'FIELD_INVALID_CHARS_LETTER_NUM_UNDERSCORE'		=> 'The field “%s” has invalid characters, only letter, number or _ characters are allowed.',
+	'FIELD_INVALID_DATE'				=> 'The field “%s” has an invalid date.',
+	'FIELD_INVALID_URL'					=> 'The field “%s” has an invalid url.',
+	'FIELD_INVALID_VALUE'				=> 'The field “%s” has an invalid value.',
 
+	'FOE_MESSAGE'				=> 'Message from foe',
+	'FOES_EXPLAIN'				=> 'Foes are users which will be ignored by default. Posts by these users will not be fully visible. Personal messages from foes are still permitted. Please note that you cannot ignore moderators or administrators.',
+	'FOES_UPDATED'				=> 'Your foes list has been updated successfully.',
+	'FOLDER_ADDED'				=> 'Folder successfully added.',
+	'FOLDER_MESSAGE_STATUS'		=> array(
+		1	=> '%2$d out of %1$s stored',
+		2	=> '%2$d out of %1$s stored',
+	),
+	'FOLDER_NAME_EMPTY'			=> 'You must enter a name for this folder.',
+	'FOLDER_NAME_EXIST'			=> 'Folder <strong>%s</strong> already exists.',
+	'FOLDER_OPTIONS'			=> 'Folder options',
+	'FOLDER_RENAMED'			=> 'Folder successfully renamed.',
+	'FOLDER_REMOVED'			=> 'Folder successfully removed.',
+	'FOLDER_STATUS_MSG'			=> array(
+		1	=> 'Folder is %3$d%% full (%2$d out of %1$s stored)',
+		2	=> 'Folder is %3$d%% full (%2$d out of %1$s stored)',
+	),
+	'FORWARD_PM'				=> 'Forward PM',
+	'FORCE_PASSWORD_EXPLAIN'	=> 'Before you may continue browsing the board you are required to change your password.',
+	'FRIEND_MESSAGE'			=> 'Message from friend',
+	'FRIENDS'					=> 'Friends',
+	'FRIENDS_EXPLAIN'			=> 'Friends enable you quick access to members you communicate with frequently. If the template has relevant support any posts made by a friend may be highlighted.',
+	'FRIENDS_OFFLINE'			=> 'Offline',
+	'FRIENDS_ONLINE'			=> 'Online',
+	'FRIENDS_UPDATED'			=> 'Your friends list has been updated successfully.',
+	'FULL_FOLDER_OPTION_CHANGED'=> 'The action to take when a folder is full has been changed successfully.',
+	'FWD_ORIGINAL_MESSAGE'		=> '-------- Original Message --------',
+	'FWD_SUBJECT'				=> 'Subject: %s',
+	'FWD_DATE'					=> 'Date: %s',
+	'FWD_FROM'					=> 'From: %s',
+	'FWD_TO'					=> 'To: %s',
 
 	'PM_CHECK'	=> array(
 		'SUBJECT'	=> 'سەردێڕ',
@@ -485,7 +543,13 @@ $lang = array_merge($lang, array(
 		'STATUS'	=> 'دۆخی پەیام',
 		'TO'	=> 'نێردرا بۆ',
 	),
+	'MOVE_TO_FOLDER'				=> 'Move to folder',
+	'MOVE_UP'						=> 'Move up',
 
+	'NEW_FOLDER_NAME'				=> 'New folder name',
+	'NEW_PASSWORD'					=> 'New password',
+	'NEW_PASSWORD_CONFIRM_EMPTY'	=> 'You did not enter a confirm password.',
+	'NEW_PASSWORD_ERROR'			=> 'The passwords you entered do not match.',
 
 	'PM_RULE'	=> array(
 		'IS_LIKE'	=> 'وەکو ئەوەیە',
@@ -503,6 +567,10 @@ $lang = array_merge($lang, array(
 		'TO_GROUP'	=> 'بۆ گرووپی بەکارهێنەری بنەڕەتیی',
 		'TO_ME'	=> 'بۆ من',
 	),
+	'NO_ACTION_MODE'				=> 'No message action specified.',
+	'NO_AUTHOR'						=> 'No author defined for this message',
+	'NO_AVATAR'						=> 'No avatar selected',
+	'NO_AVATAR_CATEGORY'			=> 'None',
 
 	'GROUPS_EXPLAIN'	=> 'گرووپەکانی بەکارهێنەر هاوکاری بەڕێوەبەران ئەکەن لە باشتر بەڕێوەبردنی بەکارهێنەران. بە شێوەیەکی بنەڕەتی تۆ لە گرووپێکی دیاریکراودا دادەنرێیت، ئەمە گرووپە بنەڕەتییەکەتە. ئەم گرووپە ئەوە پێناسە ئەکات کە چۆن دەرئەکەویت بۆ بەکارهێنەرانی تر، بۆ نمونە ڕەنگکردنی ناوی بەکارهێنەرییت، وێنۆچکە، پلە، هتد. ئەتوانیت گرووپەکەی خۆت بگۆڕیت ئەگەر بەڕێوەبەر ڕێگە بدات. وە هەروەها پێویستە بکرێیت گرووپێکی ترەوە یان خۆت بەشداری لە گرووپێکدا بکەیت. لەوانەیە هەندێک گرووپ دەسەڵاتی زیادەت بدەنێ بۆ بینینی ناوەڕۆک و زیادکردنی تواناکانت لە ناوچەکانی تردا.',
 	'GROUP_LEADER'	=> 'پێشڕەوییەکان',
@@ -515,5 +583,3 @@ $lang = array_merge($lang, array(
 	'NO_PENDING'	=> 'ئەندامەتیی چاوەڕوانیی نییە',
 	'NO_NONMEMBER'	=> 'گرووپی نا ئەندام نییە',
 ));
-
-?>

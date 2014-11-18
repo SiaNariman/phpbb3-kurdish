@@ -8,5 +8,4 @@ Subject: پەیام پەسەند نەکرا - "{POST_SUBJECT}"
 
 {REASON}
 
-
 {EMAIL_SIG}

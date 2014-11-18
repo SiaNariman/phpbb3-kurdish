@@ -1,13 +1,13 @@
 <?php
 /**
 *
-* memberlist.php [Sorani Kurdish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: $
-* @copyright (c) 2008 phpBB Group
-* @author 2008-11-28 - Chawg.org Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -101,7 +101,6 @@ $lang = array_merge($lang, array(
 	'RECIPIENT'	=> 'وەرگر',
 	'REMOVE_FOE'	=> 'فەرمۆشکراو لاببە',
 	'REMOVE_FRIEND'	=> 'هاوڕێ لاببە',
-	'SEARCH_USER_POSTS'	=> 'لە پەیامەکانی بەکارهێنەر بگەڕێ',
 	'SELECT_MARKED'	=> 'نیشانەکراوەکان دیاری بکە',
 	'SELECT_SORT_METHOD'	=> 'ڕێبازی ڕیزکردن دیاری بکە',
 	'SEND_AIM_MESSAGE'	=> 'پەیامی AIM بنێرە',
@@ -128,5 +127,3 @@ $lang = array_merge($lang, array(
 	'VISITED'	=> 'دوا سەردان',
 	'WWW'	=> 'وێبگە',
 ));
-
-?>

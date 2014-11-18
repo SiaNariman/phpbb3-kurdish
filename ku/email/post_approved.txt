@@ -10,5 +10,4 @@ Subject: بابەت پەسەندکرا - "{POST_SUBJECT}"
 بۆ بینینی بابەتەکە کرتە لەم بەستەرە بکە:
 {U_VIEW_TOPIC}
 
-
 {EMAIL_SIG}

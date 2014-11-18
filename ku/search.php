@@ -1,13 +1,13 @@
 <?php
 /**
 *
-* search.php [Sorani Kurdish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: $
-* @copyright (c) 2008 phpBB Group
-* @author 2008-11-28 - Chawg.org Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -49,6 +49,7 @@ $lang = array_merge($lang, array(
 	'JUMP_TO_POST'	=> 'بازدان بۆ پەیام',
 	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'پێویستە خۆت تۆمارکردبێت و لەژوورەوە بیت بۆ بینینی پەیامەکانی خۆت.',
 	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'پێویستە خۆت تۆمارکردبێت و لەژوورەوە بیت بۆ بینینی پەیامە نەخوێندراوەکانت.',
+	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'ئەو مەکۆیە داوات لێدەکات کە تۆماربووبیت و لەژوورەوە بیت بۆ بینینی پەیامە نوێیەکان لەدوایین سەردانتەوە.',
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'   => 'زۆر وشەت نووسیوە بۆ گەڕان. تکایە لە %1$d وشە زیاتر مەنووسە.',
 	'NO_KEYWORDS'	=> 'پێویستە لانی کەم وشەیەک بنووسیت بۆ گەڕان بۆی. هەر وشەیەک لانی کەم پێویستە لە %d نووسە پێک هاتبێت و زیاتر لە %d نووسەی تیادا نەبێت.',
 	'NO_RECENT_SEARCHES'	=> 'هیچ گەڕانێک جێبەجێ نەکراوە بەم دوواییانە.',
@@ -90,5 +91,3 @@ $lang = array_merge($lang, array(
 	'SORT_TIME'	=> 'کاتی ناردن',
 	'TOO_FEW_AUTHOR_CHARS'	=> 'پێویستە لانی کەم %d نووسە دیاری بکەیت لە ناوی نووسەر.',
 ));
-
-?>

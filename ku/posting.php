@@ -1,13 +1,13 @@
 <?php
 /**
 *
-* posting.php [Sorani Kurdish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: $
-* @copyright (c) 2008 phpBB Group
-* @author 2008-12-12 - Chawg.org Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_A_HELP'	=> 'هاوپێچی بارکراوی ناوهێڵ: [attachment=]filename.ext[/attachment]',
 	'BBCODE_B_HELP'	=> 'دەقی تۆخ: [b]دەق[/b]',
 	'BBCODE_C_HELP'	=> 'پیشاندانی کۆد: [code]کۆدcode]',
-	'BBCODE_E_HELP'	=> 'لیست: توخمی لیست زیاد بکە',
+    'BBCODE_D_HELP'	=> 'فلاش: [flash=width,height]http://url[/flash]',
 	'BBCODE_F_HELP'	=> 'قەبارەی فۆنت: [size=85]دەقی بچوک[/size]',
 	'BBCODE_IS_OFF'	=> '%sBBCode%s <strong>ناکارا</strong> ـیە',
 	'BBCODE_IS_ON'	=> '%sBBCode%s <strong>کارا</strong> ـیە',
@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_S_HELP'	=> 'ڕەنگی فۆنت: [color=red]دەق[/color]  سەرنج: هەروەها ئەتوانیت color=#FF0000 بەکارببەیت.',
 	'BBCODE_U_HELP'	=> 'دەقی هەڵ بە ژێردا هاتوو: [u]دەق[/u]',
 	'BBCODE_W_HELP'	=> 'تێکردنی URL: [url]http://url[/url] یان [url=http://url]دەقی URL[/url]',
-	'BBCODE_D_HELP'	=> 'فلاش: [flash=width,height]http://url[/flash]',
+	'BBCODE_Y_HELP'	=> 'لیست: توخمی لیست زیاد بکە',
 	'BUMP_ERROR'	=> 'ناتوانی ئەوەندە زوو لەم پەیامە بدەیت لە دوای پەیامی پێشوو.',
 	'CANNOT_DELETE_REPLIED'	=> 'ببورە بەڵام تۆ تەنها دەتوانیت ئێو پەیامانە بسڕیتەوە کە وەڵامیان نەدراوەتەوە.',
 	'CANNOT_EDIT_POST_LOCKED'	=> 'ئێم پەیامە داخراوە. چیتر ناتوانیت دەستکاری بکەیت.',
@@ -204,5 +204,3 @@ $lang = array_merge($lang, array(
 	'WRONG_FILESIZE'	=> 'پەڕگەکە زۆر گەورەیە، زۆرترین قەبارەی ڕێ پێدراو %1d %2s ـە.',
 	'WRONG_SIZE'	=> 'پێویستە وێنە لانی کەم %1$d خاڵ پان بێت، %2$d خاڵ بەرز بێت لانی زۆر %3$d خاڵ پان و %4$d خاڵ بەرز بێت. وێنەی نێردراو %5$d خاڵ پانە و %6$d خاڵ بەرزە.',
 ));
-
-?>

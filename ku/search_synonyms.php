@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* search_synonyms [Sorani Kurdish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: search_synonyms.php 8479 2008-03-29 00:22:48Z naderman $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -146,46 +147,45 @@ $synonyms = array(
 	'personel'			=> 'personnel',
 	'practise'			=> 'practice',
 	'program'			=> 'programme',
-	'psych'				=> 'psychology',
+	'psych'				=> 'دەروونزانی',
 
-	'questionaire'	=> 'questionnaire',
+	'questionaire'	=> 'ڕاوەرگرتن',
 
 	'rarify'		=> 'rarefy',
-	'reccomend'		=> 'recommend',
-	'recieve'		=> 'receive',
-	'resistence'	=> 'resistance',
-	'restaraunt'	=> 'restaurant',
+	'reccomend'		=> 'ئامۆژگاریکران',
+	'recieve'		=> 'وەرگرتن',
+	'resistence'	=> 'بەگری',
+	'restaraunt'	=> 'چێشتخانە',
 
-	'savior'			=> 'saviour',
-	'sep'				=> 'september',
-	'seperate'			=> 'separate',
-	'sept'				=> 'september',
-	'sieze'				=> 'seize',
+	'savior'			=> 'ڕزگارکەر',
+	'sep'				=> 'ئەیلول',
+	'seperate'			=> 'جیاکراوە',
+	'sept'				=> 'ئەیلول',
+	'sieze'				=> 'دەگرێ',
 	'summarize'			=> 'summarise',
 	'summerize'			=> 'summarise',
 	'superceed'			=> 'supercede',
 	'superintendant'	=> 'superintendent',
 	'supersede'			=> 'supercede',
-	'suprise'			=> 'surprise',
-	'surprize'			=> 'surprise',
-	'synchronise'		=> 'synchronize',
+	'suprise'			=> 'کتوپڕی',
+	'surprize'			=> 'کتوپڕی',
+	'synchronise'		=> 'هاوکاتدەکات',
 
-	'temperary'		=> 'temporary',
-	'theater'		=> 'theatre',
-	'threshhold'	=> 'threshold',
-	'transfered'	=> 'transferred',
-	'truely'		=> 'truly',
-	'truley'		=> 'truly',
+	'temperary'		=> 'کاتیی',
+	'theater'		=> 'شانۆ',
+	'threshhold'	=> 'لێوار',
+	'transfered'	=> 'بگۆڕ',
+	'truely'		=> 'بەڕاستی',
+	'truley'		=> 'بەڕاستی',
 
-	'useable'	=> 'usable',
+	'useable'	=> 'شیاو',
 
-	'valor'	=> 'valour',
-	'vigor'	=> 'vigour',
-	'vol'	=> 'volume',
+	'valor'	=> 'ئازایەتی',
+	'vigor'	=> 'چالاکی',
+	'vol'	=> 'قەبارە',
 
-	'whack'		=> 'wack',
-	'withold'	=> 'withhold',
+	'whack'		=> 'دۆست',
+	'withold'	=> 'ناهێڵێ',
 
-	'yeild'	=> 'yield',
+	'yeild'	=> 'بەرهەمدێنێت',
 );
-?>

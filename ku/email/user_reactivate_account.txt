@@ -14,5 +14,4 @@ Subject: چالاککردنەوەی هەژمارەکەت لە "{SITENAME}"
 
 {U_ACTIVATE}
 
-
 {EMAIL_SIG}

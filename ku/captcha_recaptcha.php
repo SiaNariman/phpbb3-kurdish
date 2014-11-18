@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* recaptcha [Sorani Kurdish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: captcha_recaptcha.php 9933 2009-08-06 09:12:21Z marshalrusty $
-* @copyright (c) 2009 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -36,17 +37,15 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'RECAPTCHA_LANG'				=> 'en',
-	'RECAPTCHA_NOT_AVAILABLE'		=> '<a href="http://recaptcha.net">reCaptcha.net</a> بەکاربهێنرێت ،پێویستە هەژمارێک دروستبکەیت لە reCaptcha وا داوادەکرێ.',
+	'RECAPTCHA_LANG'				=> 'ku',
+	'RECAPTCHA_NOT_AVAILABLE'		=> '<a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> بەکاربهێنرێت ،پێویستە هەژمارێک دروستبکەیت لە reCaptcha وا داوادەکرێ.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
 	'RECAPTCHA_INCORRECT'			=> 'ئەو نوسانەی دڵنیابوون کەنوسیوتن، بەداخەوە نادروستە! جاریکی تر هەوڵ بدەرەوە',
 
 	'RECAPTCHA_PUBLIC'				=> 'reCaptcha کلیلی گشتی',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> '<a href="http://recaptcha.net">reCaptcha.net</a> کلیلەکان دەتوانرێت دەستبکەون لە، reCaptcha کلیلی گشتیت',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> '<a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> کلیلەکان دەتوانرێت دەستبکەون لە، reCaptcha کلیلی گشتیت',
 	'RECAPTCHA_PRIVATE'				=> 'reCaptcha کلیلی تایبەتی',
-	'RECAPTCHA_PRIVATE_EXPLAIN'		=> '<a href="http://recaptcha.net">reCaptcha.net</a> کلیلەکان دەتوانرێن دەستبکەون لە، reCaptcha کلیلی تایبەتیت',
+	'RECAPTCHA_PRIVATE_EXPLAIN'		=> '<a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> کلیلەکان دەتوانرێن دەستبکەون لە، reCaptcha کلیلی تایبەتیت',
 
 	'RECAPTCHA_EXPLAIN'				=> 'بۆ بەربەستکردنی ئامێرەکانی سپام، تکایە نوسەکان وەکو خۆی لەنێو خانەکەدا بنوسەوە. <br /> لەکاتی ناڕوونیدا، کرتە لەدووگمەی نوێکردنەوەی نوسەکان بکە یان بەدەنگ گوێی لێبگرە! ',
 ));
-
-?>

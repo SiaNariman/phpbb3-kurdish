@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* captcha_qa [Sorani Kurdish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: captcha_qa.php 9966 2009-08-12 15:12:03Z Kellanved $
-* @copyright (c) 2009 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -60,5 +61,3 @@ $lang = array_merge($lang, array(
 	'QA_ERROR_MSG'				=> 'تکایە هەموو خانەکان پڕ بکەوە و لانی کەم وەڵامێک بنووسە',
     'QA_LAST_QUESTION'			=> 'ناتوانی هەموو پرسیارەکان بسڕیتەوە لەکاتێکدا پێوەکراوەکە چالاکە',
 ));
-
-?>

@@ -1,13 +1,13 @@
 <?php
 /**
 *
-* acp_ban.php [Sorani Kurdish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: $
-* @copyright (c) 2009 phpBB Group
-* @author 2009-05-30 - Chawg.org Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -36,11 +36,12 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
+// Banning
 $lang = array_merge($lang, array(
 	'1_HOUR'	=> '١ کاژێر',
 	'30_MINS'	=> '٣٠ خولەک',
 	'6_HOURS'	=> '٦ کاژێر',
-	'ACP_BAN_EXPLAIN'	=> 'Here you can control the banning of users by name, IP or e-mail address. These methods prevent a user reaching any part of the board. You can give a short (maximum 3000 characters) reason for the ban if you wish. This will be displayed in the admin log. The duration of a ban can also be specified. If you want the ban to end on a specific date rather than after a set time period select <span style="text-decoration: underline;">Until -&gt;</span> for the ban length and enter a date in <kbd>YYYY-MM-DD</kbd> format.',
+	'ACP_BAN_EXPLAIN'	=> 'لێرە دەتوانی دەستبگریت بەسەر ڕاگرتنی بەکارهێنەران بەهۆی ناویانەوە، IP یان ناونیشانی ئیەمیڵ. ئەو ڕێگایانە بەکارهێنەرێک دووردەخاتەوە لەهەر بەشێکی مەکۆکە. دەتوانی هۆکارێکی کورت بنووسی بۆ ڕاگرتنەکە ئەگەر ویستت. کە تەنها لە تۆمارگەری بەڕێوەبەر نیشان دەدرێت. وە کات و ماوەی ڕاگرتنیش دەتوانرێ دیاریبکرێ. ',
 	'BAN_EXCLUDE'	=> 'جیاکردنەوە لە ڕاگرتن',
 	'BAN_LENGTH'	=> 'ماوەی قەدەغەکردن',
 	'BAN_REASON'	=> 'هۆکاری قەدەغەکردن',
@@ -62,6 +63,8 @@ $lang = array_merge($lang, array(
 	'IP_UNBAN'	=> 'گێڕاندنەوەی IP ـی ڕاگیراو',
 	'IP_UNBAN_EXPLAIN'	=> 'ئەتوانیت چەند IP ـیەکی ڕاگیراو بگێڕیتەوە بە یەک جار بە بەکارهێنانی چەند کلیلێکی تەختەکلیل و مشک لە یەک کاتدا بۆ کۆمپیوتەرەکەت و وێبگەڕەکەت.',
 	'LENGTH_BAN_INVALID'	=> 'ڕێکەوت پێویستە بە شێوازی <kbd>YYYY-MM-DD</kbd> بێت.',
+	'OPTIONS_BANNED'			=> 'ڕاگیراو',
+	'OPTIONS_EXCLUDED'			=> 'جیاکراوە',
 	'PERMANENT'	=> 'هەمیشەیی',
 	'UNTIL'	=> 'هەتا',
 	'USER_BAN'	=> 'بەکارهێنەرێک یان زیاتر ڕابگرە',
@@ -71,5 +74,3 @@ $lang = array_merge($lang, array(
 	'USER_UNBAN'	=> 'گێڕاندنەوەی بەکارهێنەرە ڕاگیراوەکان',
 	'USER_UNBAN_EXPLAIN'	=> 'ئەتوانیت چەند بەکارهێنەرێکی ڕاگیراو بگێڕیتەوە بە یەک جار بە بەکارهێنانی چەند کلیلێکی تەختەکلیل و مشک لە یەک کاتدا بۆ کۆمپیوتەرەکەت و وێبگەڕەکەت.',
 ));
-
-?>

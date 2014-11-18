@@ -1,13 +1,13 @@
 <?php
 /**
 *
-* acp_bots.php [Sorani Kurdish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: $
-* @copyright (c) 2008 phpBB Group
-* @author 2008-12-12 - Chawg.org Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -36,36 +36,35 @@ if (empty($lang) || !is_array($lang))
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
+// Bot settings
 $lang = array_merge($lang, array(
 	'BOTS'	=> 'بەڕێوەبردنی بۆتەکان',
-	'BOTS_EXPLAIN'	=> '“Bots”, “spiders” or “crawlers” are automated agents most commonly used by search engines to update their databases. Since they rarely make proper use of sessions they can distort visitor counts, increase load and sometimes fail to index sites correctly. Here you can define a special type of user to overcome these problems.',
+	'BOTS_EXPLAIN'	=> '"Bots" ,"spiders" یان "crawlers" بریکاری خۆکارکراون ئاساییانە زۆرتر بەکاردەبرێن لەلایەن بزوێنەرەکانی گەڕان بۆ نوێکردنەوەی بنکەدراوەکانیان. لەو کاتەوەی ئەوان سوودێکی زیاتری لێ وەردەگرن لە دانیشتنەکان دەتوانن ژمێریاریی سەردانکەران بکەن. کەمکردنی بار و هەندێکات سەرنەخستی پێڕستی وێبگەکان بەدروست. لێرە دەتوانی جۆرێکی تایبەت لە بەکارهێنەر دیاریبکەی بۆ بەسەرداچوونی ئەو کێشانە.',
 	'BOT_ACTIVATE'	=> 'چالاککرن',
-	'BOT_ACTIVE'	=> 'Bot active',
+	'BOT_ACTIVE'	=> 'چالاکی بووت',
 	'BOT_ADD'	=> 'بۆت زیاد بکە',
 	'BOT_ADDED'	=> 'بە سەرکەوتوویی بۆتی نوێ زیادکرا',
-	'BOT_AGENT'	=> 'Agent match',
-	'BOT_AGENT_EXPLAIN'	=> 'A string matching the bots browser agent, partial matches are allowed.',
+	'BOT_AGENT'	=> 'گونجاوی بریکار',
+	'BOT_AGENT_EXPLAIN'	=> 'کۆڵێک دەگونجێ بۆ بریکاری وێبگەڕەکان ،گونجاندنی بەشکراو ڕێگادراوە.',
 	'BOT_DEACTIVATE'	=> 'ناچالاککردن',
 	'BOT_DELETED'	=> 'بە سەرکەوتوویی بۆت سڕدرایەوە.',
 	'BOT_EDIT'	=> 'دەستکاریکردنی بۆتەکان',
-	'BOT_EDIT_EXPLAIN'	=> 'Here you can add or edit an existing bot entry. You may define an agent string and/or one or more IP addresses (or range of addresses) to match. Be careful when defining matching agent strings or addresses. You may also specify a style and language that the bot will view the board using. This may allow you to reduce bandwidth use by setting a simple style for bots. Remember to set appropriate permissions for the special Bot usergroup.',
+	'BOT_EDIT_EXPLAIN'	=> 'لێرە دەتوانیت دەروازەیەکی بووتێکی چالاک زیاد بکەی یان دەستکاری بکەی. دەتوانی بریکارێک پێناسە بکەیت یان/لەگەڵ دانەیەک یان زیاتر ناونیشانی IP  بۆ گونجاندن. وریابە لەکاتی پێناسەکردنی ناونیشانی بریکار. دەتشتوانی شێوازێک دیاریبکەی لەگەڵ زمان کە بووتە پێیوە مەکۆکە دەکاتەوە. ئەمە لەوانەیە ڕێگات بدات بۆ هێنانەوەی باندبەرینی لەلایەن ڕێکخستنی شێوازێکی سادە بۆ بووتەکان. لەیادت بێت بۆ دانای دەسەڵاتی بەرامبەرکێ بۆ بووتی تایبەتی گرووپی بەکارهێنەر.',
 	'BOT_LANG'	=> 'زمانی بۆت',
-	'BOT_LANG_EXPLAIN'	=> 'The language presented to the bot as it browses.',
+	'BOT_LANG_EXPLAIN'	=> 'زمانەکە پێشکەشکراوە بۆ بووتەکە وەکو ئەوەی دەگەڕێ.',
 	'BOT_LAST_VISIT'	=> 'دوا سەردان',
-	'BOT_IP'	=> 'Bot IP address',
-	'BOT_IP_EXPLAIN'	=> 'Partial matches are allowed, separate addresses with a comma.',
+	'BOT_IP'	=> 'ناونیشانی IP بووت',
+	'BOT_IP_EXPLAIN'	=> 'گونجاندنی بەشکراوی ڕێگادراوە ،ناونیشانەکان جیابکەوە بەهۆی مێرگولەوە.',
 	'BOT_NAME'	=> 'ناوی بۆت',
-	'BOT_NAME_EXPLAIN'	=> 'Used only for your own information.',
-	'BOT_NAME_TAKEN'	=> 'The name is already in use on your board and can’t be used for the Bot.',
+	'BOT_NAME_EXPLAIN'	=> 'بەکارهێنراوە تەنها بۆ زانیاری خۆت.',
+	'BOT_NAME_TAKEN'	=> 'ناوەکە پێشووتر لە کاردایە لەسەر مەکۆکەت و ناتوانرێ بەکاربهێنرێت بۆ بووتەکە.',
 	'BOT_NEVER'	=> 'هەرگیز',
 	'BOT_STYLE'	=> 'ڕووخساری بۆت',
-	'BOT_STYLE_EXPLAIN'	=> 'The style used for the board by the bot.',
-	'BOT_UPDATED'	=> 'Existing bot updated successfully.',
-	'ERR_BOT_AGENT_MATCHES_UA'	=> 'The bot agent you supplied is similar to the one you are currently using. Please adjust the agent for this bot.',
-	'ERR_BOT_NO_IP'	=> 'The IP addresses you supplied were invalid or the hostname could not be resolved.',
-	'ERR_BOT_NO_MATCHES'	=> 'You must supply at least one of an agent or IP for this bot match.',
-	'NO_BOT'	=> 'Found no bot with the specified ID.',
-	'NO_BOT_GROUP'	=> 'Unable to find special bot group.',
+	'BOT_STYLE_EXPLAIN'	=> 'شێوازەکە بەکارهێنراوە بۆ مەکۆکە لەلایەن بووتەکە.',
+	'BOT_UPDATED'	=> 'بووتی چالاک نوێکراوەیە بەسەرکەوتوویی.',
+	'ERR_BOT_AGENT_MATCHES_UA'	=> 'بریکاری بووتەکەی کە تۆ سەپاندووتە بچووکترە بۆ ئەوەی ئێستاکە بەکاری دەهێنیت. تکایە بریکارەکە بخەمڵێنە بۆ ئەو بووتە.',
+	'ERR_BOT_NO_IP'	=> 'ناونیشانی IP کە سەپاندووتە نادروست بوو ،یان ناوی خانەخوێیەکە ناوتوانرێ شیکار بکرێ.',
+	'ERR_BOT_NO_MATCHES'	=> 'دەبێت تۆ بەلایەنی کەم یەکێک لەو بریکارانە بسەپێنی یان IP بۆ ئەو گونجاندنی بووتە.',
+	'NO_BOT'	=> 'هیچ بووتێک نەدۆزرایەوە لەگەڵ ID ــی دیاریکراو.',
+	'NO_BOT_GROUP'	=> 'ناتوانرێ گرووپی بووتی تایبەت بدۆزرێتەوە.',
 ));
-
-?>

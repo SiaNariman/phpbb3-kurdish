@@ -10,6 +10,4 @@ Subject: پەیام لەبەڕێوەبەری "{SITENAME}"
 
 {MESSAGE}
 
-
 {EMAIL_SIG}
-

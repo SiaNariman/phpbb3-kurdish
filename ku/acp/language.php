@@ -1,13 +1,13 @@
 <?php
 /**
 *
-* acp_language.php [Sorani Kurdish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: $
-* @copyright (c) 2009 phpBB Group
-* @author 2009-06-06 - Chawg.org Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -55,6 +55,7 @@ $lang = array_merge($lang, array(
 	'LANGUAGE_PACK_DELETED'	=> 'گورزەی زمانی <strong>%s</strong> بە سەرکەوتوویی لابرا. هەموو ئەو بەکارهێنەرانەی ئەم زمانە بەکار دبەن بۆیان گۆڕدرا بە زمانی بنەڕەتی.',
 	'LANGUAGE_PACK_DETAILS'	=> 'وردەکارییەکانی گورزەی زمان',
 	'LANGUAGE_PACK_INSTALLED'	=> 'گورزەی زمانی <strong>%s</strong> بە سەرکەوتوویی دامەزرا.',
+	'LANGUAGE_PACK_CPF_UPDATE'			=> 'ڕستەکانی زمان لە خانە خۆکردەکانی پرۆفایل کۆنووسکران لە زمانی بنەڕەتەوە. تکایە بیانگۆڕە ئەگەر پێویست بوو.',
 	'LANGUAGE_PACK_ISO'	=> 'ISO',
 	'LANGUAGE_PACK_LOCALNAME'	=> 'ناوی ناوچەیی',
 	'LANGUAGE_PACK_NAME'	=> 'ناو',
@@ -86,5 +87,3 @@ $lang = array_merge($lang, array(
 	'UPLOAD_SETTINGS'	=> 'ڕێکخستنەکانی بارکردن',
 	'WRONG_LANGUAGE_FILE'	=> 'پەڕگەی زمانی دیاریکراو ناتەواوە.',
 ));
-
-?>

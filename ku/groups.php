@@ -1,13 +1,13 @@
 <?php
 /**
 *
-* groups.php [Sorani Kurdish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: $
-* @copyright (c) 2008 phpBB Group
-* @author 2008-12-12 - Chawg.org Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -86,5 +86,3 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_DEMOTE_CONFIRM'	=> 'دڵنیایت لە نزم کردنەوەی پلەی خۆت وەک پێشڕەوی گرروپ لە گرووپی دیاریکراو؟',
 	'USER_GROUP_DEMOTED'	=> 'بە سەرکەوتوویی پێشڕەویت نزم کرایەوە.',
 ));
-
-?>

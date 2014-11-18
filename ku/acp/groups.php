@@ -1,13 +1,13 @@
 <?php
 /**
 *
-* acp_groups.php [Sorani Kurdish]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: $
-* @copyright (c) 2009 phpBB Group
-* @author 2009-05-30 - Chawg.org Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -37,9 +37,9 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_GROUPS_MANAGE_EXPLAIN'	=> 'From this panel you can administrate all your usergroups. You can delete, create and edit existing groups. Furthermore, you may choose group leaders, toggle open/hidden/closed group status and set the group name and description.',
+	'ACP_GROUPS_MANAGE_EXPLAIN'	=> 'لەو پانێڵە دەتوانی هەموو گرووپەکانی بەکارهێنەران بەڕێوەببەی. دەتوانی گرووپە چالاکەکان بسڕیتەوە ،دروستبکەی و دەستکاریان بکەی. زۆرزیاتر ،دەتوانی پێشڕەوی گرووپ هەڵبژێری ،کردنەوە/داخستن/شاردنەوەی باری گرووپ و دانانی ناوی گرووپەکان و باسکردنیان.',
 	'ADD_USERS'	=> 'بەکارهێنەران زیاد بکە',
-	'ADD_USERS_EXPLAIN'	=> 'Here you can add new users to the group. You may select whether this group becomes the new default for the selected users. Additionally you can define them as group leaders. Please enter each username on a separate line.',
+	'ADD_USERS_EXPLAIN'	=> 'لێرە دەتوانی بەکارهێنەری نوێ بۆ گرووپەکە زیادبکەی. دەتوانی دیاریبکەی لەکوێ ئەو گرووپە ببێتە بنەڕەتی نوێ بۆ بەکارهێنەرە هەڵبژێردراوەکان. لەگەڵ ئەوەش دەتوانی پێناسەیان بکەی وەکو پێشڕەوی هرووپ. تکایە هەر ناوێک لە دێڕێکی جودا بنووسە.',
 	'COPY_PERMISSIONS'	=> 'ڕوونووسکردنی دەسەڵاتەکان لە',
 	'COPY_PERMISSIONS_EXPLAIN'	=> 'هەر کە دروستکرا، گرووپەکە گەمان دەسەڵاتەکانی ئەو گرووپەی دەبێت کە لێرە دیاری دەکەیت.',
 	'CREATE_GROUP'	=> 'گرووپێکی نوێ دروست بکە',
@@ -51,74 +51,72 @@ $lang = array_merge($lang, array(
 	'GROUP_AVATAR_EXPLAIN'	=> 'ئەم وێنەیە لە کۆنترۆڵ پانێڵی گرووپ پیشان دەدرێت.',
 	'GROUP_CLOSED'	=> 'داخراو',
 	'GROUP_COLOR'	=> 'ڕەنگی گرووپ',
-	'GROUP_COLOR_EXPLAIN'	=> 'Defines the colour members’ usernames will appear in, leave blank for user default.',
+	'GROUP_COLOR_EXPLAIN'	=> 'ڕەنگی ئەندامان پێناسەبکە ناوی بەکارهێنەران دەردەکەون لێی ،بەتاڵ جێی بهێڵە بۆ بنەڕەتی بەکارهێنەر',
 	'GROUP_CONFIRM_ADD_USER'	=> 'دڵنیایت لە زیادکردنی بەکارهێنەر %1$s بۆ گرووپ؟',
 	'GROUP_CONFIRM_ADD_USERS'	=> 'دڵنیایت لە زیادکردنی بەکارهێنەران %1$s بۆ گرووپ؟',
 	'GROUP_CREATED'	=> 'گرووپ بە سەرکەوتوویی دروستکرا.',
 	'GROUP_DEFAULT'	=> 'گرووپی بنەڕەتی ئەندام',
-	'GROUP_DEFS_UPDATED'	=> 'Default group set for all selected members.',
+	'GROUP_DEFS_UPDATED'	=> 'گرووپی بنەڕەت دانرا بۆ هەموو ئەندامە هەڵبژێردراوەکان.',
 	'GROUP_DELETE'	=> 'ئەندام لە گرووپ لاببە',
-	'GROUP_DELETED'	=> 'Group deleted and user default groups set successfully.',
-	'GROUP_DEMOTE'	=> 'Demote group leader',
+	'GROUP_DELETED'	=> 'گرووپ سڕایەوە و گرووپە بنەڕەتەکانی بەکارهێنەر بەسەرکەوتوویی دانران.',
+	'GROUP_DEMOTE'	=> 'دابەزینی پێشڕەوی گرووپ',
 	'GROUP_DESC'	=> 'پەسنی گرووپ',
 	'GROUP_DETAILS'	=> 'وردەکارییەکانی گرووپ',
-	'GROUP_EDIT_EXPLAIN'	=> 'Here you can edit an existing group. You can change its name, description and type (open, closed, etc.). You can also set certain group wide options such as colouration, rank, etc. Changes made here override users’ current settings. Please note that group members can override group-avatar settings, unless you set appropriate user permissions.',
-	'GROUP_ERR_USERS_EXIST'	=> 'The specified users are already members of this group.',
-	'GROUP_FOUNDER_MANAGE'	=> 'Founder manage only',
-	'GROUP_FOUNDER_MANAGE_EXPLAIN'	=> 'Restrict management of this group to founders only. Users having group permissions are still able to see this group as well as this group’s members.',
+	'GROUP_EDIT_EXPLAIN'	=> 'لێرە دەتوانی گرووپێکی چالاک دەستکاری بکەیت. دەتوانی ناوەکەی بگۆری ،باسکردنی و جۆری (کراوە ،داخراو ..هتد). دەشتوانی فرە هەڵبژاردنی فراوان دابنێی وەکو یارمەتیدان ،پلە ..هتد گۆڕانکاریکراو لێرە لەسەر بەکارهێنەران دەڕوات. ڕێکخستنەکانی ئێستا. تکایە سەرنجی ئەوە بدە کە ئەندامانی گرووپ دەتوانن بەسەر ڕێکخستنی وێنۆچکەی گرووپدا بڕۆن ،جگەلەوەی ئەگەر دەسەڵاتەکانی بەکارهێنەر دابنێی.',
+	'GROUP_ERR_USERS_EXIST'	=> 'ئەو بەکارهێنەرانەی دیاریت کردووە پێشووتر ئەندامی ئەو گرووپەن.',
+	'GROUP_FOUNDER_MANAGE'	=> 'تەنها بەڕێوەبردنی دۆزەرەوە',
+	'GROUP_FOUNDER_MANAGE_EXPLAIN'	=> 'بەڕێوەبردنە دیاریکردنەکەی ئەو گرووپە تەنها بۆ دۆزەرەوەکانە. ئەو بەکارهێنەرانی دەسەڵاتی گرووپیان هەیە هێشتا دەتوانن ئەو گرووپە ببینن وەکو باشی وەکو ئەندامانی گرووپەکە.',
 	'GROUP_HIDDEN'	=> 'شاراوە',
 	'GROUP_LANG'	=> 'زمانی گرووپ',
 	'GROUP_LEAD'	=> 'پێشڕەوەکانی گرووپ',
 	'GROUP_LEADERS_ADDED'	=> 'پێشڕەوانی نوێ بۆ گرووپ بە سەرکەوتوویی زیادکران.',
-	'GROUP_LEGEND'	=> 'Display group in legend',
+	'GROUP_LEGEND'	=> 'لە ئەفسانە گرووپ نیشانبدە',
 	'GROUP_LIST'	=> 'ئەندامە هەنووکەییەکان',
-	'GROUP_LIST_EXPLAIN'	=> 'This is a complete list of all the current users with membership of this group. You can delete members (except in certain special groups) or add new ones as you see fit.',
+	'GROUP_LIST_EXPLAIN'	=> 'ئەمە لیستێکی تەواوی ئەندامە ئامادەکانە لەگەڵ ئەندامیەتییان بۆ ئەم گرووپە. دەتوانی ئەندامان بسڕیەوە یان نوێ زیادبکەی وەکو ئەوە گونجاوە و دەیبینی.',
 	'GROUP_MEMBERS'	=> 'ئەندامانی گرووپ',
-	'GROUP_MEMBERS_EXPLAIN'	=> 'This is a complete listing of all the members of this usergroup. It includes separate sections for leaders, pending and existing members. From here you can manage all aspects of who has membership of this group and what their role is. To remove a leader but keep them in the group use Demote rather than delete. Similarly use Promote to make an existing member a leader.',
-	'GROUP_MESSAGE_LIMIT'	=> 'Group private message limit per folder',
-	'GROUP_MESSAGE_LIMIT_EXPLAIN'	=> 'This setting overrides the per-user folder message limit. A value of 0 means the user default limit will be used.',
+	'GROUP_MEMBERS_EXPLAIN'	=> 'ئەمە لیستکردنیێکی تەواوی هەموو ئەندامانی ئەو گرووپەیە. بەشی جودای لەخۆگرووە بۆ پێشڕەوان ،پێچوون و ئەندامە چالاکەکان. لێرەوە دەتوانی هەموو جوڵەکان بەڕێوەببەی کە کێ ئەندامییەتی هەیە لەم گرووپە و دەوریان چییە. بۆ سڕینەوەی پێشڕەوێک بەڵام هێشتنەوەیان لە گرووپەکە دابەزاندن بەکارببە لەباتی سڕینەوە. بە سادەیی بەرزکردن یان پێشخستن بەکارببە بۆ کردنی ئەندامێکی چالاک بۆ پێشڕەو.',
+	'GROUP_MESSAGE_LIMIT'	=> 'سنووری پەیامی تایبەتی گرووپ بۆهەر بوخچەیەک',
+	'GROUP_MESSAGE_LIMIT_EXPLAIN'	=> 'ئەو ڕێکخستنە بەسەر سنووری پەیامی بوخچەی بۆهەر-بەکارهێنەر دەڕوات. نرخێکی 0 واتا سنووری بنەڕەتی بەکارهێنەرەکە بەکاردەهێنرێت.',
 	'GROUP_MODS_ADDED'	=> 'پێشڕەوانی نوێ بۆ گرووپ بە سەرکەوتوویی زیادکران.',
-	'GROUP_MODS_DEMOTED'	=> 'Group leaders demoted successfully.',
-	'GROUP_MODS_PROMOTED'	=> 'Group members promoted successfully.',
+	'GROUP_MODS_DEMOTED'	=> 'ئەندامانی گرووپ بەسەرکەوتوویی بەرزکرانەوە.',
+	'GROUP_MODS_PROMOTED'	=> 'ئەندامانی گرووپ بەسەرکەوتوویی بەرزکرانەوە.',
 	'GROUP_NAME'	=> 'ناوی گرووپ',
-	'GROUP_NAME_TAKEN'	=> 'The group name you entered is already in use, please select an alternative.',
+	'GROUP_NAME_TAKEN'	=> 'ناوی ئەو گرووپەی نووسیوتە پێشتر لەکاردایە ،تکایە ناوێکی تر هەڵبژێرە.',
 	'GROUP_OPEN'	=> 'کراوە',
-	'GROUP_PENDING'	=> 'Pending members',
-	'GROUP_MAX_RECIPIENTS'	=> 'Maximum number of allowed recipients per private message',
-	'GROUP_MAX_RECIPIENTS_EXPLAIN'	=> 'The maximum number of allowed recipients in a private message. If 0 is entered, the board-wide setting is used.',
-	'GROUP_OPTIONS_SAVE'			=> 'Group wide options',
-	'GROUP_PROMOTE'	=> 'Promote to group leader',
+	'GROUP_PENDING'	=> 'پێچوونی ئەندامان',
+	'GROUP_MAX_RECIPIENTS'	=> 'زۆرترین ژمارەی ڕێگادراو بۆ وەرگرەکان بۆهەر پەیامێکی تایبەت',
+	'GROUP_MAX_RECIPIENTS_EXPLAIN'	=> 'زۆرترین ژمارەی ڕێگادراو بۆ وەرگرەکان بۆهەر پەیامێکی تایبەت. ئەگەر 0 نووسرا ،ڕێکخستنی فراوان-مەکۆ بەکاردەبرێت.',
+	'GROUP_OPTIONS_SAVE'			=> 'هەڵبژاردنەکانی فراوانی گرووپ',
+	'GROUP_PROMOTE'	=> 'بەرزیبکەوە بۆ پێشڕەوی گرووپ',
 	'GROUP_RANK'	=> 'پلەی گرووپ',
 	'GROUP_RECEIVE_PM'	=> 'گرووپ ئەتوانێت پەیامی تایبەت وەربگرێت',
-	'GROUP_RECEIVE_PM_EXPLAIN'	=> 'Please note that hidden groups are not able to be messaged, regardless of this setting.',
+	'GROUP_RECEIVE_PM_EXPLAIN'	=> 'تکایە سەرنجی ئەوە بدە کە گرووپە شاراوەکان ناتوانرێن پەیامیان بۆ بنێردرێن ،لەگەڵ ڕێزی ئەو ڕێکخستنە.',
 	'GROUP_REQUEST'	=> 'ڕوخسەت',
-	'GROUP_SETTINGS_SAVE'	=> 'Group wide settings',
+	'GROUP_SETTINGS_SAVE'	=> 'ڕێکخستنەکانی فراوانی گرووپ',
 	'GROUP_TYPE'	=> 'جۆری گرووپ',
-	'GROUP_SKIP_AUTH'			=> 'Exempt group leader from permissions',
-	'GROUP_SKIP_AUTH_EXPLAIN'		=> 'If enabled group leader no longer inherit permissions from the group.',	
-	'GROUP_TYPE_EXPLAIN'	=> 'This determines which users can join or view this group.',
+	'GROUP_SKIP_AUTH'			=> 'ڕێگری پێشڕەوی گرووپ بە لە دەسەڵاتەکان',
+	'GROUP_SKIP_AUTH_EXPLAIN'		=> 'ئەگەر چالاککرا پێشڕەوی گرووپ هیچی تر خاوەنی دەسەڵاتەکان نابێت لە گرووپەکە.',	
+	'GROUP_TYPE_EXPLAIN'	=> 'ئەمە دیاریدەکات کام بەکارهێنەر دەتوانێ بەشداری بکات لەو گرووپە یان ببینێ.',
 	'GROUP_UPDATED'	=> 'ویستراوەکانی گرووپ بە سەرکەوتووی نوێکرانەوە.',
 	'GROUP_USERS_ADDED'	=> 'بەکارهێنەرانی نوێ بە سەرکەوتوویی بۆ گرووپ زیادکران.',
 	'GROUP_USERS_EXIST'	=> 'بەکارهێنەرانی دیاریکراو پێشتر ئەندامن لە گرووپ.',
-	'GROUP_USERS_REMOVE'	=> 'Users removed from group and new defaults set successfully.',
-	'MAKE_DEFAULT_FOR_ALL'	=> 'Make default group for every member',
+	'GROUP_USERS_REMOVE'	=> 'بەکارهێنەران سڕانەوە لە گرووپ و بنەڕەتی نوێ بەسەرکەوتوویی دانرا.',
+	'MAKE_DEFAULT_FOR_ALL'	=> 'بیکە بە گرووپی بنەڕەت بۆ هەموو بەکارهێنەرێک',
 	'MEMBERS'	=> 'ئەندامان',
 	'NO_GROUP'	=> 'هیچ گرووپێک دیاری نەکراوە.',
 	'NO_GROUPS_CREATED'	=> 'تا ئێستا هیچ گرووپێک دروست نەکراوە.',
 	'NO_PERMISSIONS'	=> 'دەسەڵاتەکان ڕوونووس مەکە',
 	'NO_USERS'	=> 'هیچ بەکارهێنەرێکت نەنووسیوە.',
 	'NO_USERS_ADDED'	=> 'هیچ بەکارهێنەرێک زیاد نەکراوە بۆ گرووپ.',
-	'NO_VALID_USERS'	=> 'You haven’t entered any users eligible for that action.',
-	'SPECIAL_GROUPS'	=> 'Pre-defined groups',
-	'SPECIAL_GROUPS_EXPLAIN'	=> 'Pre-defined groups are special groups, they cannot be deleted or directly modified. However you can still add users and alter basic settings.',
+	'NO_VALID_USERS'	=> 'تۆ هیچ بەکارهێنەرێکی گونجاوت نەنووسیوە بۆ ئەو کردارە.',
+	'SPECIAL_GROUPS'	=> 'گرووپە پێناسەکراوەکان',
+	'SPECIAL_GROUPS_EXPLAIN'	=> 'گرووپە پێناسەکراوەکان گرووپی تایبەتن ،ناتوانرێ بسڕدرێنەوە یان ڕاستەوخۆ دڵنیابکرێن. هەرچۆنێکە هێشتا تۆ دەتوانی بەکارهێنەران زیادبکەی و ڕێکخستنە بنەڕەتەکان بگۆڕی.',
 	'TOTAL_MEMBERS'	=> 'ئەندامان',
 	'USERS_APPROVED'	=> 'بەکارهێنەران بە سەرکەوتوویی پەسەندکران.',
-	'USER_DEFAULT'	=> 'User default',
-	'USER_DEF_GROUPS'	=> 'User defined groups',
-	'USER_DEF_GROUPS_EXPLAIN'	=> 'These are groups created by you or another admin on this board. You can manage memberships as well as edit group properties or even delete the group.',
+	'USER_DEFAULT'	=> 'بنەڕەتی بەکارهێنەر',
+	'USER_DEF_GROUPS'	=> 'گرووپە پێناسەکراوەکانی بەکارهێنەر',
+	'USER_DEF_GROUPS_EXPLAIN'	=> 'ئەمانە گرووپن دروستکراون لەلایەن تۆ یان بەڕێوەبەرێکی تری ئەم مەکۆیە. دەتوانی ئەنداماییەتییەکان بەڕێوەببەی وەکو باشی وەکو دەستکاری تایبەتمەندییەکانی گرووپ یان سڕینەوەی گرووپەکە.',
 	'USER_GROUP_DEFAULT'	=> 'وەک گرووپی بنەڕەتی لێ بکە',
-	'USER_GROUP_DEFAULT_EXPLAIN'	=> 'Saying yes here will set this group as the default group for the added users.',
+	'USER_GROUP_DEFAULT_EXPLAIN'	=> 'وتنی بەڵێ لێرە ئەو گرووپە وەکو گرووپی بنەڕەت دادەنێ بۆ بەکارهێنەرە زیادکراوەکان.',
 	'USER_GROUP_LEADER'	=> 'بیکە بە پێشڕەوی گرووپ',
 ));
-
-?>

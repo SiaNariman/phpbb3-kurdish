@@ -1,12 +1,13 @@
 <?php
 /**
 *
-* acp_search [English]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: search.php 8479 2008-03-29 00:22:48Z naderman $
-* @copyright (c) 2005 phpBB Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
@@ -36,73 +37,72 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_SEARCH_INDEX_EXPLAIN'				=> 'Here you can manage the search backend’s indexes. Since you normally use only one backend you should delete all indexes that you do not make use of. After altering some of the search settings (e.g. the number of minimum/maximum chars) it might be worth recreating the index so it reflects those changes.',
-	'ACP_SEARCH_SETTINGS_EXPLAIN'			=> 'Here you can define what search backend will be used for indexing posts and performing searches. You can set various options that can influence how much processing these actions require. Some of these settings are the same for all search engine backends.',
+	'ACP_SEARCH_INDEX_EXPLAIN'				=> 'لێرە دەتوانیت دواپشتی پێڕستەکانی گەڕان بەڕێوەببەیت. کە تۆ ئاساییانە تەنها یەک دواپشت بەکاردەبەیت پێویستە هەموو پێڕستەکان بسڕیتەوە کە بەکاری ناهێنیت. لەدوای گۆڕینی هەندێ لە ڕێکخستنەکانی گەڕان (نموونە. ئەو ژمارەی کەمترین/زۆرترین سوتانەکان) لەوانەیە دروستکردنەوەی خراپتری پێڕستەکە بێت کەواتە ئەمە دژی ئەو گۆڕانکارییانەیە.',
+	'ACP_SEARCH_SETTINGS_EXPLAIN'			=> 'لێرە دەتوانی پێناسەی ئەوە بکەیت کە کام دواپشتی گەڕان بەکارببرێت بۆ پێڕستکردنی پەیامەکان و خەمڵاندنی گەڕانەکان. دەتوانی فرە هەڵبژاردن دابنێی کە دەتوانێ چەندە پێشکەوتنی ئەو کردارانە داوابکات. هەندێ لەو ڕێکخستنانە هەمان ڕێکخستنن بۆ هەموو دواپشتی بزوێنەری گەڕانەکان.',
+	'COMMON_WORD_THRESHOLD'					=> 'فەرمانی دەستپێکی وشە',
+	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'ئەو وشانەی کە لەسەدی مەزنتریان لەخۆگرتووە لە هەموو پەیامەکان وەکو فەرمان هەژمار دەکرێن. فەرمانی وشەکان لە پرسگەکانی گەڕان پشتگوێدەخرێن. بۆ ناچالاککردن 0 دابنێ. تەنها کاریگەری دەبێت ئەگەر زیاتر لە 100 پەیام هەبێت. ئەگەر دەتەوێ ئەو وشانەی کە پێشتر هەژمارکراون وەکو فەرمان بۆ ئەوەی دابنرێنەوە پێویستە دووبارە پێڕست دروستبکرێتەوە.',
+	'CONFIRM_SEARCH_BACKEND'				=> 'دڵنیایت کە دەتەوێ دواپشتێکی تری جیاوازی گەڕان بەکارببەیت؟ لەدوای گۆڕینی دواپشتی گەڕان پێویستە پێڕستێک دروستبکەی بۆ دواپشتی نوێی گەڕان. ئەگەر نەخشەت نییە بۆ گۆڕینەوەی دواپشتەکە بۆ ئەوەی پێشوو دەتوانی دواپشتە کۆنەکەی پێڕست بسڕیتەوە وە داواکراوە بۆ فراوانکردنی سەرچاوەکانی سیستەم.',
+	'CONTINUE_DELETING_INDEX'				=> 'بەردەوامبە بۆ کرداری پێڕستی پێشوو',
+	'CONTINUE_DELETING_INDEX_EXPLAIN'		=> 'کردارێکی پێڕستی دوورخراوە دەستپێکرا. داوادەکرێ بۆ گەیشتن بە پەڕەی پێڕستی گەڕانەکە پێویستە تۆ تەواوی بکەیت یان هەڵیبوەشێنیتەوە.',
+	'CONTINUE_INDEXING'						=> 'بەردەوامبە بۆ کرداری پێڕستکردنی پێشوو',
+	'CONTINUE_INDEXING_EXPLAIN'				=> 'کردارێکی پێڕستی دوورخراوە دەستپێکرا. داوادەکرێ بۆ گەیشتن بە پەڕەی پێڕستی گەڕانەکە پێویستە تۆ تەواوی بکەیت یان هەڵیبوەشێنیتەوە.',
+	'CREATE_INDEX'							=> 'پێڕست دروستبکە',
 
-	'COMMON_WORD_THRESHOLD'					=> 'Common word threshold',
-	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'Words which are contained in a greater percentage of all posts will be regarded as common. Common words are ignored in search queries. Set to zero to disable. Only takes effect if there are more than 100 posts. If you want words that are currently regarded as common to be reconsidered you have to recreate the index.',
-	'CONFIRM_SEARCH_BACKEND'				=> 'Are you sure you wish to switch to a different search backend? After changing the search backend you will have to create an index for the new search backend. If you don’t plan on switching back to the old search backend you can also delete the old backend’s index in order to free system resources.',
-	'CONTINUE_DELETING_INDEX'				=> 'Continue previous index removal process',
-	'CONTINUE_DELETING_INDEX_EXPLAIN'		=> 'An index removal process has been started. In order to access the search index page you will have to complete it or cancel it.',
-	'CONTINUE_INDEXING'						=> 'Continue previous indexing process',
-	'CONTINUE_INDEXING_EXPLAIN'				=> 'An indexing process has been started. In order to access the search index page you will have to complete it or cancel it.',
-	'CREATE_INDEX'							=> 'Create index',
+	'DELETE_INDEX'							=> 'پێڕست بسڕەوە',
+	'DELETING_INDEX_IN_PROGRESS'			=> 'سڕینەوەی پێڕستەکە لە پێشکەوتندایە',
+	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'دواپشتی گەڕانەکە پێشتر پێڕستەکەی خاوێندەکاتەوە. ئەمە دەتوانێ ماوەیەک بخایەنێت.',
 
-	'DELETE_INDEX'							=> 'Delete index',
-	'DELETING_INDEX_IN_PROGRESS'			=> 'Deleting the index in progress',
-	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'The search backend is currently cleaning its index. This can take a few minutes.',
+	'FULLTEXT_MYSQL_INCOMPATIBLE_VERSION'	=> 'دواپشتی دەقی تەواوی MySQL تەنها دەتوانێ بەکارببرێ لەگەڵ MySQL و بەرزتر.',
+	'FULLTEXT_MYSQL_NOT_MYISAM'				=> 'پێڕستەکانی دەقی تەواوی MySQL تەنها دەتوانێ بەکارببرێ لەگەڵ خشتەکانی MyISAM.',
+	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'کۆی ژمارەی پەیامە پێڕستکراوەکان',
+	'FULLTEXT_MYSQL_MBSTRING'				=> 'پاڵپشتی بۆ تیپەکانی UTF-8 بێ-لاتین ،mbstring بەکاردەبات:',
+	'FULLTEXT_MYSQL_PCRE'					=> 'پاڵپشتی بۆ بێ-لاتین تیپەکانی UTF-8 بە بەکاربردنی PCRE.',
+	'FULLTEXT_MYSQL_MBSTRING_EXPLAIN'		=> 'ئەگەر PCRE تایبەتمەندی تیپی یونیکۆدی نییە ،دواپشتی گەڕانەکە هەوڵدەدات بزوێنەری تاکی mbstring بەکارببات.',
+	'FULLTEXT_MYSQL_PCRE_EXPLAIN'			=> 'ئەو دواپشتی گەڕانە داوای تایبەتمەندی تیپی یونیکۆدی PCRE دەکات ،تەنها بەردەستە لە PHP 4.4 .5/1 و بەرزتر ،ئەگەر دەتەوێ بۆ تیپەکانی بێ-لاتین بگەڕێیت.',
+	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'وشەکانی لەگەڵ زۆر تیپ بەلایەنی کەم پێڕست دەکرێن بۆ گەڕان. تۆ یان خانەخوێیەکەت دەتوانێ ئەو ڕێکخستنە بگۆڕێت بەهۆی گۆڕینی دیمەنکردنی mysql.',
+	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'وشەکان لەگەڵ هیچی تری زۆر وشەکان پێڕست دەکرێت بۆ گەڕان .تۆ یان خانەخوێیەکەت تەنها دەتوانێ ئەم ڕێکخستنە بگۆڕێ بەهۆی گۆڕینی دیمەنکردنی mysql.',
+	'GENERAL_SEARCH_SETTINGS'				=> 'ڕێکخستنە گشتییەکانی گەڕان',
+	'GO_TO_SEARCH_INDEX'					=> 'بڕۆ بۆ پەڕەی پێڕستی گەڕان',
 
-	'FULLTEXT_MYSQL_INCOMPATIBLE_VERSION'	=> 'The MySQL fulltext backend can only be used with MySQL4 and above.',
-	'FULLTEXT_MYSQL_NOT_MYISAM'				=> 'MySQL fulltext indexes can only be used with MyISAM tables.',
-	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Total number of indexed posts',
-	'FULLTEXT_MYSQL_MBSTRING'				=> 'Support for non-latin UTF-8 characters using mbstring:',
-	'FULLTEXT_MYSQL_PCRE'					=> 'Support for non-latin UTF-8 characters using PCRE:',
-	'FULLTEXT_MYSQL_MBSTRING_EXPLAIN'		=> 'If PCRE does not have unicode character properties, the search backend will try to use mbstring’s regular expression engine.',
-	'FULLTEXT_MYSQL_PCRE_EXPLAIN'			=> 'This search backend requires PCRE unicode character properties, only available in PHP 4.4, 5.1 and above, if you want to search for non-latin characters.',
-	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'Words with at least this many characters will be indexed for searching. You or your host can only change this setting by changing the mysql configuration.',
-	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Words with no more than this many characters will be indexed for searching. You or your host can only change this setting by changing the mysql configuration.',
-	'GENERAL_SEARCH_SETTINGS'				=> 'General search settings',
-	'GO_TO_SEARCH_INDEX'					=> 'Go to search index page',
+	'INDEX_STATS'							=> 'ئامارەکانی پێڕست',
+	'INDEXING_IN_PROGRESS'					=> 'پێڕستکردن لە پێشکەوتندایە',
+	'INDEXING_IN_PROGRESS_EXPLAIN'			=> 'دواپشتی گەڕانە پێشتر هەموو پەیامەکان پێڕست دەکات بۆ مەکۆکە. ئەمە دەتوانێ لە چەند خولەکێکەوە بۆ چەند دەمژمێرێک بخایەنێت بەپێی قەبارەی مەکۆکەت.',
 
-	'INDEX_STATS'							=> 'Index statistics',
-	'INDEXING_IN_PROGRESS'					=> 'Indexing in progress',
-	'INDEXING_IN_PROGRESS_EXPLAIN'			=> 'The search backend is currently indexing all posts on the board. This can take from a few minutes to a few hours depending on your board’s size.',
+	'LIMIT_SEARCH_LOAD'						=> 'سنووردارکردنی سیستەمی بارکردنی پەڕەی گەڕان',
 
-	'LIMIT_SEARCH_LOAD'						=> 'Search page system load limit',
-	'LIMIT_SEARCH_LOAD_EXPLAIN'				=> 'If the 1 minute system load exceeds this value the search page will go offline, 1.0 equals ~100% utilisation of one processor. This only functions on UNIX based servers.',
+	'LIMIT_SEARCH_LOAD_EXPLAIN'				=> 'ئەگەر یەک خولەک سیستەمی بارکردن ئەو نرخەی خایاند پەڕەی گەڕانەکە دەڕواتە دەرهێڵ ،1.0 یەکسانە بە ~100% لە یەک کردارکردندا. ئەم تەنها نەخشانە بنچینەکراوەی سەر ڕاژەکانی UNIX ــن.',
 
-	'MAX_SEARCH_CHARS'						=> 'Max characters indexed by search',
-	'MAX_SEARCH_CHARS_EXPLAIN'				=> 'Words with no more than this many characters will be indexed for searching.',
+	'MAX_SEARCH_CHARS'						=> 'زۆرترین تیپ پێڕستکراوە لەلایەن گەڕان',
+	'MAX_SEARCH_CHARS_EXPLAIN'				=> 'وشەکان لەگەڵ هیچی تر لەو زۆر تیپانە پێڕست دەکرێت بۆ گەڕان.',
     'MAX_NUM_SEARCH_KEYWORDS'            => 'زۆرترین ژمارەی وشەکلیلی ڕێ پێدراو',
-    'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'      => 'Maximum number of words the user is able to search for. A value of 0 allows an unlimited number of words.',
-	'MIN_SEARCH_CHARS'						=> 'Min characters indexed by search',
-	'MIN_SEARCH_CHARS_EXPLAIN'				=> 'Words with at least this many characters will be indexed for searching.',
-	'MIN_SEARCH_AUTHOR_CHARS'				=> 'Min author name characters',
-	'MIN_SEARCH_AUTHOR_CHARS_EXPLAIN'		=> 'Users have to enter at least this many characters of the name when performing a wildcard author search. If the author’s username is shorter than this number you can still search for the author’s posts by entering the complete username.',
+    'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'      => 'زۆرترین ژمارەی وشەکان کە بەکارهێنەر دەتوانێ بۆی بگەڕێ. نرخێکی 0 ڕێگادەدا بە بێ سنووری ژمارەی وشەکان.',
+	'MIN_SEARCH_CHARS'						=> 'کەم تیپەکان پێڕسکران لەلایەن گەڕان',
+	'MIN_SEARCH_CHARS_EXPLAIN'				=> 'وشەکان لەگەڵ ئەو زۆر تیپانە پێڕست دەکرێن بۆ گەڕان.',
+	'MIN_SEARCH_AUTHOR_CHARS'				=> 'کەم ناوی نووسەری تیپەکان',
+	'MIN_SEARCH_AUTHOR_CHARS_EXPLAIN'		=> 'بەکارهێنەران پێویستە بەلایەنی کەم ئەو زۆر تیپانە بنووسێ کە لە نووسری گەڕانەکە دەخەمڵێندرێت. ئەگەر ناوی بەکارهێنەری نووسەر کورترە لەو ژمارەیە هێشتا دەتوانی بۆ ئەو نووسەری پەیامانە بگەڕێی بە نووسینی ناوی تەواوی بەکارهێنەرەکە.',
 
-	'PROGRESS_BAR'							=> 'Progress bar',
+	'PROGRESS_BAR'							=> 'شریتی پێشکەوتن',
 
-	'SEARCH_GUEST_INTERVAL'					=> 'Guest search flood interval',
-	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'Number of seconds guests must wait between searches. If one guest searches all others have to wait until the time interval passed.',
-	'SEARCH_INDEX_CREATE_REDIRECT'			=> 'All posts up to post id %1$d have now been indexed, of which %2$d posts were within this step.<br />The current rate of indexing is approximately %3$.1f posts per second.<br />Indexing in progress…',
-	'SEARCH_INDEX_DELETE_REDIRECT'			=> 'All posts up to post id %1$d have been removed from the search index.<br />Deleting in progress…',
-	'SEARCH_INDEX_CREATED'					=> 'Successfully indexed all posts in the board database.',
-	'SEARCH_INDEX_REMOVED'					=> 'Successfully deleted the search index for this backend.',
-	'SEARCH_INTERVAL'						=> 'User search flood interval',
-	'SEARCH_INTERVAL_EXPLAIN'				=> 'Number of seconds users must wait between searches. This interval is checked independently for each user.',
-	'SEARCH_STORE_RESULTS'					=> 'Search result cache length',
-	'SEARCH_STORE_RESULTS_EXPLAIN'			=> 'Cached search results will expire after this time, in seconds. Set to 0 if you want to disable search cache.',
-	'SEARCH_TYPE'							=> 'Search backend',
-	'SEARCH_TYPE_EXPLAIN'					=> 'phpBB allows you to choose the backend that is used for searching text in post contents. By default the search will use phpBB’s own fulltext search.',
-	'SWITCHED_SEARCH_BACKEND'				=> 'You switched the search backend. In order to use the new search backend you should make sure that there is an index for the backend you chose.',
+	'SEARCH_GUEST_INTERVAL'					=> 'پارێزی فلووی گەڕانی میوان',
+	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> 'ژمارەی ئەو چرکانەی کە میوان دەبێت چاوەڕێ بکات لەنێوان گەڕانەکان. ئەگەر یەک میوان بگەڕێ ئەوانی تر دەبێ چاوەڕێبکەن تاوەکو کاتی پارێزراو تێدەپەڕێت.',
+	'SEARCH_INDEX_CREATE_REDIRECT'			=> 'هەموو پەیامەکان بەپێی ناونیشانی پەیام  %1$d ئێستا پێڕستکران ،لەوەی  %2$d پەیامەکان لەناو ئەو هەنگاوە بوون.<br />هەڵسەنگاندنی ئێستای پێڕستکردن بەنزیکەیی %3$.1. پەیامەکان بۆ هەر چرکەیەک.<br />پێڕستکردن لە پێشەوتندایە...',
+	'SEARCH_INDEX_DELETE_REDIRECT'			=> 'هەموو پەیامەکان بەپێی ناونیشانی پەیام %1$d سڕانەوە لە پێڕستی گەڕانەکە.<br /> سڕینەوە لە پێشکەوتندایە...',
+	'SEARCH_INDEX_CREATED'					=> 'بەسەرکەوتوویی هەموو پەیامەکان پێڕستکراون بۆ بنکەدراوەی مەکۆ.',
+	'SEARCH_INDEX_REMOVED'					=> 'بەسەرکەوتوویی دواپشتی گەڕان سڕایەوە بۆ ئەو پێڕستە',
+	'SEARCH_INTERVAL'						=> 'پارێزی فلووی گەڕانی بەکارهێنەر',
+	'SEARCH_INTERVAL_EXPLAIN'				=> 'ژمارەی چرکەکان کە بەکارهێنەران دەبێت چاوەڕێبن لەنێوان گەڕانەکان. ئەو پارێزییە پشکنراوە بۆ هەر بەکارهێنەرێک.',
+	'SEARCH_STORE_RESULTS'					=> 'درێژی ئەرشیفی ئەنجامی گەڕان',
+ 
+	'SEARCH_STORE_RESULTS_EXPLAIN'			=> 'ئەنجامی گەڕانی ئەرشیفکراو بەسەردەچێت لەدوای ئەو کاتە ،لە چرکەکان. بۆ 0 دابنێ ئەگەر دەتەوێ ئەرشیفی گەڕان ناچالاک بکەیت.',
+	'SEARCH_TYPE'							=> 'دواپشتی گەڕان',
+	'SEARCH_TYPE_EXPLAIN'					=> 'phpBB ڕێگات دەدات بۆ هەڵبژاردن دواپشتەکە کە بۆ دەقی گەڕان بەکاردەبرێت لە ناوەڕۆکی پەیامەکان. بە بنەڕەت گەڕانەکە دەقی تەواوی گەڕانی phpBB بەکاردەبات.',
+	'SWITCHED_SEARCH_BACKEND'				=> 'تۆ دواپشتی گەڕانت گۆڕی ،داوادەکرێ بۆ بەکاربردنی دواپشتی گەڕان نوێیەکە پێویستە تۆ دڵنیابیت کە پێڕستێک هەیە بۆ ئەو دواپشتەی هەڵیدەبژێری.',
 
-	'TOTAL_WORDS'							=> 'Total number of indexed words',
-	'TOTAL_MATCHES'							=> 'Total number of word to post relations indexed',
+	'TOTAL_WORDS'							=> 'کۆی ژمارەی وشە پێڕستکراوەکان',
+	'TOTAL_MATCHES'							=> 'کۆی ژمارەی وشە بۆ ناردنی پێڕستی پەیوەندیدار',
 
-	'YES_SEARCH'							=> 'Enable search facilities',
-	'YES_SEARCH_EXPLAIN'					=> 'Enables user facing search functionality including member search.',
-	'YES_SEARCH_UPDATE'						=> 'Enable fulltext updating',
-	'YES_SEARCH_UPDATE_EXPLAIN'				=> 'Updating of fulltext indexes when posting, overridden if search is disabled.',
+	'YES_SEARCH'							=> 'هۆکارەکانی گەڕان چالاکبکە',
+	'YES_SEARCH_EXPLAIN'					=> 'نەخشەکانی بەکارهێنەر چالاکدەکات لەناویاندا گەڕانی ئەندامان.',
+	'YES_SEARCH_UPDATE'						=> 'نوێکردنەوەی دەقی تەواو چالاککبە',
+	'YES_SEARCH_UPDATE_EXPLAIN'				=> 'نوێکردنەوەی پێڕستەکانی دەقی تەواو لەکاتی ناردن ،لەسەری دەڕوات ئەگەر گەڕان ناچالاککرابوو.',
 ));
-
-?>

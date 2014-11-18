@@ -1,27 +1,21 @@
 <?php
 /**
 *
-* help_bbcode.php [Kurdish Sorani]
+* This file is part of the phpBB Forum Software package.
 *
-* @package language
-* @version $Id: $
-* @copyright (c) 2008 phpBB Group
-* @author 2008-11-16 - Chawg.org Group
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) phpBB Limited <https://www.phpbb.com>
+* @license GNU General Public License, version 2 (GPL-2.0)
+*
+* For full copyright and license information, please see
+* the docs/CREDITS.txt file.
 *
 */
 
 /**
-* DO NOT CHANGE
 */
 if (!defined('IN_PHPBB'))
 {
 	exit;
-}
-
-if (empty($lang) || !is_array($lang))
-{
-	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE
@@ -35,6 +29,7 @@ if (empty($lang) || !is_array($lang))
 // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
+
 $help = array(
 	array(
 		0	=> '--',
@@ -42,9 +37,7 @@ $help = array(
 	),
 	array(
 		0	=> 'BBCode چییە؟',
-		1	=> '		 ئامرازکردنێکی تایبەتی (هتمل)ە ،دەتوانی بەکاریببەیت لە پەیامەکان لەناو مەکۆ ،کە دیاریدەکرێت لەلایەن بەڕێوەبەرەوە .لەگەڵ ئەوەش دەتوانی ناچالاکی بکەیت لە هەر 
-		وە کۆنترۆڵی مەزنی هەیە لەسەر چی و چۆن شتێک دەرکەوێت &gt; لەگەڵ &lt; پەیامێک کە لەسەر بنچینەی مەکۆ دەنێردرێت ،تاگەکان پەرژیندەکرێن لە چوارگۆشەی کۆلۆکە [ یان ] لەباتی
-		.زیاتری لێ پێشبینی بکەیت لە ئاسانیی بەکارهێنانی BBCode دەکەوێتە سەر ئەو قالبەی تۆ بەکاریدەبەیت ',
+		1	=> 'ئامرازکردنێکی تایبەتی (هتمل)ە ،دەتوانی بەکاریببەیت لە پەیامەکان لەناو مەکۆ ،کە دیاریدەکرێت لەلایەن بەڕێوەبەرەوە .لەگەڵ ئەوەش دەتوانی ناچالاکی بکەیت لە هەر شوێنێک .وە کۆنترۆڵی مەزنی هەیە لەسەر چی و چۆن شتێک دەرکەوێت &gt; لەگەڵ &lt; پەیامێک کە لەسەر بنچینەی مەکۆ دەنێردرێت ،تاگەکان پەرژیندەکرێن لە چوارگۆشەی کۆلۆکە [ یان ] لەباتی .زیاتری لێ پێشبینی بکەیت لە ئاسانیی بەکارهێنانی BBCode دەکەوێتە سەر ئەو قالبەی تۆ بەکاریدەبەیت ',
 	),
 	array(
 		0	=> '--',
@@ -119,13 +112,11 @@ $help = array(
 		1	=> 'جۆری دووەم لە لیست ،لیستێکی ڕیزبەندی، دەست بەسەرداگرتنێکت پێدەدات لەسەر هەر شتێ کە بەرهەمدێت ،بۆ دروستکردنی لیستێکی ڕیزبەندی <strong>[list=1][/list]</strong> بەکارببە ،بۆ دروستکردنی لیستێکی ژمارەیی یان لەجیاتیی <strong>[list=a][/list]</strong> بۆ لیستی ئەلفوبایی وەکو لەگەڵ لیستە ڕیزبەندییەکە، شتەکان دیاریدەکرێن بە بەکارهێنانی <strong>[*]</strong> ،بۆ نموونە: <br /><br /><strong>[list=1]</strong><br /><strong>[*]</strong>زمانەکانی وێبداڕشتن فێرببە<br /><strong>[*]</strong>ئەزموونی تواناکانت بکە<br /><strong>[*]</strong>کاری داهێنەرانە پێشکەشبکە<br /><strong>[/list]</strong><br /><br /> کە ئەوە بەرهەمدێت: <ol style="list-style-type: decimal;"><li>زمانەکانی وێبداڕشتن فێرببە</li><li>ئەزموونی تواناکانت بکە</li><li>کاری داهێنەرانە پێشکەشبکە</li></ol> هەرواش بۆ لیستێکی ئەلفوبایی پێویستە ئەمە بەکارببرێت: <br /><br /><strong>[list=a]</strong><br /><strong>[*]</strong>بوونی وەڵامی یەکەم<br /><strong>[*]</strong>بوونی وەڵامی دووەم<br /><strong>[*]</strong>بوونی وەڵامی سێیەم<br /><strong>[/list]</strong><br /><br /> کە ئەمە دەدات : <ol style="list-style-type: lower-alpha"><li>بوونی وەڵامی یەکەم</li><li>بوونی وەڵامی دووەم</li><li>بوونی وەڵامی سێیەم</li></ol>',
 		
 	),
-
 	// This block will switch the FAQ-Questions to the second template column
 	array(
 		0 => '--',
 		1 => '--'
 	),
-
 	array(
 		0	=> '--',
 		1	=> 'دروستکردنی بەستەر',
@@ -155,8 +146,6 @@ $help = array(
 	),
 	array(
 		0	=> 'ئەتوانم تاگەکانی خۆم زیاد بکەم؟',
-		1	=> '.بەکاربەریت  ئەگەر تۆ بەڕێوەبەریت لەو سەکۆیە وە دەسەڵاتی ئامادەت هەیە ،دەتوانی ئارەزوومەندانە تاگ و کۆدی زیاتر و قووڵتری BBCode زیادبکەیت و بەکاربەریت.',
+		1	=> 'ئەگەر تۆ بەڕێوەبەریت لەو سەکۆیە وە دەسەڵاتی ئامادەت هەیە ،دەتوانی ئارەزوومەندانە تاگ و کۆدی زیاتر و قووڵتری BBCode زیادبکەیت و بەکاربەریت.',
 	),
 );
-
-?>
