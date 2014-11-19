@@ -17,12 +17,12 @@ if (!defined('IN_PHPBB'))
 }
 
 $synonyms = array(
-	'مه‌کۆ'			=> 'مەکۆ',
-	'مەكۆ'		=> 'مەکۆ',
-	'wp'		=> 'WordPress',
-	'کۆمپیتەر'	=> 'کۆمپیوتەر',
-	'ئەنتەرنێت'			=> 'ئینتەرنێت',
-	'Cutenews'			=> 'CuteNewsRu',
+	'abcense'			=> 'absence',
+	'abridgement'		=> 'abridgment',
+	'accomodate'		=> 'accommodate',
+	'acknowledgment'	=> 'acknowledgement',
+	'airplane'			=> 'aeroplane',
+	'allright'			=> 'alright ',
 	'andy'				=> 'andrew',
 	'anemia'			=> 'anaemia',
 	'anemic'			=> 'anaemic',

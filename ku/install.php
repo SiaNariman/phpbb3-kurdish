@@ -195,11 +195,12 @@ $lang = array_merge($lang, array(
 	
 	</ul>
 
-	
-	<p>phpBB3 پاڵپشتی لەو بنکەدراوانە دەکات:</p>
+	<p><strong>Note:</strong> if you are installing using SQLite, you should enter the full path to your database file in the DSN field and leave the username and password fields blank. For security reasons, you should make sure that the database file is not stored in a location accessible from the web.</p>
+
+	<p>phpBB3 supports the following databases:</p>
 	<ul>
-		<li>MySQL 3.23 یان بەرزتر (MySQLi پاڵپشتکراوە)</li>
-		<li>PostgreSQL 7.3+</li>
+		<li>MySQL 3.23 or above (MySQLi supported)</li>
+		<li>PostgreSQL 8.3+</li>
 		<li>SQLite 2.8.2+</li>
 		<li>Firebird 2.1+</li>
 		<li>MS SQL ڕاژەی 2000 یان بەرزتر (ڕاستەوخۆ یان لەڕێگای ODBC)</li>
@@ -226,7 +227,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_SQLITE'	=> 'ئەو وەشانەی SQLite کە تۆ داتمەزراندووە زۆر کۆنە ،دەبێت نوێبکرێتەوە بۆ بەلایەنی کەم 2.8.2 .',
 	'INST_ERR_DB_NO_ORACLE'	=> 'وەشانی Oracle ــی دامەزراو لەسەر ئەو ماکینەیە داوادەکات بۆ بینینی <var>NLS_CHARACTERSET</var> پارمێترەر بۆ <var>UTF8</var> ،هەروەها دامەزراندنەکەت نوێبکەوە بۆ +9.2 یان پارمێترەر بگۆڕە.',
 	'INST_ERR_DB_NO_FIREBIRD'	=> 'وەشانی Firebird ــی دامەزراو لەسەر ئەو ماکینەیە کۆنترە لە 2.1 ،تکایە نوێبکەوە بۆ وشانێکی نوێتر.',
-	'INST_ERR_DB_NO_FIREBIRD_PS'	=> 'بنکەدراوەی هەڵبژێراو بۆ Firebird پەڕەیەکی هەیە قەبارەکەی کەمترە لە 8192 ،دەبێت بەلایەنی کەم 8192 بێت.',
+	
 	'INST_ERR_DB_NO_POSTGRES'	=> 'ئەو بنکەدراوەی هەڵتبژاردووە دروستنەکرا لە <var>UNICODE</var> یان <var>UTF8</var> ،هەوڵبدە دایبمەزرێنی لەگەڵ بنکەدراوەیەک لە <var>UNICODE</var> یان <var>UTF8</var> .',
 	'INST_ERR_DB_NO_NAME'	=> 'ناوی بنکەدراوە دیارینەکراوە.',
 	'INST_ERR_EMAIL_INVALID'	=> 'ئەو پۆستی ئەلیکترۆنیەی نووسیوتە نادروستە.',
@@ -277,7 +278,6 @@ $lang = array_merge($lang, array(
 	'PHP_OPTIONAL_MODULE_EXPLAIN'	=> '<strong>هەڵبژاردنانە</strong> - ئەو گۆڕاوانە یان نەرمەواڵانە هەڵبژاردانەن .هەرچۆنێکە ئەگەر ئەوان بەردەستبن زۆرترین تایبەتمەندی چالاکدەکەن.',
 	'PHP_SUPPORTED_DB'	=> 'بنکەدراوە پاڵپشکراوەکان',
 	'PHP_SUPPORTED_DB_EXPLAIN'	=> '<strong>داواکراوە</strong> - پێویستە پاڵپشتیت هەبێ بەلایەنی کەم بۆ بنکەدراوەیەکی گونجێنراو لەناو PHP ،ئەگەر هیچ مۆدالێکی بنکەدراوە نیشان نەدراوە وەکو بەردەست پێویستە پەیوەندی بگریت لەگەڵ پێدەری خانەخوێییەکەت یان بە بەڵگەنامە و ڕێنوویی دەمەزراندنی PHP دا بچیتەوە.',
-
 	'PHP_REGISTER_GLOBALS'	=> 'ڕێکخستنی <var>register_globals</var> پهپ ناچالاککراوە',
 	'PHP_REGISTER_GLOBALS_EXPLAIN'	=> 'ئەگەر ئەو ڕێکخستنە چالاککرابێت phpBB هێشتا هەر کاردەکات ،بەڵام ئەگەرهاتوو ،وا ئامۆژگاریدەکرێ کە register_globals ناچالاککرابێ لەسەر دامەزراندنی PHP فۆر هۆکارەکانی پاراستن.',
 	'PHP_SAFE_MODE'	=> 'safe mode',
@@ -496,66 +496,77 @@ $lang = array_merge($lang, array(
 		دواتر تۆ ڕێنمایی دەکرێیت بەناو کرداری نوێکردنەوەکە. ئاگادار دەکرێیتەوە هەرکە نوێکردنەوەکە تەواوبوو.
 		</p>
 	',
-	'UPDATE_INSTRUCTIONS_INCOMPLETE'	=> '<h1>نوێکردنەوەی ناتەواو هەیە</h1>  <p> phpBB نوێکردنەوەیەکی خۆکاری ناتەواوی دۆزییەوە .تکایە دڵنیاببەوە لەوەی بەدروستی هەموو هەنگاوەکان بەدواداچوویت و جێبەجێت کردووە لەناو ئامرازی نوێکردنەوەی خۆکاریی .لەخوارەوە دووبارە بەستەرێک دەدۆزیەوە .یان ڕاستەوخۆ بڕۆ بۆ شوێنگەی دامەزراندن.</p>',
-	'UPDATE_METHOD'	=> 'ڕێگای نوێکردنەوە',
-	'UPDATE_METHOD_EXPLAIN'	=> 'ئێستا تۆ دەتوانی ڕێگەی سەرچاوەکراوی نوێکردنەوەکەت هەڵبژێریت ، بەکاربردنی بارکردنی FTP پێشکەشتی دەکات لەگەڵ فۆرمێک کە پێویسە زانیاری هەژماری FTP ــی خۆتی تێدا بنووسیت .لەگەڵ ئەو ڕێگەیە پەڕگەکان خۆکارانە دەگوازرێنەوە بۆ جێگایەکی نوێ و پەڕگە کۆنەکان هەڵدەگیرێن کە دروستدەکرێت بە پاشگری .bak بۆ ناوی پەڕگەکە . ئەگەر تۆ پەڕگەی دڵنیاکراوە هەڵبژێریت ڕێگادەدرێیت بە دەرهێنانی لە هەڵگیراوەکە و دواتر بارکردنیان بۆ جێگا ڕاستەکەیان بەشێوەی دەستکاری.',
-	'UPDATE_REQUIRES_FILE'	=> 'نوێکەرەوەکە ئەو پەڕگە ئامادانە داوادەکات : %s',
-	'UPDATE_SUCCESS'	=> 'نوێکردنەوە سەرکەوتووبوو',
-	'UPDATE_SUCCESS_EXPLAIN'	=> 'بەسەرکەوتوویی هەموو پەڕگەکان نوێکرانەوە. هەنگاوی دواتر بەشداری پشکنینی هەموو پەڕگەکان دووبارە دەکاتەوە بۆ دڵنیابوون لەوەی پەڕگەکان بە سەرکەوتوویی نوێکراونەتەوە.',
-	'UPDATE_VERSION_OPTIMIZE'	=> 'نوێکردنەوەی وەشان و ڕێکخستنی خشتەکان',
-	'UPDATING_DATA'	=> 'نوێکردنەوەی داتا',
-	'UPDATING_TO_LATEST_STABLE'	=> 'نوێکردنەوەی بنکەدراوە بۆ دوا وەشانی جێگیر',
-	'UPDATED_VERSION'	=> 'وەشان نوێ بکەوە',
-	'UPGRADE_INSTRUCTIONS'	=> 'تایبەتمەندییەکی نوێ <strong>%1$s</strong> بەردەستە ،تکایە <a href="%2$s" title="%2$s"><strong>the جاڕنامەی بەرەڵاکردن</strong></a> بخوێنەوە بۆ فێربوونی ئەوەی چی هەیە بۆ پێشکەشکردن ،وە چۆنیەتی نوێکردنەوەی.',
-	'UPLOAD_METHOD'	=> 'ڕێگای بارکردن',
-	'UPDATE_DB_SUCCESS'	=> 'نوێکردنەوەی بنکەدراوە بەسەرکەوتوویی نوێکرایەوە.',
-	'USER_ACTIVE'	=> 'بەکارهێنەری چالاک',
-	'USER_INACTIVE'	=> 'بەکارهێنەری ناچالاک',
-	'VERSION_CHECK'	=> 'پشکنینی وەشان',
-	'VERSION_CHECK_EXPLAIN'	=> 'بزانە دامەزراندنی phpBB نوێیە.',
-	'VERSION_NOT_UP_TO_DATE'	=> 'دامەزراندنی phpBB ــەکەت نوێترین نییە .تکایە بەردەوامبە لەگەڵ کرداری نوێکردنەوە.',
-	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'دامەزراندنی phpBB ــەکەت نوێترین نییە. <br /> لەخوارەوە بەستەرێکە بۆ وەشێنراوە ئاشکراکان ،کە زانیاری زیاتر لەخۆی دەگرێت وەکو باشی وەک ناساندنیش بۆ نوێکردنەوە.',
-	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'دامەزراندنی phpBB ــەکەت نوێترین نییە.',
-	'VERSION_UP_TO_DATE'	=> 'دامەزراندنی phpBB ــەکەت نوێترینە ،هیچ نوێکردنەوەیەک بەردەست نییە لەم کاتەدا. دەتوانی بەردەوامبیت بۆ پشکنینی پەڕگەکان کە وا داوادەکرێت.',
-	'VERSION_UP_TO_DATE_ACP'	=> 'دامەزراندنی phpBB ــەکەت نوێترینە ،هیچ نوێکردنەوەیەک بەردەست نییە لەم کاتەدا.',
-	'VIEWING_FILE_CONTENTS'	=> 'بینینی ناوەڕۆکی پەڕگە',
-	'VIEWING_FILE_DIFF'	=> 'بینینی جیاوازییەکانی پەڕگە',
-	'WRONG_INFO_FILE_FORMAT'	=> 'جۆری فۆرماتی هەڵەی پەڕگە',
-	'FORUMS_FIRST_CATEGORY'	=> 'یەکەمین هاوپۆلت',
-	'FORUMS_TEST_FORUM_DESC'	=> 'پەسنی یەکەمین مەکۆت.',
-	'FORUMS_TEST_FORUM_TITLE'	=> 'یەکەمین مەکۆت',
-	'RANKS_SITE_ADMIN_TITLE'	=> 'بەڕێوەبەری ماڵپەڕ',
-	'REPORT_WAREZ'	=> 'پەیامەکە بەستەری نایاسایی یان نەرمەکاڵای قاچاغ لەخۆی دەگرێت.',
-	'REPORT_SPAM'	=> 'پەیامی ڕاپۆرتکراو تەنها بەرزکراوەتەوە بۆ تێڕوانین بۆ وێبگەیەک یان بەرهەمێکی تر.',
-	'REPORT_OFF_TOPIC'	=> 'پەیامی ڕاپۆرتکراو بابەتێکی داخراوە.',
-	'REPORT_OTHER'	=> 'پەیامی ڕاپۆرتکراو لەگەڵ هیچ هاوپۆلێک ناگونجێت ،تکایە دڵنیاببەوە لە دروستی هاوپۆل.',
-	'SMILIES_ARROW'	=> 'ئاڕاستە',
-	'SMILIES_CONFUSED'	=> 'شێواو',
-	'SMILIES_COOL'	=> 'خۆش',
-	'SMILIES_CRYING'	=> 'گریان یان زۆر خەمبار',
-	'SMILIES_EMARRASSED'	=> 'شپرزەبوو',
-	'SMILIES_EVIL'	=> 'نەگریس یان زۆر شێت',
-	'SMILIES_EXCLAMATION'	=> 'سەرسوڕمان',
-	'SMILIES_GEEK'	=> 'Geek',
-	'SMILIES_IDEA'	=> 'بیرۆکو',
-	'SMILIES_LAUGHING'	=> 'پێکەنین',
-	'SMILIES_MAD'	=> 'شێت',
-	'SMILIES_MR_GREEN'	=> 'بەڕێز سەوز',
-	'SMILIES_NEUTRAL'	=> 'هاوتا',
-	'SMILIES_QUESTION'	=> 'پرسیار',
-	'SMILIES_RAZZ'	=> 'سوکایەتی',
-	'SMILIES_ROLLING_EYES'	=> 'چاو سوڕان',
-	'SMILIES_SAD'	=> 'خەمبار',
-	'SMILIES_SHOCKED'	=> 'داخورپاو',
-	'SMILIES_SMILE'	=> 'خەندە',
-	'SMILIES_SURPRISED'	=> 'سەرسام',
-	'SMILIES_TWISTED_EVIL'	=> 'نەگریسی بادراو',
-	'SMILIES_UBER_GEEK'	=> 'Uber Geek',
-	'SMILIES_VERY_HAPPY'	=> 'زۆر دڵخۆش',
-	'SMILIES_WINK'	=> 'چاوداگرتن',
-	'TOPICS_TOPIC_TITLE'	=> 'بەخێربێیت بۆ phpBB3',
-		'CONFIG_BOARD_EMAIL_SIG'		=> 'سوپاس ،بەڕێوەبەرایەتی',
-	'CONFIG_SITE_DESC'				=> 'دەقێکی کورت بۆ باسکردنی مەکۆکەت',
+	'UPDATE_METHOD'					=> 'Update method',
+	'UPDATE_METHOD_EXPLAIN'			=> 'You are now able to choose your preferred update method. Using the FTP upload will present you with a form you need to enter your FTP account details into. With this method the files will be automatically moved to the new location and backups of the old files being created by appending .bak to the filename. If you choose to download the modified files you are able to unpack and upload them to their correct location manually later.',
+	'UPDATE_REQUIRES_FILE'			=> 'The updater requires that the following file is present: %s',
+	'UPDATE_SUCCESS'				=> 'Update was successful',
+	'UPDATE_SUCCESS_EXPLAIN'		=> 'Successfully updated all files. The next step involves checking all files again to make sure the files got updated correctly.',
+	'UPDATE_VERSION_OPTIMIZE'		=> 'Updating version and optimising tables',
+	'UPDATING_DATA'					=> 'Updating data',
+	'UPDATING_TO_LATEST_STABLE'		=> 'Updating database to latest stable release',
+	'UPDATED_VERSION'				=> 'Updated version',
+	'UPLOAD_METHOD'					=> 'Upload method',
+
+	'UPDATE_DB_SUCCESS'				=> 'Database update was successful.',
+	'UPDATE_FILE_SUCCESS'			=> 'File update was successful.',
+	'USER_ACTIVE'					=> 'Active user',
+	'USER_INACTIVE'					=> 'Inactive user',
+
+	'VERSION_CHECK'					=> 'Version check',
+	'VERSION_CHECK_EXPLAIN'			=> 'Checks to see if your phpBB installation is up to date.',
+	'VERSION_NOT_UP_TO_DATE'		=> 'Your phpBB installation is not up to date. Please continue the update process.',
+	'VERSION_NOT_UP_TO_DATE_ACP'	=> 'Your phpBB installation is not up to date.<br />Below is a link to the release announcement, which contains more information as well as instructions on updating.',
+	'VERSION_NOT_UP_TO_DATE_TITLE'	=> 'Your phpBB installation is not up to date.',
+	'VERSION_UP_TO_DATE'			=> 'Your phpBB installation is up to date. Although there are no updates available at this time, you may continue in order to perform a file validity check.',
+	'VERSION_UP_TO_DATE_ACP'		=> 'Your phpBB installation is up to date. There are no updates available at this time.',
+	'VIEWING_FILE_CONTENTS'			=> 'Viewing file contents',
+	'VIEWING_FILE_DIFF'				=> 'Viewing file differences',
+
+	'WRONG_INFO_FILE_FORMAT'	=> 'Wrong info file format',
+));
+
+// Default database schema entries...
+$lang = array_merge($lang, array(
+	'CONFIG_BOARD_EMAIL_SIG'		=> 'Thanks, The Management',
+	'CONFIG_SITE_DESC'				=> 'A short text to describe your forum',
 	'CONFIG_SITENAME'				=> 'yourdomain.com',
-	'DEFAULT_INSTALL_POST'			=> 'ئەمە نموونەیەکی پەیامە لە دامەزراندنی phpBB3 ــەکەت ،هەمووشتێ وادیارە کە کاردەکات. دەتوانی تۆ پەیامەکە بسڕیتەوە ئەگەر ئارەزووت کرد و بەردەوامبیت بۆ دانانی مەکۆکەت. لەکاتی دامەزراندن یەکەم هاوپۆل و یەکەم مەکۆت دەسەڵاتێکیان پێکهێناوە بۆ گرووپە پێناسەکراوەکانی بەکارهێنەران ،بەڕێوەبەران ،بووتەکان ،چاودێرانی جیهانی ،میوانەکان ،بەکارهێنەر تۆماربووەکان لەگەڵ بەکارهێنەرە تۆماربووەکانی COPPA ،ئەگەر سڕینەوەی یەکەم هاوپۆل و یەکەم مەکۆت هەڵبژێری ،لەیادت بێت بۆ پێکهێنانی دەسەڵاتەکان بۆ هەموو گرووپەکانی بەکارهێەر بۆ هەموو هاوپۆل و مەکۆ نوێیەکانی کە دروستی دەکەی. ئامۆژگاریکراوە بۆ ناولێنانەوەی یەکەم هاوپۆلت و یەکەم مەکۆت لەگەڵ لەبەرگرتنەوەی دەسەڵاتەکان لەوان لەکاتی دروستکردنی هاوپۆل و مەکۆ نوێیەکان ،کاتێکی خۆش.',
+
+	'DEFAULT_INSTALL_POST'			=> 'This is an example post in your phpBB3 installation. Everything seems to be working. You may delete this post if you like and continue to set up your board. During the installation process your first category and your first forum are assigned an appropriate set of permissions for the predefined usergroups administrators, bots, global moderators, guests, registered users and registered COPPA users. If you also choose to delete your first category and your first forum, do not forget to assign permissions for all these usergroups for all new categories and forums you create. It is recommended to rename your first category and your first forum and copy permissions from these while creating new categories and forums. Have fun!',
+
+	'FORUMS_FIRST_CATEGORY'			=> 'Your first category',
+	'FORUMS_TEST_FORUM_DESC'		=> 'Description of your first forum.',
+	'FORUMS_TEST_FORUM_TITLE'		=> 'Your first forum',
+
+	'RANKS_SITE_ADMIN_TITLE'		=> 'Site Admin',
+	'REPORT_WAREZ'					=> 'The post contains links to illegal or pirated software.',
+	'REPORT_SPAM'					=> 'The reported post has the only purpose to advertise for a website or another product.',
+	'REPORT_OFF_TOPIC'				=> 'The reported post is off topic.',
+	'REPORT_OTHER'					=> 'The reported post does not fit into any other category, please use the further information field.',
+
+	'SMILIES_ARROW'					=> 'Arrow',
+	'SMILIES_CONFUSED'				=> 'Confused',
+	'SMILIES_COOL'					=> 'Cool',
+	'SMILIES_CRYING'				=> 'Crying or Very Sad',
+	'SMILIES_EMARRASSED'			=> 'Embarrassed',
+	'SMILIES_EVIL'					=> 'Evil or Very Mad',
+	'SMILIES_EXCLAMATION'			=> 'Exclamation',
+	'SMILIES_GEEK'					=> 'Geek',
+	'SMILIES_IDEA'					=> 'Idea',
+	'SMILIES_LAUGHING'				=> 'Laughing',
+	'SMILIES_MAD'					=> 'Mad',
+	'SMILIES_MR_GREEN'				=> 'Mr. Green',
+	'SMILIES_NEUTRAL'				=> 'Neutral',
+	'SMILIES_QUESTION'				=> 'Question',
+	'SMILIES_RAZZ'					=> 'Razz',
+	'SMILIES_ROLLING_EYES'			=> 'Rolling Eyes',
+	'SMILIES_SAD'					=> 'Sad',
+	'SMILIES_SHOCKED'				=> 'Shocked',
+	'SMILIES_SMILE'					=> 'Smile',
+	'SMILIES_SURPRISED'				=> 'Surprised',
+	'SMILIES_TWISTED_EVIL'			=> 'Twisted Evil',
+	'SMILIES_UBER_GEEK'				=> 'Uber Geek',
+	'SMILIES_VERY_HAPPY'			=> 'Very Happy',
+	'SMILIES_WINK'					=> 'Wink',
+
+	'TOPICS_TOPIC_TITLE'			=> 'Welcome to phpBB3',
 ));

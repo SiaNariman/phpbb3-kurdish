@@ -115,9 +115,16 @@ $help = array(
 		
 	),
 	array(
-		0	=> 'کە کرتە لەسەر ئیمەیڵی بەکارهێنەرێک دەکەم داوای چوونەژوورەوە دەکات!',
-		1	=> 'تەنها بەکارهێنەری تۆماربوو دەتوانێت ئیمەیڵ بنێرێت بۆ بەکارهێنەرانی تر بەهۆی فۆرمی پەیوەندییەوە ،وە تەنها بەڕێوەبەر دەتوانێت ئەو تایبەتمەندییە چالاکبکات ،ئەمە بۆ دوورخستنەوەی بێزاریی لە بەکارهێنەران و پاراستنیانە.',
-		
+		0 => 'How do I display an avatar?',
+		1 => 'Within your User Control Panel, under “Profile” you can add an avatar by using one of the four following methods: Gravatar, Gallery, Remote or Upload. It is up to the board administrator to enable avatars and to choose the way in which avatars can be made available. If you are unable to use avatars, contact a board administrator.',
+	),
+	array(
+		0 => 'What is my rank and how do I change it?',
+		1 => 'Ranks, which appear below your username, indicate the number of posts you have made or identify certain users, e.g. moderators and administrators. In general, you cannot directly change the wording of any board ranks as they are set by the board administrator. Please do not abuse the board by posting unnecessarily just to increase your rank. Most boards will not tolerate this and the moderator or administrator will simply lower your post count.'
+	),
+	array(
+		0 => 'When I click the email link for a user it asks me to login?',
+		1 => 'Only registered users can send email to other users via the built-in email form, and only if the administrator has enabled this feature. This is to prevent malicious use of the email system by anonymous users.'
 	),
 	array(
 		0	=> '--',
@@ -222,13 +229,11 @@ $help = array(
 		0	=> 'هێمای بابەتەکان چییە؟',
 		1	=> 'هێمای بابەتەکان وێنەی هەڵبژێردراو نووسەرن پێکدین لەگەڵ پەیامەکان بۆ گوزارشتکردنی ناوەڕۆکەکانیان. توانایی بۆ بەکاربردنی هێماکانی بابەت دەکەوێتە سەر ئەو دەسەڵاتەی دانراوە لەلایەن بەڕێوەبەری مەکۆکە.',
 	),
-
 	// This block will switch the FAQ-Questions to the second template column
 	array(
 		0 => '--',
 		1 => '--',
 	),
-
 	array(
 		0	=> '--',
 		1	=> 'پلەکانی بەکارهێنەر و گرووپەکان',
@@ -330,8 +335,12 @@ $help = array(
 		1	=> 'بۆ بەشداربوون بۆ مەکۆیەکی دیاریکراو کرتەبکە لەسەر بەستەری "بەشداربوون لە مەکۆ" لەخوارەوەی مەکۆکە. بۆ بەشداربوون بۆ بابەتێک ،وەڵامبدە بۆ بابەتەکە لەگەڵ دیاریکردنی خشتەی بەشداربوون کە دیاریکردنی یان بە کرتەکردنی بەستەری "بەشداربوون لە بابەت" لەناو خودی بابەتەکە.',
 	),
 	array(
-		0	=> 'چۆن بەشداربوونەکانم بسڕمەوە؟',
-		1	=> 'بۆ سڕینەوەی بەشداربوونەکانت ،بڕۆ بۆ کۆنترۆڵ پانێڵی بەکارهێنەر و بەدوای بەستەرەکان بکەوە بۆ بەشداربوونەکانت.',
+		0 => 'How do I subscribe to specific forums?',
+		1 => 'To subscribe to a specific forum, click the “Subscribe forum” link, at the bottom of page, upon entering the forum.',
+	),
+	array(
+		0 => 'How do I remove my subscriptions?',
+		1 => 'To remove your subscriptions, go to your User Control Panel and follow the links to your subscriptions.'
 	),
 	array(
 		0	=> '--',

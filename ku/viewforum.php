@@ -58,7 +58,9 @@ $lang = array_merge($lang, array(
 
 	'UNREAD_POSTS_HOT'		=> 'پەیامی نەخوێندراو [ پڕخوێنەرترین ]',
 	'UNREAD_POSTS_LOCKED'	=> '[ داخراو ] پەیامە نەخوێندراوەکان',
-	'VIEW_FORUM'	=> 'بینینی مەکۆ',
-	'VIEW_FORUM_TOPIC'	=> '1 بابەت',
-	'VIEW_FORUM_TOPICS'	=> '%d بابەت',
+	'VIEW_FORUM'			=> 'View forum',
+	'VIEW_FORUM_TOPICS'		=> array(
+		1	=> '%d topic',
+		2	=> '%d topics',
+	),
 ));

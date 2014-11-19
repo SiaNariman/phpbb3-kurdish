@@ -44,43 +44,16 @@ $help = array(
 		1	=> 'شێوازی دەق',
 	),
 	array(
-		0	=> 'چۆن دەقی تۆخ ،هێڵبەژێرداهێنان لەگەڵ لار دروستبکەیت',
-		1	=> 'BBCode تاگەکان لەخۆ دەگرێت کە ڕێگات دەدات بە خێرایی شێوازی بنچینەیی دەق بگۆڕیت 
-نموونە، بۆ کردنی پارچەیەک لە دەقی تۆخ  ،بیخەرە نێو <strong>[b][/b]</strong><ul><li> :بەم چەند ڕێگایە تەواودەبێت
- <br /><br /><strong>[b]</strong>سڵاو<strong>[/b]</strong><br /><br />
- دەبێت بە <strong>سڵاو</strong></li><li> 
-بۆ هێڵبەژێرداهێنان <strong>[u][/u]</strong> بەکاربهێنە ،نموونە 
-<br /><br /><strong>[u]</strong>بەیانیت باش<strong>[/u]</strong><br /><br /> 
-دەبێتە <span style="text-decoration: underline">بەیانیت باش</span></li><li>
-بۆ لارکردنی دەق <strong>[i][/i]</strong> بەکاربهێنە ،نموونە
-<br /><br />ئەوە <strong>[i]</strong>مەزنە!<strong>[/i]</strong><br /><br />
- دەبێت بە: ئەمە <i>مەزنە!</i></li></ul>',
+		0 => 'How to create bold, italic and underlined text',
+		1 => 'BBCode includes tags to allow you to quickly change the basic style of your text. This is achieved in the following ways: <ul><li>To make a piece of text bold enclose it in <strong>[b][/b]</strong>, e.g. <br /><br /><strong>[b]</strong>Hello<strong>[/b]</strong><br /><br />will become <strong>Hello</strong></li><li>For underlining use <strong>[u][/u]</strong>, for example:<br /><br /><strong>[u]</strong>Good Morning<strong>[/u]</strong><br /><br />becomes <span style="text-decoration: underline">Good Morning</span></li><li>To italicise text use <strong>[i][/i]</strong>, e.g.<br /><br />This is <strong>[i]</strong>Great!<strong>[/i]</strong><br /><br />would give This is <i>Great!</i></li></ul>'
 	),
 	array(
-		0	=> 'چۆن ڕەنگ یان قەبارەی فۆنت بگۆڕم؟',
-
-		
-		1	=> 'بۆ گۆڕینی ڕەنگ یان قەبارەی دەقەکەت ،ئەم تاگانە بەکاردەبرێن ،لەیادت بێت کە چۆنیەتی دەرکەوتنی شێوازی دەرەکی دەکەوێتە سەر ئەو وێبگەڕەی ئەندامان بەکاریدەبەن لەگەڵ سیستەمەکە :<ul><li> گۆڕینی ڕەنگی دەقەکە تەواودەبێت بە پێچانی بۆناو <strong>[color=][/color]</strong> دەتوانی ڕەنگێک دیاریبکەیت بەهۆی ناوەکەی (بۆ نموونە : red, blue ,yellow ...هتد) یان بەهۆی جیاکەرەوەی هێمایی ،نموونە FFFFFF# یان 000000# ...هتد .بۆ نموونە ئەگەر بمانەوێت دەقێکی سور دروستبکەین دەتوانین ئەمە بەکاربهێنین <br /><br /><strong>[color=red]</strong>سڵاو!<strong>[/color]</strong><br /><br />یان<br /><br /><strong>[color=#FF0000]</strong>سڵاو!<strong>[/color]</strong><br /><br />
-		 هەردووکیان ئەمە بەرهەمدێنن <span style="color:red">سڵاو!</span></li><li>
-		 گۆڕینی قەبارەی دەق لە ڕێگایەکی چوونیەکەوەیە بە بەکارهێنانی <strong>[size=][/size]</strong> ئەو تاگە بەکارهێنانی دەکەوێتەوە سەر ئەو قالبەی کە بەکارهێنەر دەستنیشانی دەکات بەڵام جۆری ئامۆژگاریکراو لە شێوەی پلەی سەدیدا خۆی دەنوێنێت بە دەستپێکردن لە 20 کە قەبارەیەکی زۆر بچووکە بۆناو 200 کە قەبارەیەکی زۆر گەورەیە .بۆ نموونە 
-		 <br /><br /><strong>[size=30]</strong>بچووک<strong>[/size]</strong><br /><br />
-		 کە بەگشتی دەبێتە
-		 <span style="font-size:30%;">بچووک</span><br /><br />
-		 لەکاتێکدا
-		 <br /><br /><strong>[size=200]</strong>گەورە<strong>[/size]</strong><br /><br />
-		 دەبێت بە 
-		 <span 
-		style="font-size:200%;">گەورە</span></li></ul>'
-		
+		0 => 'How to change the text colour or size',
+		1 => 'To alter the colour or size of your text the following tags can be used. Keep in mind that how the output appears will depend on the viewers browser and system: <ul><li>Changing the colour of text is achieved by wrapping it in <strong>[color=][/color]</strong>. You can specify either a recognised colour name (eg. red, blue, yellow, etc.) or the hexadecimal triplet alternative, e.g. #FFFFFF, #000000. For example, to create red text you could use:<br /><br /><strong>[color=red]</strong>Hello!<strong>[/color]</strong><br /><br />or<br /><br /><strong>[color=#FF0000]</strong>Hello!<strong>[/color]</strong><br /><br />Both will output <span style="color:red">Hello!</span></li><li>Changing the text size is achieved in a similar way using <strong>[size=][/size]</strong>. This tag is dependent on the template the user has selected but the recommended format is a numerical value representing the text size in percent, starting at 20 (very small) through to 200 (very large) by default. For example:<br /><br /><strong>[size=30]</strong>SMALL<strong>[/size]</strong><br /><br />will generally be <span style="font-size:30%;">SMALL</span><br /><br />whereas:<br /><br /><strong>[size=200]</strong>HUGE!<strong>[/size]</strong><br /><br />will be <span style="font-size:200%;">HUGE!</span></li></ul>'
 	),
 	array(
-		0	=> 'دەتوانم تاگەکانی فۆرماتکردن کۆبکەمەوە؟',
-		1	=> 'بەڵێ بە دڵنیاییەوە ،بۆ نموونە دەتەوێ سەرنجی کەسێک ڕابکێشی لەوانەیە بنووسی <br /><br /><strong>[size=200][color=red][b]</strong>سەیرم بکە!<strong>[/b][/color][/size]</strong><br /><br /> 
-		کە ئەمە بەرهەمدێت
-		<span style="color:red;font-size:200%;"><strong>سەیرم بکە!</strong></span><br /><br /> 
-		ئێمە وا ئامۆژگاری ناکەین کە کۆدێکی زۆر بەکارببرێت .لەبیرت بێت ئەمە دەکەوێتەوە سەر تۆ ، نووسەر ،کە تاگەکان بە دروستی دابخەیت ،بۆ نموونە ئەمە هەڵەیە
-		<br /><br /><strong>[b][u]</strong>ئەمە هەڵەیە<strong>[/b][/u]</strong>
-		',
+		0 => 'Can I combine formatting tags?',
+		1 => 'Yes, of course you can, for example to get someones attention you may write:<br /><br /><strong>[size=200][color=red][b]</strong>LOOK AT ME!<strong>[/b][/color][/size]</strong><br /><br />this would output <span style="color:red;font-size:200%;"><strong>LOOK AT ME!</strong></span><br /><br />We don’t recommend you output lots of text that looks like this though! Remember it is up to you, the poster, to ensure tags are closed correctly. For example the following is incorrect:<br /><br /><strong>[b][u]</strong>This is wrong<strong>[/b][/u]</strong>'
 	),
 	array(
 		0	=> '--',
@@ -110,7 +83,6 @@ $help = array(
 	array(
 		0	=> 'دروستکردنی لیستێکی داواکراو',
 		1	=> 'جۆری دووەم لە لیست ،لیستێکی ڕیزبەندی، دەست بەسەرداگرتنێکت پێدەدات لەسەر هەر شتێ کە بەرهەمدێت ،بۆ دروستکردنی لیستێکی ڕیزبەندی <strong>[list=1][/list]</strong> بەکارببە ،بۆ دروستکردنی لیستێکی ژمارەیی یان لەجیاتیی <strong>[list=a][/list]</strong> بۆ لیستی ئەلفوبایی وەکو لەگەڵ لیستە ڕیزبەندییەکە، شتەکان دیاریدەکرێن بە بەکارهێنانی <strong>[*]</strong> ،بۆ نموونە: <br /><br /><strong>[list=1]</strong><br /><strong>[*]</strong>زمانەکانی وێبداڕشتن فێرببە<br /><strong>[*]</strong>ئەزموونی تواناکانت بکە<br /><strong>[*]</strong>کاری داهێنەرانە پێشکەشبکە<br /><strong>[/list]</strong><br /><br /> کە ئەوە بەرهەمدێت: <ol style="list-style-type: decimal;"><li>زمانەکانی وێبداڕشتن فێرببە</li><li>ئەزموونی تواناکانت بکە</li><li>کاری داهێنەرانە پێشکەشبکە</li></ol> هەرواش بۆ لیستێکی ئەلفوبایی پێویستە ئەمە بەکارببرێت: <br /><br /><strong>[list=a]</strong><br /><strong>[*]</strong>بوونی وەڵامی یەکەم<br /><strong>[*]</strong>بوونی وەڵامی دووەم<br /><strong>[*]</strong>بوونی وەڵامی سێیەم<br /><strong>[/list]</strong><br /><br /> کە ئەمە دەدات : <ol style="list-style-type: lower-alpha"><li>بوونی وەڵامی یەکەم</li><li>بوونی وەڵامی دووەم</li><li>بوونی وەڵامی سێیەم</li></ol>',
-		
 	),
 	// This block will switch the FAQ-Questions to the second template column
 	array(
