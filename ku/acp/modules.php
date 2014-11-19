@@ -41,6 +41,7 @@ $lang = array_merge($lang, array(
 	'ADD_MODULE'					=> 'یەکە زیادبکە',
 	'ADD_MODULE_CONFIRM'			=> 'دڵنیایت کە دەتەوێ یەکەی هەڵبژێردراو زیادبکەی لەگەڵ دۆخی هەڵبژێردراو؟',
 	'ADD_MODULE_TITLE'				=> 'یەکە زیادبکە',
+
 	'CANNOT_REMOVE_MODULE'	=> 'ناتوانرێ یەکە بسڕدرێتەوە ،ئەمە پێکهێنراوی منداڵانە. تکایە هەموو منداڵان لابەرە یان بگوازەوە پێش ئەوەی ئەو کردارە بکەیت.',
 	'CATEGORY'				=> 'هاوپۆل',
 	'CHOOSE_MODE'			=> 'دۆخی یەکە هەڵبژێرە',
@@ -48,6 +49,7 @@ $lang = array_merge($lang, array(
 	'CHOOSE_MODULE'			=> 'یەکە هەڵبژێرە',
 	'CHOOSE_MODULE_EXPLAIN'	=> 'پەڕگەی بانگکراو لەلایەن ئەو یەکە هەڵبژێرە',
 	'CREATE_MODULE'			=> 'یەکەی نوێ دروستبکە',
+
 	'DEACTIVATED_MODULE'	=> 'یەکە بکوژێنەوە',
 	'DELETE_MODULE'			=> 'یەکە بسڕەوە',
 	'DELETE_MODULE_CONFIRM'	=> 'دڵنیایت لە بەردەوامبوون بۆ سڕینەوەی ئەو یەکەیە؟',

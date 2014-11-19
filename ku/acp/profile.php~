@@ -161,12 +161,23 @@ $lang = array_merge($lang, array(
 	'STEP_2_TITLE_CREATE'	=> 'هەڵبژاردنەکانی دیاریکردنی جۆری پرۆفایل',
 	'STEP_2_TITLE_EDIT'	=> 'هەڵبژاردنەکانی دیاریکردنی جۆری پرۆفایل',
 	'STEP_3_EXPLAIN_CREATE'	=> 'لەوکاتەی لە زمانێک زیاتر دامەزراندووە لەسەر مەمۆکەت ،دەبێ شتە ماوەکانی زمانەکە پڕبکەیتەوە. خانەی پرۆفایلەکە کاردەکات لەگەڵ زمانی چالاککراوی بنەڕەت ،تۆ دەتوانی شتە ماوەکانی زمانەکە دواتر پڕبکەیتەوە.',
+
 	'STEP_3_EXPLAIN_EDIT'	=> 'لەوکاتەی لە زمانێک زیاترت دامەزراندووە لەسەر مەکۆکەت، دەتوانی شتە ماوەکانی زمانەکە بگۆڕی یان زیادیان بکەی. خانەی پرۆفایلەکە کاردەکات لەگەڵ زمانی چالاککراوی بنەڕەت',
+	
 	'STEP_3_TITLE_CREATE'	=> 'پێناسەکردنە ماوەکانی زمان',
-	'STEP_3_TITLE_EDIT'				=> 'Language definitions',
 	'STRING_DEFAULT_VALUE_EXPLAIN'	=> 'وشەیەکی بنەڕەت بنووسە بۆ نیشاندان ،نەرخێکی بنەڕەت. بەتاڵ جێی بهێڵە ئەگەر دەتەوێ لە یەکەم جێگا بە بەتاڵی نیشانبدرێ.',
 	'TEXT_DEFAULT_VALUE_EXPLAIN'	=> 'دەقێکی بنەڕەت بنووسە بۆ نیشاندان ،نرخێکی بنەڕەت. بەتاڵ جێی بهێڵە ئەگەر دەتەوێ لە یەکەم جێگا بە بەتاڵی نیشانبدرێ.',
 	'TRANSLATE'	=> 'وەرگێڕان',
 	'USER_FIELD_NAME'	=> 'ناو/ناونیشانی خانە پێشکەشکرا بۆ بەکارهێنەرەکە.',
 	'VISIBILITY_OPTION'	=> 'هەڵبژاردنەکانی دەرکەوتن',
+        'STEP_3_TITLE_EDIT'				=> 'پێناسەکانی زمان',
+
+	'STRING_DEFAULT_VALUE_EXPLAIN'	=> 'Enter a default phrase to be displayed, a default value. Leave empty if you want to show it empty at the first place.',
+
+	'TEXT_DEFAULT_VALUE_EXPLAIN'	=> 'Enter a default text to be displayed, a default value. Leave empty if you want to show it empty at the first place.',
+	'TRANSLATE'						=> 'Translate',
+
+	'USER_FIELD_NAME'	=> 'Field name/title presented to the user',
+
+	'VISIBILITY_OPTION'				=> 'Visibility options',
 ));
