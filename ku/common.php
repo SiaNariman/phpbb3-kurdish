@@ -46,6 +46,7 @@ $lang = array_merge($lang, array(
 	'DATE_FORMAT'		=> '|23 11 2014|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'	=> '|23 11 2014, 1:26 am|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
 	'USER_LANG'			=> 'ku',
+	'DIRECTION'			=> 'rtl',  //Bo KURDI 
 
 	// You can define different rules for the determination of plural forms here.
 	// See http://wiki.phpbb.com/Plural_Rules for more information
