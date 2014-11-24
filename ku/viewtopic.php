@@ -1,6 +1,7 @@
 <?php
 /**
-*
+*  ئەم پەڕگەیە وەرگێڕدراوە
+* 
 * This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
@@ -10,20 +11,17 @@
 * the docs/CREDITS.txt file.
 *
 */
-
 /**
 * DO NOT CHANGE
 */
 if (!defined('IN_PHPBB'))
 {
-	exit;
+exit;
 }
-
 if (empty($lang) || !is_array($lang))
 {
-	$lang = array();
+$lang = array();
 }
-
 // DEVELOPERS PLEASE NOTE
 //
 // All language files should use UTF-8 as their encoding and the files must not contain a BOM.
@@ -35,92 +33,75 @@ if (empty($lang) || !is_array($lang))
 // You do not need this where single placeholders are used, e.g. 'Message %d' is fine
 // equally where a string contains only two placeholders which are used to wrap text
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
-
 $lang = array_merge($lang, array(
-	'APPROVE'								=> 'Approve',
-	'ATTACHMENT'						=> 'Attachment',
-	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'The attachments feature has been disabled.',
-
-	'BOOKMARK_ADDED'		=> 'Bookmarked topic successfully.',
-	'BOOKMARK_ERR'			=> 'Bookmarking the topic failed. Please try again.',
-	'BOOKMARK_REMOVED'		=> 'Removed bookmarked topic successfully.',
-	'BOOKMARK_TOPIC'		=> 'Bookmark topic',
-	'BOOKMARK_TOPIC_REMOVE'	=> 'Remove from bookmarks',
-	'BUMPED_BY'				=> 'Last bumped by %1$s on %2$s.',
-	'BUMP_TOPIC'			=> 'Bump topic',
-
-	'CODE'					=> 'Code',
-
-	'DELETE_TOPIC'			=> 'Delete topic',
-	'DELETED_INFORMATION'	=> 'Deleted by %1$s on %2$s',
-	'DISAPPROVE'					=> 'Disapprove',
-	'DOWNLOAD_NOTICE'		=> 'You do not have the required permissions to view the files attached to this post.',
-
-	'EDITED_TIMES_TOTAL'	=> array(
-		1	=> 'Last edited by %2$s on %3$s, edited %1$d time in total.',
-		2	=> 'Last edited by %2$s on %3$s, edited %1$d times in total.',
-	),
-	'EMAIL_TOPIC'			=> 'Email topic',
-	'ERROR_NO_ATTACHMENT'	=> 'The selected attachment does not exist anymore.',
-
-	'FILE_NOT_FOUND_404'	=> 'The file <strong>%s</strong> does not exist.',
-	'FORK_TOPIC'			=> 'Copy topic',
-	'FULL_EDITOR'			=> 'Full Editor &amp; Preview',
-
-	'LINKAGE_FORBIDDEN'		=> 'You are not authorised to view, download or link from/to this site.',
-	'LOGIN_NOTIFY_TOPIC'	=> 'You have been notified about this topic, please login to view it.',
-	'LOGIN_VIEWTOPIC'		=> 'The board requires you to be registered and logged in to view this topic.',
-
-	'MAKE_ANNOUNCE'				=> 'Change to “Announcement”',
-	'MAKE_GLOBAL'				=> 'Change to “Global”',
-	'MAKE_NORMAL'				=> 'Change to “Standard Topic”',
-	'MAKE_STICKY'				=> 'Change to “Sticky”',
-	'MAX_OPTIONS_SELECT'		=> array(
-		1	=> 'You may select <strong>%d</strong> option',
-		2	=> 'You may select up to <strong>%d</strong> options',
-	),
-	'MISSING_INLINE_ATTACHMENT'	=> 'The attachment <strong>%s</strong> is no longer available',
-	'MOVE_TOPIC'				=> 'Move topic',
-
-	'NO_ATTACHMENT_SELECTED'=> 'You haven’t selected an attachment to download or view.',
-	'NO_NEWER_TOPICS'		=> 'There are no newer topics in this forum.',
-	'NO_OLDER_TOPICS'		=> 'There are no older topics in this forum.',
-	'NO_UNREAD_POSTS'		=> 'There are no new unread posts for this topic.',
-	'NO_VOTE_OPTION'		=> 'You must specify an option when voting.',
-	'NO_VOTES'				=> 'No votes',
-
-	'POLL_ENDED_AT'			=> 'Poll ended at %s',
-	'POLL_RUN_TILL'			=> 'Poll runs till %s',
-	'POLL_VOTED_OPTION'		=> 'You voted for this option',
-	'POST_DELETED_RESTORE'	=> 'This post has been deleted. It can be restored.',
-	'PRINT_TOPIC'			=> 'Print view',
-
-	'QUICK_MOD'				=> 'Quick-mod tools',
-	'QUICKREPLY'			=> 'Quick Reply',
-	'QUOTE'					=> 'Quote',
-
-	'REPLY_TO_TOPIC'		=> 'Reply to topic',
-	'RESTORE'				=> 'Restore',
-	'RESTORE_TOPIC'			=> 'Restore topic',
-	'RETURN_POST'			=> '%sReturn to the post%s',
-
-	'SUBMIT_VOTE'			=> 'Submit vote',
-
-	'TOPIC_TOOLS'			=> 'Topic tools',
-	'TOTAL_VOTES'			=> 'Total votes',
-
-	'UNLOCK_TOPIC'			=> 'Unlock topic',
-
-	'VIEW_INFO'				=> 'Post details',
-	'VIEW_NEXT_TOPIC'		=> 'Next topic',
-	'VIEW_PREVIOUS_TOPIC'	=> 'Previous topic',
-	'VIEW_RESULTS'			=> 'View results',
-	'VIEW_TOPIC_POSTS'		=> array(
-		1	=> '%d post',
-		2	=> '%d posts',
-	),
-	'VIEW_UNREAD_POST'		=> 'First unread post',
-	'VOTE_SUBMITTED'		=> 'Your vote has been cast.',
-	'VOTE_CONVERTED'		=> 'Changing votes is not supported for converted polls.',
-
+'APPROVE'	=> 'پەسەندکردن',
+'ATTACHMENT'	=> 'هاوپێچ',
+'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'تایبەتمەندێتی هاوپێچەکان ناچاڵاکە .',
+'BOOKMARK_ADDED'	=> 'بابەت بەسەرکەوتویی بۆ لیستی دڵخوازەکان زیادکرا.',
+'BOOKMARK_ERR'	=> 'زیادکردن بۆ دڵخوازەکان سەرکەوتو نەبوو. تکایە دووبارە هەولدەوە.',
+'BOOKMARK_REMOVED'	=> 'بابەت بەسەرکەوتویی لە دڵخوازەکان سڕایەوە.',
+'BOOKMARK_TOPIC'	=> 'زیادکردن بۆ دڵخوازەکان',
+'BOOKMARK_TOPIC_REMOVE'	=> 'سڕینەوە لە دڵخوازەکان',
+'BUMPED_BY'	=> 'دوایین بەرزکردنەوە لەلایەن %1$s لە %2 $s.',
+'BUMP_TOPIC'	=> 'بەرزکردنەوەی بابەت',
+'CODE'	=> 'کۆد',
+'DELETE_TOPIC'	=> 'سڕینەوەی بابەت',
+'DELETED_INFORMATION'	=> 'سڕایەوە لەلایەن %1$s لە %2$s',
+'DISAPPROVE'	=> 'ڕەتکردن',
+'DOWNLOAD_NOTICE'	=> 'دەسەڵاتی بینینی هاوپێچەکانت نییە لەم بەشدارییە.',
+'EDITED_TIMES_TOTAL'	=> array(
+1	=> 'دوایی دەستکاری لەلایەن %2$s لە %3$s,  %1$d جار دەستکاریکراوە.',
+2	=> 'دوایی دەستکاری لەلایەن %2$s لە %3$s,  %1$d جار دەستکاریکراوە.',
+),
+'EMAIL_TOPIC'	=> 'بنێرە بۆ هاوڕێ',
+'ERROR_NO_ATTACHMENT'	=> 'هاوپێچی دیاریکراو بوونی نییە.',
+'FILE_NOT_FOUND_404'	=> 'فایلی <strong>%s</strong> بوونی نییە.',
+'FORK_TOPIC'	=> 'لەبەرگرتنەوەی بابەت',
+'FULL_EDITOR'	=> 'دەستکاریکردنی گشتی &amp; پێشبینین',
+'LINKAGE_FORBIDDEN'	=> 'مۆلەتی بینین یان داگرتن یاخود پێکەوە بەستنەوەی بەستەر لە شوێنێکەوە بۆ ئەم سەکۆیەت نییە.',
+'LOGIN_NOTIFY_TOPIC'	=> 'ئاگەداریت بۆ هاتووە دەربارەی ئەم بابەتە, تکایە بڕۆ ژوورەوە بۆ خوێندنەوەی ئاگەدارییەکە.',
+'LOGIN_VIEWTOPIC'	=> 'پێویستە خۆت تۆمار بکەیت بۆ ئەوەی بتوانی ئەم بابەتە ببینی .',
+'MAKE_ANNOUNCE'	=> 'گۆڕینی بۆ “ڕاگەیاندن”',
+'MAKE_GLOBAL'	=> 'گۆڕینی بۆ “گشتی”',
+'MAKE_NORMAL'	=> 'گۆڕینی بۆ “بابەتی ستاندارد”',
+'MAKE_STICKY'	=> 'گۆڕینی بۆ “جێگیرکردن”',
+'MAX_OPTIONS_SELECT'	=> array(
+1	=> 'دەتوانیت <strong>%d</strong> هەلبژاردن دابنێیت',
+2	=> 'دەتوانیت <strong>%d</strong> هەلبژاردن دابنێیت',
+),
+'MISSING_INLINE_ATTACHMENT'	=> 'هاوپێچی <strong>%s</strong> بوونی نییە',
+'MOVE_TOPIC'	=> 'گواستنەوەی بابەت',
+'NO_ATTACHMENT_SELECTED'=> 'تۆ هیچ هاوپێچێکت دیاری نەکردوە بۆ داگرتن یان بینین.',
+'NO_NEWER_TOPICS'	=> 'هیچ بابەتێکی نوێ لەم بەشەدا نییە.',
+'NO_OLDER_TOPICS'	=> 'هیچ بابەتێکی کۆن لەم بەشەدا نییە.',
+'NO_UNREAD_POSTS'	=> 'هیچ بەشدارییەکی نوێی نەخوێندراو لەم بابەتەدا نییە.',
+'NO_VOTE_OPTION'	=> 'دەبێت یەکێک لە هەلبژاردنەکان دیاری بکەی بۆ دەنگدان.',
+'NO_VOTES'	=> 'بێ دەنگدان',
+'POLL_ENDED_AT'	=> 'ڕاپرسی کۆتایی دێت لە  %s',
+'POLL_RUN_TILL'	=> 'ڕاپرسی بەردەستە تاکو %s',
+'POLL_VOTED_OPTION'	=> 'لەم هەلبژاردنە دەنگت داوە',
+'POST_DELETED_RESTORE'	=> 'ئەم بەشدارییە سڕایەوە. دەتوانرێت بگەڕێندرێتەوە.',
+'PRINT_TOPIC'	=> 'وەشانی بۆ چاپ کردن',
+'QUICK_MOD'	=> 'ئامڕازەکانی سەرپەرشتیار',
+'QUICKREPLY'	=> 'وەڵام دانەوەی خێرا',
+'QUOTE'	=> 'دەق',
+'REPLY_TO_TOPIC'	=> 'وەڵام دانەوەی بابەت',
+'RESTORE'	=> 'گەڕاندنەوە',
+'RESTORE_TOPIC'	=> 'گەڕاندنەوەی بابەت',
+'RETURN_POST'	=> '%sگەڕانەوە بۆ لای بەشداری%s',
+'SUBMIT_VOTE'	=> 'دەنگدان',
+'TOPIC_TOOLS'	=> 'ئامڕازەکانی بابەت',
+'TOTAL_VOTES'	=> ' سەرجەم دەنگەکان',
+'UNLOCK_TOPIC'	=> ' کردنەوەی بابەت',
+'VIEW_INFO'	=> ' وردەكارى بەشداری',
+'VIEW_NEXT_TOPIC'	=> 'بابەتی داهاتوو',
+'VIEW_PREVIOUS_TOPIC'	=> 'بابەتی پێشتر',
+'VIEW_RESULTS'	=> 'بینینی ئەنجامەکان ',
+'VIEW_TOPIC_POSTS'	=> array(
+1	=> '%d بەشداری',
+2	=> '%d بەشداری',
+),
+'VIEW_UNREAD_POST'	=> 'یەکەم بەشداری نەخوێندراو',
+'VOTE_SUBMITTED'	=> 'بەسەرکەوتویی دەنگت دا.',
+'VOTE_CONVERTED'	=> 'ناتوانی دەنگەکان پێکەوە ببەستی دوای پرۆسەی دەستکاریکردن.',
 ));
