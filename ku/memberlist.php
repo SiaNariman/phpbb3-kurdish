@@ -56,10 +56,10 @@ $lang = array_merge($lang, array(
 
 	'EDIT_PROFILE'			=> 'Edit profile',
 
-	'EMAIL_BODY_EXPLAIN'	=> 'ئەم پەیامە لە شێوەی دەقی سادە دەڕوات، بۆیە هیچ کۆدێکی HTML یان BBCODE بەکار مەبە. وەڵامی ئەم پەیامەش دەنێردرێت بۆ ئەو پۆستە ئەلیکتۆنییەی دەینوسی لە سەرەوە.',
+	'EMAIL_BODY_EXPLAIN'	=> 'ئەم پەیامە لە شێوەی دەقی سادە دەڕوات، بۆیە هیچ کۆدێکی HTML یان BBCODE بەکار مەبە. وەڵامی ئەم پەیامەش دەنێردرێت بۆ ئەو پۆستە ئەلیکترۆنییەی دەینوسی لە سەرەوە.',
 	'EMAIL_DISABLED'		=> 'Sorry but all email related functions have been disabled.',
 	'EMAIL_SENT'			=> 'پەیامەکەت نێردرا',
-	'EMAIL_TOPIC_EXPLAIN'	=> 'ئەم پەیامە لە شێوەی دەقی سادە دەڕوات، بۆیە هیچ کۆدێکی HTML یان BBCODE بەکار مەبە. وە زانیاری بابەتەکە یان ناونیشانەکەی لەگەڵیدا دەنێردرێت. وەڵامی ئەم پەیامەش دەنێردرێت بۆ ئەو پۆستە ئەلیکتۆنییەی دەینوسی لە سەرەوە.',
+	'EMAIL_TOPIC_EXPLAIN'	=> 'ئەم پەیامە لە شێوەی دەقی سادە دەڕوات، بۆیە هیچ کۆدێکی HTML یان BBCODE بەکار مەبە. وە زانیاری بابەتەکە یان ناونیشانەکەی لەگەڵیدا دەنێردرێت. وەڵامی ئەم پەیامەش دەنێردرێت بۆ ئەو پۆستە ئەلیکترۆنییەی دەینوسی لە سەرەوە.',
 	'EMPTY_ADDRESS_EMAIL'	=> 'You must provide a valid email address for the recipient.',
 	'EMPTY_MESSAGE_EMAIL'	=> 'You must enter a message to be emailed.',
 	'EMPTY_MESSAGE_IM'		=> 'You must enter a message to be send.',
