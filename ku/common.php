@@ -822,9 +822,9 @@ $lang = array_merge($lang, array(
 	'VARIANT_DATE_SEPARATOR'	=> ' / ',	// Used in date format dropdown, eg: "Today, 13:37 / 01 Jan 2007, 13:37" ... to join a relative date with calendar date
 	'VIEWED'					=> 'بينيى',
 	'VIEWED_COUNTS'		=> array(
-		0	=> 'تا ئێستا نەبینراوە',
-		1	=> ' %d جار بینراوە',
-		2	=> ' %d جار بینراوە',
+		0	=> 'هێشتا نەبینراوە',
+		1	=> 'بینراوە %d جار',
+		2	=> 'بینراوە %d جار',
 	),
 	'VIEWING_CONTACT_ADMIN'		=> 'سەیری پەڕەی پەیوەندی بە بەڕێوەبەر دەکات',
 	'VIEWING_FAQ'				=> 'سەیری پرسیارە دووبارەبووەکان دەکات',
@@ -1468,4 +1468,3 @@ $lang = array_merge($lang, array(
 	'default_dateformat'	=> 'D M d, Y g:i a', // Mon Jan 01, 2007 1:37 pm
 
 ));
-

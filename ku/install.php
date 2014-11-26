@@ -48,10 +48,13 @@ $lang = array_merge($lang, array(
 	'AUTHOR_NOTES'	=> 'تێبینییەکانی نووسەر<br />» %s',
 	'AVAILABLE'	=> 'ئامادە',
 	'AVAILABLE_CONVERTORS'	=> 'گۆڕەرە ئامادەکان',
+
 	'BEGIN_CONVERT'	=> 'دەستکردن بە گۆڕین',
 	'BLANK_PREFIX_FOUND'	=> 'گەڕانێک بەنێو خشتەکانتدا ئەوەی دەرخست کە دامەزراندنێک هەیە بەبێ بەکارهێنانی پێشگری خشتە.',
 	'BOARD_NOT_INSTALLED'	=> 'هیچ دامەزراندنێک نەدۆزرایەوە',
 	'BOARD_NOT_INSTALLED_EXPLAIN'	=> 'گۆڕەری phpBB پێویستی بە دامەزراندنێکی خاوێنی phpBB3 ـیە بۆ کارکردنی، تکایە <a href="%s">یەکەم جار phpBB3 دابمەزرێنە</a>.',
+	'BACKUP_NOTICE'					=> 'Please backup your board before updating in case any problems arise during the update process.',
+
 	'CATEGORY'	=> 'هاوپۆل',
 	'CACHE_STORE'	=> 'جۆری کاش',
 	'CACHE_STORE_EXPLAIN'	=> 'شوێنی دانراویی کە داتای لێ ئەرشیف دەکرێ ،پەڕگەسیستەم پەسەندتر کراوە.',
@@ -202,7 +205,7 @@ $lang = array_merge($lang, array(
 		<li>MySQL 3.23 or above (MySQLi supported)</li>
 		<li>PostgreSQL 8.3+</li>
 		<li>SQLite 2.8.2+</li>
-		<li>Firebird 2.1+</li>
+		<li>SQLite 3.6.15+</li>
 		<li>MS SQL ڕاژەی 2000 یان بەرزتر (ڕاستەوخۆ یان لەڕێگای ODBC)</li>
 		<li>MS SQL ڕاژەی 2005 یان بەرزتر (خۆماڵی)</li>
 		<li>Oracle</li>
