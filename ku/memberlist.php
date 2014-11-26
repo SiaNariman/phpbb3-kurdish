@@ -48,18 +48,18 @@ $lang = array_merge($lang, array(
 
 	'BEFORE'				=> 'Before',
 
-	'CC_EMAIL'				=> 'Send a copy of this email to yourself.',
-	'CONTACT_ADMIN'			=> 'Contact a Board Administrator',
+	'CC_EMAIL'				=> 'ڕوونوسێکی ئەم پەیامە، بنێرە بۆ پۆستی ئەلیکترۆنی خۆم.',
+	'CONTACT_ADMIN'			=> 'پەیوەندیکردن بە بەڕێوبەری مەکۆوە',
 
 	'DEST_LANG'				=> 'Language',
 	'DEST_LANG_EXPLAIN'		=> 'Select an appropriate language (if available) for the recipient of this message.',
 
 	'EDIT_PROFILE'			=> 'Edit profile',
 
-	'EMAIL_BODY_EXPLAIN'	=> 'This message will be sent as plain text, do not include any HTML or BBCode. The return address for this message will be set to your email address.',
+	'EMAIL_BODY_EXPLAIN'	=> 'ئەم پەیامە لە شێوەی دەقی سادە دەڕوات، بۆیە هیچ کۆدێکی HTML یان BBCODE بەکار مەبە. وەڵامی ئەم پەیامەش دەنێردرێت بۆ ئەو پۆستە ئەلیکتۆنییەی دەینوسی لە سەرەوە.',
 	'EMAIL_DISABLED'		=> 'Sorry but all email related functions have been disabled.',
-	'EMAIL_SENT'			=> 'The email has been sent.',
-	'EMAIL_TOPIC_EXPLAIN'	=> 'This message will be sent as plain text, do not include any HTML or BBCode. Please note that the topic information is already included in the message. The return address for this message will be set to your email address.',
+	'EMAIL_SENT'			=> 'پەیامەکەت نێردرا',
+	'EMAIL_TOPIC_EXPLAIN'	=> 'ئەم پەیامە لە شێوەی دەقی سادە دەڕوات، بۆیە هیچ کۆدێکی HTML یان BBCODE بەکار مەبە. وە زانیاری بابەتەکە یان ناونیشانەکەی لەگەڵیدا دەنێردرێت. وەڵامی ئەم پەیامەش دەنێردرێت بۆ ئەو پۆستە ئەلیکتۆنییەی دەینوسی لە سەرەوە.',
 	'EMPTY_ADDRESS_EMAIL'	=> 'You must provide a valid email address for the recipient.',
 	'EMPTY_MESSAGE_EMAIL'	=> 'You must enter a message to be emailed.',
 	'EMPTY_MESSAGE_IM'		=> 'You must enter a message to be send.',
@@ -114,14 +114,14 @@ $lang = array_merge($lang, array(
 	'POST_IP'				=> 'Posted from IP/domain',
 
 	'REAL_NAME'				=> 'Recipient name',
-	'RECIPIENT'				=> 'Recipient',
+	'RECIPIENT'				=> 'وەرگر',
 	'REMOVE_FOE'			=> 'Remove foe',
 	'REMOVE_FRIEND'			=> 'Remove friend',
 
 	'SELECT_MARKED'			=> 'Select marked',
 	'SELECT_SORT_METHOD'	=> 'Select sort method',
-	'SENDER_EMAIL_ADDRESS'	=> 'Your email address',
-	'SENDER_NAME'			=> 'Your name',
+	'SENDER_EMAIL_ADDRESS'	=> 'پۆستی ئەلیکترۆنی',
+	'SENDER_NAME'			=> 'ناو',
 	'SEND_ICQ_MESSAGE'		=> 'Send ICQ message',
 	'SEND_IM'				=> 'Instant messaging',
 	'SEND_JABBER_MESSAGE'	=> 'Send Jabber message',
