@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> 'Translated By SaM GoRaN',
+	'TRANSLATION_INFO'	=> 'Translated By Brwa Osman & SaM GoRaN',
 	'DIRECTION'			=> 'ئەم وەرگێڕانە جاری یەکەمە و ئەگەری ئەوە هەیە هەلەی ڕێزمانی هەبێت و هیوادارم لەکەمو کوڕییەکانم ببورن ئەگەر هەبوو',
 	'DATE_FORMAT'		=> '|23 11 2014|',	// 01 Jan 2007 (with Relative days enabled)
 	'DATETIME_FORMAT'	=> '|23 11 2014, 1:26 am|',	// 01 Jan 2007, 13:37 (with Relative days enabled)
