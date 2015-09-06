@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_A_HELP'	=> 'هاوپێچی بارکراوی ناوهێڵ: [attachment=]filename.ext[/attachment]',
 	'BBCODE_B_HELP'	=> 'دەقی تۆخ: [b]دەق[/b]',
 	'BBCODE_C_HELP'	=> 'پیشاندانی کۆد: [code]کۆدcode]',
-    'BBCODE_D_HELP'	=> 'فلاش: [flash=width,height]http://url[/flash]',
+	'BBCODE_D_HELP'	=> 'فلاش: [flash=width,height]http://url[/flash]',
 	'BBCODE_F_HELP'	=> 'قەبارەی فۆنت: [size=85]دەقی بچوک[/size]',
 	'BBCODE_IS_OFF'	=> '%sBBCode%s <strong>ناکارا</strong> ـیە',
 	'BBCODE_IS_ON'	=> '%sBBCode%s <strong>کارا</strong> ـیە',

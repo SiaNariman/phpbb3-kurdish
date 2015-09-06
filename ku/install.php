@@ -74,7 +74,6 @@ $lang = array_merge($lang, array(
 	'CONFIG_FILE_WRITTEN'	=> 'پەڕگەی جێبەجێکراییەکان نووسران ،ئێستا دەتوایت بەردەوامبیت بۆ قۆناغی دواتر لە دامەزراندنەکە',
 	'CONFIG_PHPBB_EMPTY'	=> 'شێوەکردنی phpBB3  گونجاو بۆ  “%s”  بەتاڵە.',
 	'CONFIG_RETRY'	=> 'هەوڵدانەوە',
-	'CONTACT_EMAIL_CONFIRM'	=> 'لە ئیمەیلی پەیوەندی دڵنیابە',
 	'CONTINUE_CONVERT'	=> 'بەردەوامبوون لە گۆڕین',
 	'CONTINUE_CONVERT_BODY'	=> 'هەوڵێکی پێشووی گۆڕین نەکرا ،ئێستا تۆ دەتوانی لەنێوان دەستپێکردنی گۆڕینێکی نوێ و بەردەوامبوونی گۆڕینەکە یەکێکیان هەڵبژێریت.',
 	'CONTINUE_LAST'	=> 'بەردەوامبوونی دوا شیکردنەوەکان',
@@ -89,6 +88,7 @@ $lang = array_merge($lang, array(
 	'CONVERT_OPTIONS'	=> 'هەڵبژاردنەکان',
 	'CONVERT_SETTINGS_VERIFIED'	=> 'ئەو زانیاریەی نووسیت دڵنیاکرایەوە ،بۆ دەستپێکردنی ڕەوتی گۆڕینەکە ،تکایە دوگمەکەی خوارەوە دابگرە.',
 	'CONV_ERR_FATAL'	=> 'هەڵەیەکی چارەنووسسازی گۆڕین',
+	
 	'CONV_ERROR_ATTACH_FTP_DIR'	=> 'بارکردنی FTP بۆ هاوپێچەکان چالاککراوە لە مەکۆی پێشوودا ،تکایە هەڵبژاردنی بارکردنی FTP ناچالاکبکە و دڵنیاببەوە شوێنگەیەکی دروست دیاریکراوە ،دواتر گشت پەڕگەی هاوپێچەکان لەبەربگرەوە بۆ ئەو شوێنە بەردەستەی وێبی نوێ ،هەرکە ئەوەت کرد ،گۆڕەر دووبارە دابگیرسێنەوە.',
 	'CONV_ERROR_CONFIG_EMPTY'	=> 'هیچ زانیارییەکی شێوەپێدان بەردەست نییە بۆ ئەو گۆڕینە.',
 	'CONV_ERROR_FORUM_ACCESS'	=> 'ناتوانرێت بگەیت بە زانیاری مەکۆ.',
@@ -116,6 +116,7 @@ $lang = array_merge($lang, array(
 	'CONV_ERROR_WRONG_GROUP'	=> 'گرووپی هەڵە “%1$s” سنورکراوە لە “%2$s” .',
 	'CONV_OPTIONS_BODY'	=> 'ئەو پەڕەیە داتا داواکراوەکان کۆدەکاتەوە بۆ گەیشتن بە سەرچاوەی مەکۆکە ،زانیارییەکانی بنکەدراوەی مەکۆ فەرمییەکەت بنووسە؛ گۆڕەرەکە هیچشتێک ناگۆڕێت لە بنکەدراوەی وەرگیراوی خوارەوە .سەرچاوەی مەکۆکە پێویستە ناچالاککرابێت بۆ ڕێگادان بە گۆڕینێکی گونجاو.',
 	'CONV_SAVED_MESSAGES'	=> 'پەیامە پاشەکەوتکراوەکان',
+
 	'COULD_NOT_COPY'	=> 'ناتوانرێت پەڕگەی <strong>%1$s</strong> کۆپی بکرێت بۆ <strong>%2$s</strong><br /><br /> تکایە ئامانجی شوێنگەی بەردەست بپشکنە و نووسێن بێت لەلایەن ڕاژەکاری وێب.',
 	'COULD_NOT_FIND_PATH'	=> 'ناتوانرێت ڕێچکەی مەکۆ فەرمییەکەت بدۆزرێتەوە ،تکایە ڕێکخستنەکان بپشکنە و دووبارە هەوڵبدەوە.<br />» %s وەکو سەرچاوەی ڕێچکەکە دیاریکراوە.',
 	'DBMS'	=> 'جۆری بنکەدراوە',
@@ -140,7 +141,6 @@ $lang = array_merge($lang, array(
 	'DEV_NO_TEST_FILE'	=> 'هیچ نرخێک دیارینەکراوە بۆ ئەو بەهایە test_file لە گۆڕەرەکە ،ئەگەر تۆ بەکارهێنەرێکی لەو گۆڕەرە ،پێویستە ئەم هەڵەیە نەبینیت ،تکایە ئەم پەیامە بۆ نووسەری گۆڕەرەکە ڕاپۆرت بکە .ئەگەر تۆ خۆت نووسەری گۆڕەرەکەیت ،دەبێت ناوی پەڕگەکە بەردەستە دیاریبکەیت لە سەرچاوەی مەکۆکە بۆ ڕێگادان بە ڕێچکەکە بۆ ناسینەوەی و دڵنیابوونەوە.',
 	'DIRECTORIES_AND_FILES'	=> 'پێڕست و پەڕگەی دامەزراندن',
 	'DISABLE_KEYS'	=> 'ناچالاککردنی کلیلەکان',
-	'DLL_FIREBIRD'	=> 'فایربێرد',
 	'DLL_FTP'	=> 'گرتنی پاڵپشتی FTP [دامەزراندن]',
 	'DLL_GD'	=> 'پاڵپشتی گرافیکی GD [پەسەندکردنی دەرەکی]',
 	'DLL_MBSTRING'	=> 'پاڵپشتی فرە-بایتی تیپ',
@@ -151,7 +151,8 @@ $lang = array_merge($lang, array(
 	'DLL_MYSQLI'	=> 'MySQL لەگەڵ MySQLi پێوەندکراو',
 	'DLL_ORACLE'	=> 'Oracle',
 	'DLL_POSTGRES'	=> 'PostgreSQL 7.x/8.x',
-	'DLL_SQLITE'	=> 'SQLite',
+	'DLL_SQLITE'				=> 'SQLite 2',
+	'DLL_SQLITE3'				=> 'SQLite 3',
 	'DLL_XML'	=> 'پاڵپشتی XML [جابەر]',
 	'DLL_ZLIB'	=> 'پاڵپشتی پەستاندنی zlib [ gz. ,tar.gz ,zip. ]',
 	'DL_CONFIG'	=> 'config دابگرە',
@@ -182,7 +183,8 @@ $lang = array_merge($lang, array(
 	'INITIAL_CONFIG_EXPLAIN'	=> 'ئێستا کە دامەزراندن دیاریکردووە کە ڕاژەکەت دەتوانێ کاربکات بە phpBB پێویستە تۆ هەندێ زانیاری دیاریکراو جێگابگریتەوە ،ئەگەر نازانی چۆن پەیوەندی بکەیت بە بنکەدراوەکەت تکایە پەیوەندی بکە بە گەشەپێدەری خانەخوێیەکەت یان مەکۆکانی پاڵپشتی بەکارببە ،کاتێک داتان دەنووسیت تکایە دڵنیاببەوە لێیان پێش بەردەوامبوون.',
 	'INSTALL_CONGRATS'	=> 'پیرۆزە!',
 	'INSTALL_CONGRATS_EXPLAIN'	=> 'بەسەرکەوتوویی phpBB %1$s دامەزراند ،تکایە بەردەوامبە بە هەڵبژاردنی یەکێک لەم هەڵبژاردنانە:</p>
-	<h2>مەکۆیەکی بەکاری خۆت گۆڕەرە بۆ phpBB3</h2>
+		You have successfully installed phpBB %1$s. Please proceed by choosing one of the following options:</p>	
+<h2>مەکۆیەکی بەکاری خۆت گۆڕەرە بۆ phpBB3</h2>
 	<p>گۆڕەری نەکراوەی phpBB پاڵپشتی گۆڕینی phpBB 2.0.x لەگەڵ سیستەمەکانی تری مەکۆ بۆ phpBB3 .ئەگەر تۆ مەکۆیەکی بەکار و چالاکت هەیە و خوازیاری بیگۆرێت  .تکایە <a href="%2$s">بەردەوامبە بۆ گۆڕەرەکە</a>.</p>
 		<h2>بەزیندی بڕۆ بۆ phpBB3 ـــەکەت!</h2>
 	<p>کرتەکردنی دوگمەی خوارەوە دەتبات بۆ فۆرمێک بۆ ناردنی داتای دۆخەکان بۆ phpBB لە کۆنترۆڵ پانێڵی بەڕێوەبەرایەتی ،ئێمە خوازیاردەبین کە تۆ بتوانیت یارمەتیمان بدەیت بە ناردنی ئەو زانیاریانە ،لەدوای ئەوە هەندێ کات بۆخۆت وەربگرە بۆ تاقیکردنەوەی ئەو هەڵبژاردنانەی کە بەردەستن بۆت ،لەیادت بێت کە یارمەتی سەرهێڵ بەردەستە لەڕێگای <a href="http://www.phpbb.com/support/documentation/3.0/">بەڵگەنامەیی</a>, <a href="%3$s">بمخوێنەوە</a> لەگەڵ <a href="http://www.phpbb.com/community/viewforum.php?f=46">مەکۆکانی پاڵپشتی</a>.</p><p><strong> تکایە شوێنگەی دامەزراندن بسڕەوە/بگوازەوە/ناولێبنێەوە لەپێش بەکاربردنی مەکۆکەت .چونکە لەکاتی بوونی ئەو شوێنگەیەدا تەنها دەتوانرێت دەستت بگات بە کۆنترۆڵ پانێڵێ بەڕێوەبەر</strong>.',
@@ -228,9 +230,8 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_ERROR'	=> 'هیچ پەیامێکی هەڵە نەدراوە',
 	'INST_ERR_DB_NO_MYSQLI'	=> 'وەشانی MySQL ــی دەمەزراو لەسەر ئەو ماکینەیە نەگونجاوە لەگەڵ هەڵبژاردنی "MySQL و گەیاندنی MySQLi" ــی کە تۆ هەڵتبژاردووە .تکایە هەڵبژاردنی "MySQL" لەباتی هەڵبژێرە.',
 	'INST_ERR_DB_NO_SQLITE'	=> 'ئەو وەشانەی SQLite کە تۆ داتمەزراندووە زۆر کۆنە ،دەبێت نوێبکرێتەوە بۆ بەلایەنی کەم 2.8.2 .',
+	'INST_ERR_DB_NO_SQLITE3'	=> 'The version of the SQLite extension you have installed is too old, it must be upgraded to at least 3.6.15.',		
 	'INST_ERR_DB_NO_ORACLE'	=> 'وەشانی Oracle ــی دامەزراو لەسەر ئەو ماکینەیە داوادەکات بۆ بینینی <var>NLS_CHARACTERSET</var> پارمێترەر بۆ <var>UTF8</var> ،هەروەها دامەزراندنەکەت نوێبکەوە بۆ +9.2 یان پارمێترەر بگۆڕە.',
-	'INST_ERR_DB_NO_FIREBIRD'	=> 'وەشانی Firebird ــی دامەزراو لەسەر ئەو ماکینەیە کۆنترە لە 2.1 ،تکایە نوێبکەوە بۆ وشانێکی نوێتر.',
-	
 	'INST_ERR_DB_NO_POSTGRES'	=> 'ئەو بنکەدراوەی هەڵتبژاردووە دروستنەکرا لە <var>UNICODE</var> یان <var>UTF8</var> ،هەوڵبدە دایبمەزرێنی لەگەڵ بنکەدراوەیەک لە <var>UNICODE</var> یان <var>UTF8</var> .',
 	'INST_ERR_DB_NO_NAME'	=> 'ناوی بنکەدراوە دیارینەکراوە.',
 	'INST_ERR_EMAIL_INVALID'	=> 'ئەو پۆستی ئەلیکترۆنیەی نووسیوتە نادروستە.',
@@ -250,7 +251,10 @@ $lang = array_merge($lang, array(
 	'INST_ERR_USER_TOO_LONG'	=> 'ئەو ناوی بەکارهێنەرەی نووسیوتە زۆر درێژە ،زۆرترین درێژی بریتییە لە 20 تیپ.',
 	'INST_ERR_USER_TOO_SHORT'	=> 'ئەو ناوی بەکارهێنەرەی نووسیوتە زۆر کورتە ،کەمترین درێژی بریتییە لە 3 تیپ.',
 	'INVALID_PRIMARY_KEY'	=> 'کلیلی سەرەتایی نادروست : %s',
+
 	'LONG_SCRIPT_EXECUTION'	=> 'تکایە تێبینی ئەوەبکە کە ئەوە کاتێک دەخایەنێت ...تکایە پرۆگرامۆکەکە ڕامەگرە.',
+	
+	//mbstring
 	'MBSTRING_CHECK'	=> '<samp>mbstring</samp> پشکنینی گەیاندن',
 	'MBSTRING_CHECK_EXPLAIN'	=> '<strong>داواکراوە</strong> - <samp>mbstring</samp> گەیاندنێکی php ــە کە فرەبایتی گەشەپێدەدا ،هەندێ تایبەتمەندی mbstring ناگونجێت لەگەڵ phpBB وە پێویستە ناچالاک بکرێت.',
 	'MBSTRING_FUNC_OVERLOAD'	=> 'لەسەربارکردنی فەرمان',
@@ -261,10 +265,12 @@ $lang = array_merge($lang, array(
 	'MBSTRING_HTTP_INPUT_EXPLAIN'	=> '<var>mbstring.http_input</var> پێویستە دابنرێت بۆ <samp>pass</samp>.',
 	'MBSTRING_HTTP_OUTPUT'	=> 'HTTP تیپە دەرخستنەکانی گۆڕینی',
 	'MBSTRING_HTTP_OUTPUT_EXPLAIN'	=> '<var>mbstring.http_output</var> پێویستە دابنرێت بۆ <samp>pass</samp>.',
+
 	'MAKE_FOLDER_WRITABLE'	=> 'تکایە دڵنیاببەوە کە ئەو بوخچەیە بوونی هەیە و نووسرێنە لەلایەن ڕاژەی وێبەوە پاشان دووبارەوە هەوڵبدەوە: <br />»<strong>%s</strong>.',
 	'MAKE_FOLDERS_WRITABLE'	=> 'تکایە دڵنیاببەوە کە ئەو بوخچەیە بوونی هەیە و نووسرێنە لەلایەن ڕاژەی وێبەوە پاشان دووبارەوە هەوڵبدەوە: <br />»<strong>%s</strong>.',
-	'NAMING_CONFLICT'	=> 'ناونای پێکدادان: %s لەگەڵ %s هەردووکیان دەخیلن <br /><br />%s .',
+
 	'MYSQL_SCHEMA_UPDATE_REQUIRED'	=> 'بنکەدراوەی MySQL ــی تۆ بۆ phpBB دەربەروارە. phpBB نەخشەکراوێکی بۆ MySQL 3.x/4.x دۆزییەوە ،بەڵام ڕاژەکە دەڕوات لەسەر MySQL %2$s <br /><strong>پێش ئەوەی بچیتە کرداری نوێکردنەوە ،پێویستە نەخشەکراوەکە تازەبکەیەوە</strong><br /><br />  تکایە ئامادەبە بۆ <a href="http://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">وتاری بنچینەی زانیاری وا نەخشەکراوی MySQL تازەدەکاتەوە </a> ئەگەر تۆ کێشەی نەژمێرانت هەیە .تکایە <a href="http://www.phpbb.com/community/viewforum.php?f=46">مەکۆکانی پاڵپشتی</a> بەکارببە.',
+	'NAMING_CONFLICT'	=> 'ناونای پێکدادان: %s لەگەڵ %s هەردووکیان دەخیلن <br /><br />%s .',
 	'NEXT_STEP'	=> 'بەردەوامبوون بۆ قۆناغی دواتر',
 	'NOT_FOUND'	=> 'ناتوانرێ بدۆزرێتەوە',
 	'NOT_UNDERSTAND'	=> 'ناتوانرێ تێبگەی لە %s #%d, خشتەی %s (“%s”)',
@@ -277,6 +283,8 @@ $lang = array_merge($lang, array(
 	'PCRE_UTF_SUPPORT_EXPLAIN'	=> 'ئەگەر دامەزراندنی PHP لەگەڵ پاڵپشتی UTF-8 نەگونجێ phpBB <strong>کارناکات</strong>.',
 	'PHP_GETIMAGESIZE_SUPPORT'	=> 'PHP function getimagesize() is available',
 	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>داواکراوە</strong> - وا داوادەکرێ بۆ phpBB بۆ نەخشەی دروست ،پێویستە نەخشەی getimagesize بەردەست بێت.',
+	'PHP_JSON_SUPPORT'				=> 'PHP JSON support',
+	'PHP_JSON_SUPPORT_EXPLAIN'		=> '<strong>Required</strong> - In order for phpBB to function correctly, the PHP JSON extension needs to be available.',
 	'PHP_OPTIONAL_MODULE'	=> 'گۆڕاوەکانی هەڵبژاردنانە',
 	'PHP_OPTIONAL_MODULE_EXPLAIN'	=> '<strong>هەڵبژاردنانە</strong> - ئەو گۆڕاوانە یان نەرمەواڵانە هەڵبژاردانەن .هەرچۆنێکە ئەگەر ئەوان بەردەستبن زۆرترین تایبەتمەندی چالاکدەکەن.',
 	'PHP_SUPPORTED_DB'	=> 'بنکەدراوە پاڵپشکراوەکان',
@@ -294,18 +302,21 @@ $lang = array_merge($lang, array(
 	'PREPROCESS_STEP'	=> 'جێبەجێکاری خۆ-کردارکردنی نەخشەکان/پرسەکان',
 	'PRE_CONVERT_COMPLETE'	=> 'هەموو هەنگاوەکانی خۆکردە-گۆڕینەکان بەسەرکەوتوویی تەواوبوون. دەتوانی ئێستا کرداری گۆڕینە بنەڕەتەکە دەستپێبکەیت ،تکایە سەرنجبدە کە لەوانەیە بۆ کۆتا دەستکاری هەندێ شت بخەمڵێنی ،لەدوای گۆڕین ،بەتایبەتی دەسەڵاتە تۆماربووەکان بپشکنە ،پێڕستی گەڕانەکە دروستبکەوە کە نەگۆڕاوە و هەروەها دڵنیاببەوە پەڕگەکان بەدروستی لەبەرگیراونەوە ،بۆ نموونە وێنۆچکەکان و خەندەکان.',
 	'PROCESS_LAST'	=> 'بەردەوامبوونی دواین وتنەکان',
+
 	'REFRESH_PAGE'	=> 'پەڕە تازەبکەوە بۆ بەردەوامبوونی گۆڕین',
 	'REFRESH_PAGE_EXPLAIN'	=> 'ئەگەر بەڵێ دانرا ،گۆڕەرەکە پەڕەکە تازەدەکاتەوە بۆ بەردەوامبوونی گۆرینەکە لەدوای کۆتایی هاتنی هەنگاوێک ،ئەگەر ئەوە یەکەم گۆڕینتە بۆ تاقیکردنەوەی پێشنیازەکان بۆ دیاریکردنی هەر هەڵەیەک لە پەرەسەند ،ئێمە پێشنیاردەکەین کە ئەمە بە نەخێر دابنرێ.',
 	'REQUIREMENTS_TITLE'	=> 'هاوجووتی دامەزراندن',
 	'REQUIREMENTS_EXPLAIN'	=> 'پێش بەردەوامبوون لەگەڵ دامەزراندنی تەواوی phpBB هەندێ تاقیکردنەوە لەسەر ڕاژەکەت دەکرێت لەگەڵ پەڕگەکان بۆ دڵنیابوون کە تۆ دەتوانیت phpBB دابمەزرێنی و کاری پێبکەیت ،تکایە لە خوێندنەوەی ئەنجامەکان بەناویدا دڵنیاببەوە و بەردەوام مەبە تاکو لە هەموو تاقیکردنەوە داواکراوەکان دەردەچیت. ئەگەر دەخوازیت هەر تایبەتمەندییەک بەکارببەی بەپێی تاقیکردنەوە ئارەزوومەندانەکان ،پێویستە دڵنیابیت کە ئەو تاقیکردنەوانەش تێیدا دەرچوویت. ',
 	'RETRY_WRITE'	=> 'هەوڵدانەوەی نووسینی config',
 	'RETRY_WRITE_EXPLAIN'	=> 'ئەگەر دەخوازیت دەتوانی دەسەڵاتەکان بگۆڕیت لەسەر config.php بۆ ڕێگادانی phpBB بۆ نووسینی ،پێویستە بخوازیت بۆ ئەوەی ئەوە بکەیت کرتەی هەوڵدانەوە بکە لەخوارەوە بۆ دووبارە هەوڵدان ،لەیادت بێت بۆ گەڕانەوەی دەسەڵاتەکان لەسەر config.php لەدوای تەواوبوونی دامەزراندنی phpBB.',
+
 	'SCRIPT_PATH'	=> 'ڕێچکەی پرۆگرامۆکە',
 	'SCRIPT_PATH_EXPLAIN'	=> 'ڕێچکەکە کە phpBB تێدابوو پەیوەندیدارە بۆ ناوە دۆمێینەکە ،نموونە <samp>/phpBB3</samp>.',
 	'SELECT_LANG'	=> 'زمان دیاری بکە',
 	'SERVER_CONFIG'	=> 'سازدانی ڕاژەکار',
 	'SEARCH_INDEX_UNCONVERTED'	=> 'پێرستی گەڕان نەگۆڕدرا',
 	'SEARCH_INDEX_UNCONVERTED_EXPLAIN'	=> 'پێڕستە کۆنەکەی گەڕانت نەگۆڕدرا ،گەڕان هەمیشە ئەنجامێکی بەتاڵ دەدات. بۆ دروستکردنی پێڕستێکی نوێی گەڕان بڕۆ بۆ کۆنترۆڵ پانێڵی بەڕێوەبەرایەتی ،چاککاری هەڵبژێرە و پاشان پێڕستی گەڕان لە ژێرمێنودا.',
+	'SELECT_FORUM_GA'			=> 'In phpBB 3.1 the global announcements are linked to forums. Select a forum for your current global announcements (can be moved later):',
 	'SOFTWARE'	=> 'نەرمەکاڵای مەکۆ',
 	'SPECIFY_OPTIONS'	=> 'دیاریکردنی هەڵبژاردنەکانی گۆڕین',
 	'STAGE_ADMINISTRATOR'	=> 'وردەکارییەکانی بەڕێوەبەر',
@@ -332,6 +343,7 @@ $lang = array_merge($lang, array(
 	'SYNC_POST_COUNT_ID'	=> 'ڕاگواستنی post_counts from <var>entry</var> %1$s to %2$s.',
 	'SYNC_TOPICS'	=> 'دەستپێکردن بۆ ئاڵوگۆڕی بابەتەکان',
 	'SYNC_TOPIC_ID'	=> 'ئاڵوگۆڕکردنی بابەتەکان لە <var>topic_id</var> %1$s بۆ %2$s.',
+
 	'TABLES_MISSING'	=> 'نەتوانرا ئەو خشتانە بدۆزرێنەوە<br />» <strong>%s</strong>.',
 	'TABLE_PREFIX'	=> 'پاشگر بۆ خشتەکان لە بنکەدراوە',
 	'TABLE_PREFIX_EXPLAIN'		=> 'دەبێت دەست پێبکات بە تیپی ئەبجەدی وە دەبێ تەنها پیتەکانی ئەلفوبایی لەخۆ بگرێت ،لەگەڵ ژمارەکان و ژێرخاڵەکان.',
@@ -347,11 +359,16 @@ $lang = array_merge($lang, array(
 	'VERSION'	=> 'وەشان',
 	'WELCOME_INSTALL'	=> 'بەخێربێیت بۆ دامەزراندنی phpBB3',
 	'WRITABLE'	=> 'Writable',
+));
+
+// Updater
+$lang = array_merge($lang, array(
 	'ALL_FILES_UP_TO_DATE'	=> 'هەموو پەڕگەکان لەسەر نوێترینن لەگەڵ دواین وەشانی phpBB ،پێویستە ئێستا <a href="../ucp.php?mode=login">بچیتەژوورەوە بۆ مەکۆکەت</a> و دڵنیاببەوە کە هەمووشتێک بەدروستی کاردەکات ،لەیادی نەکەیت بۆ سڕینەوە ،ناولێنانەوە یان گواستنەوەی شوێنگەی دامەزراندنەکەت ! تکایە زانیارییە نوێکراوەکانمان بۆ بنێرە دەربارەی ڕاژەکەت لەگەڵ فۆرمی دیمەنی مەکۆکەت و گۆڕاوی <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">ئەژمارزانییەکە بنێرە</a> لە کۆنترۆڵ پانێڵی بەڕێوەبەرایەتی.',
 	'ARCHIVE_FILE'	=> 'پەڕگەی سەرچاوە لەناو ئەرشیفە',
 	'BACK'	=> 'دواوە',
 	'BINARY_FILE'	=> 'Binary file',
 	'BOT'	=> 'Spider/Robot',
+
 	'CHANGE_CLEAN_NAMES'	=> 'ڕێگاکە بەکارهێنرا بۆ دڵنیابوون لەوەی ناوی بەکارهێنەرێک بەکارنەهێنراوە لەلایەن فرە بەکارهێنەران کە گۆڕدراوە ،هەندێ بەکارهێنەر هەیە کە هەمان ناویان هەیە لەکاتی بەراوردیان لەگەڵ ڕێگا نوێیەکە ،پێویستە تۆ ئەو بەکارهێنەرانە بسڕیتەوە یان ناویان لێبنێیەوە بۆ دڵنیابوون لەوەی کە هەر ناوێک تەنها لەلایەن یەک بەکارهێنەرەوە بەکاردەبرێت پێش ئەوەی بەردەوامبیت.',
 	'CHECK_FILES'	=> 'پشکنینی پەڕگەکان',
 	'CHECK_FILES_AGAIN'	=> 'دووبارە پشکنینەوەی پەڕگەکان',
@@ -366,8 +383,12 @@ $lang = array_merge($lang, array(
 	'CONTINUE_UPDATE'	=> 'بەردەوامبە لە نوێکردنەوە ئێستا',
 	'CURRENT_FILE'	=> 'سەرەتای پێکدادان - کۆدی پەڕگە بنچینەییەکان پێش نوێکردنەوە',
 	'CURRENT_VERSION'	=> 'وەشانی هەنووکە',
+
 	'DATABASE_TYPE'	=> 'جۆری بنکەدراوە',
+	'DATABASE_UPDATE_COMPLETE'			=> 'Database updater has completed!',
+	'DATABASE_UPDATE_CONTINUE'			=> 'Continue database update',
 	'DATABASE_UPDATE_INFO_OLD'	=> 'پەڕگەی نوێکردنەوەی بنکەدراوەکە لەناو شوێنگەی دامەزراندنەکە لەسەر نوێ نییە ،تکایە دڵنیاببەوە کە تۆ وەشانە ڕاستەکەی پەڕگەت بارکردووە.',
+	'DATABASE_UPDATE_NOT_COMPLETED'		=> 'The database update has not yet completed.',
 	'DELETE_USER_REMOVE'	=> 'بەکارهێنەر و پەیامەکان بسڕەوە',
 	'DELETE_USER_RETAIN'	=> 'بەکارهێنەر بسڕەوە بەڵام پەیامەکان بهێڵيوە',
 	'DESTINATION'	=> 'پەڕگەی مەبەست',
@@ -377,6 +398,7 @@ $lang = array_merge($lang, array(
 	'DIFF_SIDE_BY_SIDE'	=> 'لا بە لا',
 	'DIFF_UNIFIED'	=> 'بۆشایی بردراو',
 	'DO_NOT_UPDATE'	=> 'ئەم فایلە نوێ مەکەوە',
+	'DONE'								=> 'Done',
 	'DOWNLOAD'	=> 'داگرتن',
 	'DOWNLOAD_AS'	=> 'داگرتن وەک',
 	'DOWNLOAD_UPDATE_METHOD_BUTTON'	=> 'ئەرشیفی پەڕگە دوپاتکراوەکان دابگرە (ئامۆژگاریکراوە)',
@@ -384,13 +406,18 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_CONFLICTS_EXPLAIN'	=> 'بگەڕی بۆ &lt;&lt;&lt; بۆ دۆزینی پێکدادانەکان',
 	'DOWNLOAD_UPDATE_METHOD'	=> 'ئەرشیفی پەڕگە دوپاتکراوەکان دابگرە',
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'هەرکە داگیرا پێویستە لە ئەرشیفە دەریبێنیت. پەڕگە دوپاتکراوەکان دەدۆزیتەوە پێویستە باربکەیت بۆ شوێنگەی دەستپێکی phpBB ــەکەت لەناویدا. تکایە پەڕگەکان باربکە بۆ جێگا دروستەکانیان دواتر. لەدوای ئەوەی هەموو پەڕگەکانت بارکرد، تکایە دووبارە پەڕگەکان بپشکنە لەگەڵ دوگمەی تری خوارەوە.',
-	'ERROR'	=> 'هەڵە',
+
 	'EDIT_USERNAME'	=> 'دەستکاریکردنی ناوی بەکارهێنەر',
+	'ERROR'	=> 'هەڵە',
+	'EVERYTHING_UP_TO_DATE'		=> 'Everything is up to date with the latest phpBB version. You should now <a href="%1$s">login to your board</a> and check if everything is working fine. Do not forget to delete, rename or move your install directory! Please send us updated information about your server and board configurations from the <a href="%2$s">Send statistics</a> module in your ACP.',
+
 	'FILE_ALREADY_UP_TO_DATE'	=> 'پەڕگە لەسەر نوێترین نوێبوونەوەیە.',
 	'FILE_DIFF_NOT_ALLOWED'	=> 'پەڕگەکان ڕێگانەدراون بۆ بردن',
 	'FILE_USED'	=> 'زانیاری بەکارهێنرا لە',
 	'FILES_CONFLICT'	=> 'پەڕگە پێکدادانەکان',
 	'FILES_CONFLICT_EXPLAIN'	=> 'ئەو پەڕگانەی خوارەوە دوپاتکراونەوە و پەڕگە بنەڕەتەکان پێشکەش مەکە لە وەشانە کۆنەکە. phpBB دەریخستووە کە ئەو پەڕگانە پێکدادان دروستدەکەن ئەگەر هەوڵدرا بخەمڵێنرێن. تکایە پێکدادانەکان بکۆڵەرەوە و بەدەستیی هەوڵبدە شیکاریان بکەیت یان نوێکردنەوەکە بەردەوامبێت هەڵبژاردنی ڕێگا سەرچاوە بۆ کراوەکە. ئەگەر تۆ پێکدادانەکان بەدەستیی شیکار دەکەیت دووبارە پەڕگەکان بپشکنە لەدوای دووپاتکردنەوەیان. هەروەها دەتوانیت لەنێوان ڕێگا باشترکراوەکان هەڵبژێریت بۆ هەر پەڕگەیەک. یەکەم دانە ئەنجام دەبێت لە پەڕگەیەک کە هێڵەکانی پێکدادان لە پەڕگە کۆنەکەت لەدەست دەچێت، ئەوەی تر ئەنجامی دەبێت لەدەستدانی گۆڕانکارییەکان لە پەڕگە نوێترەکە.',
+	'FILES_DELETED'					=> 'Deleted files',
+	'FILES_DELETED_EXPLAIN'			=> 'The following files do not exist in the new version. These files have to be deleted from your installation.',
 	'FILES_MODIFIED'	=> 'پەڕگە دەستکارییکراوەکان',
 	'FILES_MODIFIED_EXPLAIN'	=> 'پەڕگەکانی خوارەوە دوپاتکراونەوە و پەڕگە بنەڕەتەکان پێشکەش مەکە لە وەشانە کۆنەکە. پەڕگە نوێکراوەکە لەنێوان دوپاتکراویی و پەڕگە نوێیەکە پێکدەخرێت.',
 	'FILES_NEW'	=> 'پەڕگە نوێیەکان',
@@ -403,10 +430,13 @@ $lang = array_merge($lang, array(
 	'FILES_UP_TO_DATE_EXPLAIN'	=> 'پەڕگەکانی خوارەوە پێشتر لەسەر نوێترینن پێویست ناکات نوێبکرێنەوە.',
 	'FTP_SETTINGS'	=> 'ڕێکخستنەکانی FTP',
 	'FTP_UPDATE_METHOD'	=> 'بارکردنی FTP',
-	'INCOMPATIBLE_UPDATE_FILES'	=> 'پەڕگەکانی نوێکردنەوە وەکو نەگونجاو لەقەڵەمدران لەگەڵ وەشانە دامەزراوەکەت. وەشانە دامەزراوەکەت بریتییە لە %1$s و پەڕگە نوێکردنەوەکە بۆ نوێکردنەوەی phpBB ــیە %2$s بۆ %3$s .',
-	'INCOMPLETE_UPDATE_FILES'	=> 'پەڕگەکانی نوێکردنەوە تەواونین',
+
+	'INCOMPATIBLE_UPDATE_FILES'	=> 'پەڕگەکانی نوێکردنەوە تەواونین',
+	'INCOMPLETE_UPDATE_FILES'		=> 'The update files are incomplete.',
 	'INLINE_UPDATE_SUCCESSFUL'	=> 'نوێکردنەوەی بنکەدراوە سەرکەوتوو بوو ،ئێستا دەتوانی بەردەوامبیت بۆ  کرداری نوێکردنەوە.',
+
 	'KEEP_OLD_NAME'	=> 'ناوی بەکارهێنەر بهێڵەوە',
+
 	'LATEST_VERSION'	=> 'دوا وەشان',
 	'LINE'	=> 'هێڵ',
 	'LINE_ADDED'	=> 'زیادکرا',
@@ -414,8 +444,11 @@ $lang = array_merge($lang, array(
 	'LINE_REMOVED'	=> 'لابرا',
 	'LINE_UNMODIFIED'	=> 'دەستکاریی نەکرا',
 	'LOGIN_UPDATE_EXPLAIN'	=> 'بۆ نوێکردنەوەی دامەزراندن سەرەتا دەبێت بچیتە ژوورەوە',
+
 	'MAPPING_FILE_STRUCTURE'	=> 'بۆ هەژماری نوێکردنەوەکە لێرە شوێنی پەڕەکە کە دامەزراندنی phpBB ــەکەت نەخشەدەکات.',
+
 	'MERGE_MODIFICATIONS_OPTION'	=> 'دوپاتکردنەوەکانی بردراو',
+
 	'MERGE_NO_MERGE_NEW_OPTION'	=> 'مەلکێنە - پەڕگەی نوێ بەکارببە',
 	'MERGE_NO_MERGE_MOD_OPTION'	=> 'مەلکێنە - پەڕگەی دامەزراو بەکارببە',
 	'MERGE_MOD_FILE_OPTION'	=> 'دوپاتکردنەوەکانی لکاندن (لەدەستدانی کۆدی phpBB ــی نوێ لەناو خشتەی پێکدادان)',
@@ -423,6 +456,7 @@ $lang = array_merge($lang, array(
 	'MERGE_SELECT_ERROR'	=> 'پەڕگەی پێکدادان لکاوە بارەکانی بەدروستی دەستنیشان نەکراون.',
 	'MERGING_FILES'	=> 'جیاوازییەکانی لکاندن',
 	'MERGING_FILES_EXPLAIN'	=> 'ئێستاکە پەڕگەی گۆڕانکارییەکانی کۆتایی کۆدەکرێنەوە. <br /><br /> تکایە چاوەڕوانبە تاکو phpBB گشت کردارەکان تەواودەکات لەسەر پەڕگە گۆڕاوەکان.',
+
 	'NEW_FILE'	=> 'کۆتایی پێکدادان',
 	'NEW_USERNAME'	=> 'ناوی بەکارهێنەی نوێ',
 	'NO_AUTH_UPDATE'	=> 'نەناسراوە بۆ نوێکردنەوە',
@@ -443,12 +477,14 @@ $lang = array_merge($lang, array(
 	'PERFORM_DATABASE_UPDATE_EXPLAIN'	=> 'لەخوارەوە دوگمەیەک دەبینی بۆ بنکەدراوەکە. نوێکردنەوەی بنکەدراوەکە دەتوانێ کەمێک بخایەنێت ،بۆیە تکایە جێبەجێکارییەکان ڕامەگرە ئەگەر وادیارە بخنکێ. لەدوای نوێکردنەوەی بنکەدراوەکە ،تەنها بەدوای ڕێنماییەکاندا بڕۆ بۆ بەردەوامبوونی کرداری نوێکردنەوەکە.',
 	'PREVIOUS_VERSION'	=> 'وەشانی پێشوو',
 	'PROGRESS'	=> 'ڕەوت',
+	'RELEASE_ANNOUNCEMENT'		=> 'Announcement',
 	'RESULT'	=> 'ئەنجام',
 	'RUN_DATABASE_SCRIPT'	=> 'بنکەدراوەکەم نوێبکەوە',
 	'SELECT_DIFF_MODE'	=> 'هەڵبژاردنی باری جیاواز',
 	'SELECT_DOWNLOAD_FORMAT'	=> 'جۆری ئەرشیفی داگرتن هەڵبژێرە',
 	'SELECT_FTP_SETTINGS'	=> 'ڕێکخستنەکانی FTP دیاری بکە',
 	'SHOW_DIFF_CONFLICT'	=> 'بینی جیاوازییەکان/پێکدادانەکان',
+	'SHOW_DIFF_DELETED'			=> 'Show file contents',
 	'SHOW_DIFF_FINAL'	=> 'پەڕگەی ئەنجام پیشان بدە',
 	'SHOW_DIFF_MODIFIED'	=> 'جیاوازییە لکێندراوەکان ببینە',
 	'SHOW_DIFF_NEW'	=> 'ناوەڕۆکی پەڕگە پیشان بدە',
@@ -462,6 +498,7 @@ $lang = array_merge($lang, array(
 	'STAGE_UPDATE_FILES'	=> 'نوێکردنەوەی پەڕگەکان',
 	'STAGE_VERSION_CHECK'	=> 'وەشان پشکنین',
 	'STATUS_CONFLICT'	=> 'پەڕگەی دوپاتکراو پێکدادان بەرهەم دەهێنێت',
+	'STATUS_DELETED'			=> 'Deleted file',
 	'STATUS_MODIFIED'	=> 'پەڕگەی پەسەندکراو',
 	'STATUS_NEW'	=> 'پەڕگەی نوێ',
 	'STATUS_NEW_CONFLICT'	=> 'پەڕگەی نوێی جویراو',

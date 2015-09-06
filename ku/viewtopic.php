@@ -1,7 +1,6 @@
 <?php
 /**
-*  ئەم پەڕگەیە وەرگێڕدراوە
-* 
+*
 * This file is part of the phpBB Forum Software package.
 *
 * @copyright (c) phpBB Limited <https://www.phpbb.com>
@@ -17,12 +16,12 @@
 */
 if (!defined('IN_PHPBB'))
 {
-exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
 {
-$lang = array();
+	$lang = array();
 }
 
 // DEVELOPERS PLEASE NOTE

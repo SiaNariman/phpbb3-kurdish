@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_PERMISSIONS_EXPLAIN'	=> '		
+	'ACP_PERMISSIONS_EXPLAIN'	=> '
 <p>دەسەڵاتەکان بەتوندی خۆشەویستکران و گرووپکراون بۆناو چوار بەشی سەرەکی، کە ئەمانیش:</p>
 	
 	<h2>دەسەڵاتە جیهانییەکان</h2>
